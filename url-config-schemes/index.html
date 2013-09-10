@@ -1,0 +1,15 @@
+<p>I just read about a neat feature for <a href="http://www.atebits.com/letterpress/experimental/">Letterpress 1.4 where savvy users can test Spanish games</a> by loading &ldquo;letterpress:experimental&rdquo; in Safari and I wanted to share an alternate example that I build for a client a while back.</p>
+
+<p>In this particular case, the client wanted to distribute a single app binary via enterprise distribution or ad-hoc builds to various clients of his own. The catch was that all these clients wanted the app to look customized to their own brand with logos and colors.</p>
+
+<p>Not only was I opposed to building a system where I would have to build multiple versions of the same app for multiple clients, I was pretty sure that anyone maintaining that sort of system down the road would put in the extra effort to seek me out and chop off each finger that contributed to writing that code.</p>
+
+<p>Instead, I developed a configuration framework that responded to a specially crafted URL scheme. The app was totally functional upon first install but a URL could be sent along in the install email which prompted users to tap on it from their iOS device.</p>
+
+<p>The url scheme was passed along to the app which inferred the location of a JSON configuration file somewhere on the internet, downloaded it, parsed the file for logo urls, offsets and RGBA color components and redrew the app with these visual changes. The JSON document was stored on the local disk for easy parsing sans-connectivity on the next startup.</p>
+
+<p>It required a bit of conversion to drawing customizable elements with drawRect rather than patterning images but the flexibility was worth it many times over.</p>
+
+<p>For this purpose, an unsolicited plug: recreating complex photoshop-made effects in Quartz2D is pretty easy with <a href="https://itunes.apple.com/us/app/paintcode/id507897570?mt=12">PaintCode</a>. Don&rsquo;t let the price throw you off if visual customizability or small app size is important to you, it&rsquo;s an incredible tool.</p>
+
+<p>Depending on your feeling towards these fairly insecure URL schemes, you could package a username and password within them and provide users an automated way of logging in to your app. The possibilities for configuration are nearly endless and mostly underutilized, it seems.</p>

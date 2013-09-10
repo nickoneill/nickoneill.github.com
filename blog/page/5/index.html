@@ -1,0 +1,585 @@
+
+<!DOCTYPE HTML>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>authenticgeek</title>
+	<meta name="author" content="Nick O'Neill">
+
+	
+	<meta name="description" content="Microsoft is hard at work pushing their new Metro UI in the months leading up to the Windows 8 release sometime in 2012. I don&rsquo;t pay too much &hellip;">
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<link href="/atom.xml" rel="alternate" title="authenticgeek" type="application/atom+xml">
+	<link rel="canonical" href="">
+	<link href="/favicon.png" rel="shortcut icon">
+	<link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+	<!--[if lt IE 9]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+	<script async="true" src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+	
+</head>
+
+
+<body>
+	<header id="header" class="inner"><h1><a href="/">authenticgeek</a></h1>
+<nav id="main-nav"><ul class="main">
+	<li><a href="/">Blog</a></li>
+	<li><a href="/blog/archives">Archives</a></li>
+</ul>
+</nav>
+<nav id="mobile-nav">
+	<div class="alignleft menu">
+		<a class="button">Menu</a>
+		<div class="container"><ul class="main">
+	<li><a href="/">Blog</a></li>
+	<li><a href="/blog/archives">Archives</a></li>
+</ul>
+</div>
+	</div>
+	<div class="alignright search">
+		<a class="button"></a>
+		<div class="container">
+			<form action="http://google.com/search" method="get">
+				<input type="text" name="q" results="0">
+				<input type="hidden" name="q" value="site:nickoneill.github.io">
+			</form>
+		</div>
+	</div>
+</nav>
+<nav id="sub-nav" class="alignright">
+	<div class="social">
+		
+		
+		
+		<a class="twitter" href="http://twitter.com/nickoneill" title="Twitter">Twitter</a>
+		
+		
+		<a class="github" href="https://github.com/nickoneill" title="GitHub">GitHub</a>
+		
+    
+		
+		
+		
+		
+		
+		<a class="rss" href="/atom.xml" title="RSS">RSS</a>
+		
+    
+	</div>
+	<form class="search" action="http://google.com/search" method="get">
+		<input class="alignright" type="text" name="q" results="0">
+		<input type="hidden" name="q" value="site:nickoneill.github.io">
+	</form>
+</nav>
+
+</header>
+	
+		
+	
+	<div id="content" class="inner">
+
+
+    <article class="post">
+	<h2 class="title">
+		
+		<a href="/metro-ui-ipad-comparison/">
+		
+			Does the Metro UI Have Room for Smacktalk?</a>
+	</h2>
+	<div class="entry-content">
+		<p>Microsoft is hard at work pushing their new Metro UI in the months leading up to the Windows 8 release sometime in 2012. I don&rsquo;t pay too much attention to most of it but they recently posted a <a href="http://msdn.microsoft.com/en-us/library/windows/apps/hh868262.aspx">case study for UI differences between a standard iOS interface and Metro</a>.</p>
+
+<p>It&rsquo;s fairly dismissive of iOS concepts despite usually telling half the story, but it&rsquo;s an interesting study in mobile UI design nonetheless. The justification that the Microsoft team make for their style is fascinating to see through the lens of an iOS interface developer.</p>
+
+<p>I&rsquo;ll preface this briefly by saying that I&rsquo;m assuming a bit about the Metro UI. I&rsquo;ve looked through a number of examples for how Microsoft expects users to behave in Metro but I haven&rsquo;t installed the Windows 8 preview myself.</p>
+
+<p>I wrote a bit earlier this month about <a href="http://blog.nickoneill.name/on-hidden-touch-gestures.html">my issues with the interface for Clear</a> and this ties in well. Overall, Metro wants developers to focus on content over chrome. The decision isn&rsquo;t necessarily a bad one in theory but it does provide some interesting tradeoffs if you miss the mark on assumptions about existing user knowledge.</p>
+
+<p>The case study mentions &ldquo;direct manipulation&rdquo; a number of times, which is essentially gesture-based interaction. Pinching to move from a single-year view to the hierarchically higher level like a list of all years, swiping down from an item to reveal an &ldquo;app bar&rdquo; with contextual commands, swiping from the sides for a standard &ldquo;charms&rdquo; view… the list goes on and on.</p>
+
+<p>Microsoft isn&rsquo;t alone in their apparent love of gestures though,
+Apple loves to implement hidden gestures in their apps as well.</p>
+
+<p>And for good reason: gesture interactions are great eye candy. Users think they&rsquo;ll look like Tom Cruise in Minority Report sans the headgear. They&rsquo;re fantastic commercial material because they feel like the future is <em>here</em>.</p>
+
+<p>The difference is that Apple (usually) uses hidden gestures as a secondary method for taking actions that are available via multiple taps. Non-obvious gestures are a power user feature of sorts.</p>
+
+<p>The problem with Metro is that it hides critical functions under this gesture layer. Users can get into situations in Metro apps where the action they know they want to take is nowhere to be found or worse; they unknowingly activate some gesture and it takes them away from what they were doing with no indication of how that action was invoked. This is not a good user experience.</p>
+
+<p>There is no clear solution to this at the moment. This may all sound familiar if you read through my post on Clear but I&rsquo;m not sure if users have trouble with hidden gestures because they&rsquo;re so new or because our eyeballs require interface elements that can&rsquo;t simply be swept under the bezel without indicating some hidden function. I&rsquo;m not exactly advocating for subtle universal indicators for hidden gestures yet, though it&rsquo;s something I&rsquo;m thinking about.</p>
+
+<p>Of course, some users will know exactly how to navigate Metro apps because they&rsquo;ve watched the videos or know what types of gestures to try on the interface. This is a valid chunk of users who will love Metro &ndash; but is that the same chunk of users that Metro is aimed at? And even if that is some double-digit percentage of users, what about the rest of them?</p>
+
+<p>I expect that Metro wants to be in place where the iPad has found so much success: the living room. But sometimes good design (or technical complexity) in software manages to outshine the notion that the technology just has to work for its intended audience. I&rsquo;ve seen this happen at a number of startups and I doubt Microsoft is immune.</p>
+
+<p>But Metro can probably survive an initial unfamiliarity period if users are constantly beaten (in a good way) into understanding that some of the interface is hidden for cleanliness. This kind of interface can be learned with training and interface training is just reinforcing the concepts with lots and lots of apps that feel the same.</p>
+
+<p>This is why the iOS tab bar and navigation bar that this very document derides have become natural for living room users everywhere. They&rsquo;re easy and cheap to create and they don&rsquo;t look terrible. Even my mother is familiar with them.</p>
+
+<p>So the question becomes one of developer support. How well has Microsoft supported the development of Metro UI in 3rd party apps? For sure they&rsquo;ll launch with a few high-visibility non-Microsoft apps but how is the SDK for everyone else?</p>
+
+<p>And critically, is Microsoft willing to reject apps from their platform if they don&rsquo;t conform to the Metro standards early on?</p>
+
+<p>Just to be clear, I don&rsquo;t think this is a Microsoft vs. Apple conversation. The issue is about how much thought goes into the default look for a platform and how the goals match the implementation. At this point Apple has proven their model with hundreds of Millions of devices and Microsoft has a consumer preview. And who is talking all the smack?</p>
+
+<p><strong>Update:</strong> Hey, some people talked about this last week on the internets too, both for <a href="http://reverttosaved.com/2012/03/14/mystery-meat-ui-design-in-windows-8-ios-and-os-x-could-point-to-a-confusing-computing-future/">all the new OSes</a> and specifically for the <a href="http://ignorethecode.net/blog/2012/03/14/mystery_meat_iphoto/">new iPhoto for iOS</a>, via <a href="https://twitter.com/#!/walt/status/183048316563619841">@walt</a>.</p>
+
+		
+		
+	</div>
+
+
+<div class="meta">
+	<div class="date">
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2012-03-22T20:10:00-07:00" pubdate data-updated="true">Mar 22<span>nd</span>, 2012</time></div>
+	<div class="tags">
+
+</div>
+	
+</div>
+</article>
+
+
+    <article class="post">
+	<h2 class="title">
+		
+		<a href="/warehouse-robots-for-amazon/">
+		
+			Warehouse Robots for Amazon</a>
+	</h2>
+	<div class="entry-content">
+		<p>Amazon purchased a company called Kiva (not the microloans place) yesterday that makes warehouse robotics systems that look something like a southeast asian intersection on a good day.</p>
+
+<p>It&apos;s pretty impressive to watch them do their thing without knocking their large stacks of goods over or bumping into eachother, but what is really interesting for me is how precise they are as noted by their tracks on the floor. They all keep to a very precise section of floor which I expect they figure out based on rotary encoding. I&apos;m not sure though, it doesn&apos;t look like a smaller warehouse positioning system since they&apos;re individually fitted with what looks like distance sensors. I&apos;d be interested to know more details about how they work!</p>
+
+<br /><a href="http://www.businessinsider.com/here-are-the-amazing-kiva-robots-that-amazon-just-bought-for-775-million-2012-3">source</a>
+
+
+		
+		
+	</div>
+
+
+<div class="meta">
+	<div class="date">
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2012-03-20T20:59:00-07:00" pubdate data-updated="true">Mar 20<span>th</span>, 2012</time></div>
+	<div class="tags">
+
+</div>
+	
+</div>
+</article>
+
+
+    <article class="post">
+	<h2 class="title">
+		
+		<a href="/questions-no-one-knows-the-answers-to/">
+		
+			Questions No One Knows the Answers To</a>
+	</h2>
+	<div class="entry-content">
+		<p>Here&apos;s a video of Chris Anderson&apos;s (yes, the WIRED editor) TED Ed talk on questions that no one knows the answer to. The talk consistently touches on curiosity which is conveniently one of my favorite topics.</p>
+
+<p>Even though it deals primarily with unanswered physics questions, I post it here instead of <a href="http://finestructure.com/">Fine Structure</a> because it&apos;s a basic view of unanswered questions. Scientists have a ton of competing opinions about the details on these unanswered questions &ndash; it&apos;s not like no one is trying to answer them &ndash; and it&apos;s more useful to know that the questions exist in the first place.</p>
+
+<br /><a href="http://www.youtube.com/watch?feature=player_embedded&amp;v=7SWvDHvWXok">source</a>
+
+
+		
+		
+	</div>
+
+
+<div class="meta">
+	<div class="date">
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2012-03-18T17:47:00-07:00" pubdate data-updated="true">Mar 18<span>th</span>, 2012</time></div>
+	<div class="tags">
+
+</div>
+	
+</div>
+</article>
+
+
+    <article class="post">
+	<h2 class="title">
+		
+		<a href="/a-twitter-search-clock/">
+		
+			A Twitter Search Clock</a>
+	</h2>
+	<div class="entry-content">
+		<p>Chirp Clock is a clever &quot;clock&quot; design that displays recent tweets containing the current time.</p>
+
+<p>But here&apos;s what I want to know: can it work backwards as well by getting a random selection of recent tweets and then inferring the current time by time-like mentions inside?</p>
+
+<p><a href="http://blogs.scienceforums.net/swansont/archives/11269">via swansontea</a></p>
+
+<br /><a href="http://chirpclock.com/">source</a>
+
+
+		
+		
+	</div>
+
+
+<div class="meta">
+	<div class="date">
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2012-03-17T16:20:00-07:00" pubdate data-updated="true">Mar 17<span>th</span>, 2012</time></div>
+	<div class="tags">
+
+</div>
+	
+</div>
+</article>
+
+
+    <article class="post">
+	<h2 class="title">
+		
+		<a href="/ruin/">
+		
+			RUIN</a>
+	</h2>
+	<div class="entry-content">
+		<p>Post-apocalyptic animation! A nifty 8 minute animated short from <a href="http://www.oddballanimation.com/">OddBall Animation</a> about someone searching for technology (or answers?) in a wrecked metropolis. Apparently that zone is off-limits to non-androids.</p>
+
+<br /><a href="http://vimeo.com/38591304">source</a>
+
+
+		
+		
+	</div>
+
+
+<div class="meta">
+	<div class="date">
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2012-03-16T20:45:00-07:00" pubdate data-updated="true">Mar 16<span>th</span>, 2012</time></div>
+	<div class="tags">
+
+</div>
+	
+</div>
+</article>
+
+
+    <article class="post">
+	<h2 class="title">
+		
+		<a href="/more-objectivec-literals-coming/">
+		
+			More Objective-C Literals Coming</a>
+	</h2>
+	<div class="entry-content">
+		<p>Hooray! It&apos;s inside baseball for anyone who doesn&apos;t use Objective-C on a regular basis but one of those nitpicky issues is finally being fixed in a new clang version: literals for NSNumber, NSArray and NSDictionary!</p>
+
+<p>The syntax looks sane and concise, I&apos;m totally psyched to use it. Also, bonus feature: sane accessors without using <code>objectAtIndex:</code> or <code>objectForKey:</code>!</p>
+
+<br /><a href="http://weblog.bignerdranch.com/?p=398">source</a>
+
+
+		
+		
+	</div>
+
+
+<div class="meta">
+	<div class="date">
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2012-03-16T16:34:00-07:00" pubdate data-updated="true">Mar 16<span>th</span>, 2012</time></div>
+	<div class="tags">
+
+</div>
+	
+</div>
+</article>
+
+
+    <article class="post">
+	<h2 class="title">
+		
+		<a href="/what-do-all-the-controls-in-an-airplane-cockpit-do/">
+		
+			What Do All the Controls in an Airplane Cockpit Do?</a>
+	</h2>
+	<div class="entry-content">
+		<p>A completely amazing answer about every single control in the cockpit of a 737. For all my dislike of Quora and its insular tech-centric postings, posts like this really make up for it.</p>
+
+<p>The answerer (&quot;Tim Morgan&quot;) covers the controls through some well-placed screenshots from a detailed flight simulator. It explains both the incredible sophistication of these planes and the mind-numbing detail pilots must know these systems by. For example:</p>
+
+<p>&gt; Below the IRS panel are some warning lights showing when an IRU has failed, or is on battery backup power, and a pair of knobs that set the left and right IRU mode.  IRUs have to spin up and align before they can be used for navigation, a process that takes 10 minutes.  So the IRU must first be put into ALIGN mode for 10 minutes or so before it can be moved into NAV mode.  If the pilot is in a hurry, he can put the IRU into the emergency ATT (attitude-only) mode, but he will get no position information and only attitude information.</p>
+
+<br /><a href="http://www.quora.com/What-do-all-the-controls-in-an-airplane-cockpit-do#ans1060134">source</a>
+
+
+		
+		
+	</div>
+
+
+<div class="meta">
+	<div class="date">
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2012-03-13T22:32:00-07:00" pubdate data-updated="true">Mar 13<span>th</span>, 2012</time></div>
+	<div class="tags">
+
+</div>
+	
+</div>
+</article>
+
+
+    <article class="post">
+	<h2 class="title">
+		
+		<a href="/clear/">
+		
+			On Hidden Touch Gestures</a>
+	</h2>
+	<div class="entry-content">
+		<p>I downloaded Clear the other day to see what all the fuss is about and I&rsquo;ve run into a slight moral-UX dilemma.</p>
+
+<p>Everything about the first startup of Clear is a tutorial. The default list is all items to help you learn what gestures to do when acting out the essential functions of the app. Add a new task by pulling down, navigate back to the list of lists by pulling down more, swipe left to delete, etc.</p>
+
+<p>Clear hides all these actions behind the list UI in an obsessive way. The concept is what makes Clear such an interesting app in the first place; a list app without all the UI overhead of list navigation elements. But what it gains in cleanliness, it lacks in immediate usability.</p>
+
+<p>As an iOS developer, I try to find ways to make apps intuitive to people without having to use a tutorial. In general, this means avoiding the less obvious touch gestures and swiping a list and dragging items are essentially the only two items in my gesture toolbox. My users should be able to tell me what they can do in a screen easily, with minimal experimentation.</p>
+
+<p>So back to my dilemma: I enjoy using Clear myself and I wish I could add touch gestures into any app I build because they are quite useful for getting rid of extra navigation elements. But I can&rsquo;t, not yet at least.</p>
+
+<p>While watching user testing it&rsquo;s pretty obvious that the majority of people don&rsquo;t automatically understand most touch gestures. Even if you teach them how to navigate by swiping back and forth, it&rsquo;s not easily memorable and it surely doesn&rsquo;t remind users what to do when they&rsquo;re faced with the problem down the road.</p>
+
+<p>Apple has approached this problem in their apps using both methods. There is always a longer flow that takes you through an edit or delete button where the interactions are almost tap-exclusive and, in apps that have extra polish, you can generally swipe or three-finger-something to bypass those extra steps if you know how.</p>
+
+<p>This seems to be the most reasoned approach. Let power users have their quick methods while retaining easy discoverability for novice users.</p>
+
+<p>But is this a long term solution or just a bridge to a world where everyone knows how to swipe to delete?</p>
+
+<p>Clear would play an important role to force users towards a better understanding of possible touch gestures in the latter case, while in the former they simply target power users exclusively.</p>
+
+<p>While I like the idea of this being some middleground before we&rsquo;re all touch gesture-aware, I don&rsquo;t see that as a realistic vision.</p>
+
+<p>What makes products like the iPad special is that anyone can pick them up and roughly know how to operate a well-built app. We&rsquo;ve seen this again and again with babies (and cats) and anyone else who has never used an iPad. It&rsquo;s just natural to use those few core gestures. Removing functionality unless you know secret swipe zones is going against this principle.</p>
+
+<p>If gestures are going to be the only way to navigate, we have to at least make them discoverable &ndash; and not by tutorial. Something must remind us that an action can be taken here.</p>
+
+<p>I don&rsquo;t think icons fill this role very well as one has to learn what the icons represent. And whatever solution is correct will not be based on a purely Apple aesthetic, it has to work across any touch device.</p>
+
+<p>Are there any apps that do a particularly good job at both using different touch gestures and informing users about them?</p>
+
+		
+		
+	</div>
+
+
+<div class="meta">
+	<div class="date">
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2012-03-11T10:14:00-07:00" pubdate data-updated="true">Mar 11<span>th</span>, 2012</time></div>
+	<div class="tags">
+
+</div>
+	
+</div>
+</article>
+
+
+    <article class="post">
+	<h2 class="title">
+		
+		<a href="/the-personal-analytics-of-stephen-wolfram/">
+		
+			The Personal Analytics of Stephen Wolfram</a>
+	</h2>
+	<div class="entry-content">
+		<p>The kind of data that Stephen Wolfram collects about himself is absolutely mind-boggling. Here he writes a post about data he&apos;s collected, most of it dating back to the early 90s.</p>
+
+<p>I wonder what kind of time he spends getting the systems in place to log, for example, every keystroke he&apos;s ever typed. I like to look back on data and note interesting events and patterns that mean something but I wouldn&apos;t spend any measure of time to set something up for a few extra data points down the road. His blog post doesn&apos;t come any closer to explaining his reasoning for logging everything or what he gets out of it, but I assume it&apos;s something that he enjoys given the amount of effort put in.</p>
+
+<br /><a href="http://blog.stephenwolfram.com/2012/03/the-personal-analytics-of-my-life/">source</a>
+
+
+		
+		
+	</div>
+
+
+<div class="meta">
+	<div class="date">
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2012-03-09T01:40:00-08:00" pubdate data-updated="true">Mar 9<span>th</span>, 2012</time></div>
+	<div class="tags">
+
+</div>
+	
+</div>
+</article>
+
+
+    <article class="post">
+	<h2 class="title">
+		
+		<a href="/simcity-announce-trailer/">
+		
+			SimCity Announce Trailer</a>
+	</h2>
+	<div class="entry-content">
+		<p>Will Wright is back on board the Sim train to Simland.</p>
+
+<p>I pumped a number of hours into Sim City 2000 as a kid (what a big improvement on the original!) but 3000, 4 and the whole Sims franchise were lost on me. I don&apos;t think I missed anything. Anyone disagree?</p>
+
+<br /><a href="http://www.youtube.com/watch?v=kztNWdhRdnw">source</a>
+
+
+		
+		
+	</div>
+
+
+<div class="meta">
+	<div class="date">
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2012-03-07T16:31:00-08:00" pubdate data-updated="true">Mar 7<span>th</span>, 2012</time></div>
+	<div class="tags">
+
+</div>
+	
+</div>
+</article>
+
+<nav id="pagenavi">
+    
+        <a href="/blog/page/4/" class="prev">Prev</a>
+    
+    
+        <a href="/blog/page/6/" class="next">Next</a>
+    
+    <div class="center"><a href="/blog/archives">Blog Archives</a></div>
+</nav></div>
+	<footer id="footer" class="inner">Copyright &copy; 2013
+
+    Nick O'Neill
+
+</footer>
+	<script src="/javascripts/slash.js"></script>
+<script src="/javascripts/jquery.fancybox.pack.js"></script>
+<script type="text/javascript">
+(function($){
+	$('.fancybox').fancybox();
+})(jQuery);
+</script> <!-- Delete or comment this line to disable Fancybox -->
+
+
+
+
+
+
+</body>
+</html>

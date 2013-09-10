@@ -4,7 +4,7 @@
   <title><![CDATA[authenticgeek]]></title>
   <link href="http://nickoneill.github.io/atom.xml" rel="self"/>
   <link href="http://nickoneill.github.io/"/>
-  <updated>2013-09-10T09:22:25-07:00</updated>
+  <updated>2013-09-10T15:10:38-07:00</updated>
   <id>http://nickoneill.github.io/</id>
   <author>
     <name><![CDATA[Nick O'Neill]]></name>
@@ -14,13 +14,377 @@
 
   
   <entry>
-    <title type="html"><![CDATA[a first test post]]></title>
-    <link href="http://nickoneill.github.io/a-first-test-post/"/>
-    <updated>2013-09-10T09:09:00-07:00</updated>
-    <id>http://nickoneill.github.io/a-first-test-post</id>
-    <content type="html"><![CDATA[<h2>title for a post</h2>
+    <title type="html"><![CDATA[App Configuration with URL Schemes]]></title>
+    <link href="http://nickoneill.github.io/url-config-schemes/"/>
+    <updated>2013-03-15T10:43:00-07:00</updated>
+    <id>http://nickoneill.github.io/url-config-schemes</id>
+    <content type="html"><![CDATA[<p>I just read about a neat feature for <a href="http://www.atebits.com/letterpress/experimental/">Letterpress 1.4 where savvy users can test Spanish games</a> by loading &ldquo;letterpress:experimental&rdquo; in Safari and I wanted to share an alternate example that I build for a client a while back.</p>
 
-<p>trying this thing out</p>
+<p>In this particular case, the client wanted to distribute a single app binary via enterprise distribution or ad-hoc builds to various clients of his own. The catch was that all these clients wanted the app to look customized to their own brand with logos and colors.</p>
+
+<p>Not only was I opposed to building a system where I would have to build multiple versions of the same app for multiple clients, I was pretty sure that anyone maintaining that sort of system down the road would put in the extra effort to seek me out and chop off each finger that contributed to writing that code.</p>
+
+<p>Instead, I developed a configuration framework that responded to a specially crafted URL scheme. The app was totally functional upon first install but a URL could be sent along in the install email which prompted users to tap on it from their iOS device.</p>
+
+<p>The url scheme was passed along to the app which inferred the location of a JSON configuration file somewhere on the internet, downloaded it, parsed the file for logo urls, offsets and RGBA color components and redrew the app with these visual changes. The JSON document was stored on the local disk for easy parsing sans-connectivity on the next startup.</p>
+
+<p>It required a bit of conversion to drawing customizable elements with drawRect rather than patterning images but the flexibility was worth it many times over.</p>
+
+<p>For this purpose, an unsolicited plug: recreating complex photoshop-made effects in Quartz2D is pretty easy with <a href="https://itunes.apple.com/us/app/paintcode/id507897570?mt=12">PaintCode</a>. Don&rsquo;t let the price throw you off if visual customizability or small app size is important to you, it&rsquo;s an incredible tool.</p>
+
+<p>Depending on your feeling towards these fairly insecure URL schemes, you could package a username and password within them and provide users an automated way of logging in to your app. The possibilities for configuration are nearly endless and mostly underutilized, it seems.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Ice Maker Repair for a GE Profile Refrigerator]]></title>
+    <link href="http://nickoneill.github.io/ice-maker-repair/"/>
+    <updated>2013-03-07T15:06:00-08:00</updated>
+    <id>http://nickoneill.github.io/ice-maker-repair</id>
+    <content type="html"><![CDATA[<p>If you&rsquo;ve got one of these GE Profile refrigerators from a few years ago (this one was installed 8 years ago, I think, model PSS26MSRD) and the ice maker isn&rsquo;t making ice, there are a few simple steps you can go through to troubleshoot.</p>
+
+<p>First, pull out the ice bin and eyeball the ice maker device behind it. See if the switch is turned on and the green light is lit. If it&rsquo;s blinking, that indicates &ldquo;ice stuck in tray&rdquo; and you&rsquo;ll have to take it out and thaw the whole contraption out. It&rsquo;s not that hard: unplug the giant molex connector on the right side and use a small hex wrench to unscrew the obvious screw holding it to the left side of the freezer wall. Then you can firmly pull the device up and out until it pops free from the notches where it sits in the back.</p>
+
+<p>If there&rsquo;s ice stuck in the device, or if it&rsquo;s just not filling properly, let it sit out for a few hours until it warms up. Depending on the humidity conditions in your freezer, something could have frosted over.</p>
+
+<p>Check the swing arm on the bottom of the device. Despite the appearance as a bit of useless plastic, it has a magnet attached to an arm inside the main ice maker housing which allows the maker to tell if the arm is extended or pushed part ways in. Ice being make and pushed into the bucket depresses the swing arm when it falls and the arm returns to the extended position via a small spring mounted between it and the unit unless the ice maker is full. This spring has a habit of popping out of a tiny hole and not providing the force needed for the arm to return to &ldquo;make more ice&rdquo; position. Check that it pushes back at you if you depress it.</p>
+
+<p>Hopefully one of these items you&rsquo;ve checked wasn&rsquo;t working because they&rsquo;re all easy fixes. Reassemble and add it back to the freezer, making sure that the water dispenser in the back of the freezer leads INTO the ice maker, not BELOW it. This would cause a mess. Make sure the thing is plugged in again, and the green light is back on.</p>
+
+<p>If you&rsquo;re impatient about waiting for another ice cycle to start, depress the swing arm three times in a row. This should tell the ice maker to immediately dispense water and start a new cycle.</p>
+
+<p>This information was only found in bits and pieces scattered around the corners of the internet so I join them together here for the betterment of refrigerator-using people everywhere. Go forth and make ice.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[An Interesting Moment of Future Technology]]></title>
+    <link href="http://nickoneill.github.io/wearable-technology/"/>
+    <updated>2013-02-22T12:05:00-08:00</updated>
+    <id>http://nickoneill.github.io/wearable-technology</id>
+    <content type="html"><![CDATA[<p>There&rsquo;s a common theme in scifi where humans have some personalized technology which only they can hear and interact with, transparent to those around them. I think we&rsquo;re near that point, I give it less than five years before something iPhone-like takes off in this space.</p>
+
+<p>I&rsquo;ve always liked these gadgets in scifi but I only reexamined their possibility the other day. I was driving with my partner (<em>we&rsquo;ve been together too long for me to say &ldquo;girlfriend&rdquo; but have no other incentives to get married so we live in a perpetual middle-ground with no word to describe it. Thanks culture</em>) up above the bay on a trip that I wasn&rsquo;t familiar with so I set up turn-by-turn on my phone.</p>
+
+<p>I don&rsquo;t have a phone mount in the car, nor do I think I need constant feedback that I am on the right route. I just want a handy aural reminder when I&rsquo;m getting close to a turn. To accomplish this I used my headset in just one ear so I could continue listening to the radio and interacting with my passenger. I thought it was a nice solution; I don&rsquo;t have to rely on anyone else for directions and I&rsquo;m not distracted by an extra screen.</p>
+
+<p>The robot direction lady said something I found funny from an engineering perspective, something like repeating the direction I was supposed to go three times in the span of five words.</p>
+
+<p>And I laughed. I laughed at a joke told to me by a computer that was completely disconnected to whatever was currently on NPR or anything that anyone else in the car could hear. Maybe it&rsquo;s difficult to imagine but it felt like scifi in that weird way that scifi does when you realize that <em>it&rsquo;s here</em>.</p>
+
+<p>No matter if you like it or not, this is where technology is going. People already create their personal technology bubble when they start fussing with phones in what would otherwise be a social environment. Having your personal assistant in your ear is just a bit less obvious to your companions.</p>
+
+<p>I&rsquo;m sure your first thought is that people interacting with their cell phones while other people are around is obnoxious &ndash; and it is &ndash; but we have a long way to go.</p>
+
+<p>What&rsquo;s the next step? I think we&rsquo;re well on our way towards more unobtrusive personal interactions with our technology, be it with Google Glass or the new Apple wearable thing. I mean the next, <em>next</em> step.</p>
+
+<p>Just as we already dislike loud-talking bluetooth set-wearers in public places (too easily confused with people who talk to themselves), we&rsquo;ll quickly tire of people with funny glasses saying &ldquo;Glass, take a picture&rdquo; and &ldquo;Glass, call my wife&rdquo;. Even Siri, despite its novelty and usefulness, is rarely used in public because <em>its embarrassing to talk to yourself</em>.</p>
+
+<p>So if you want to bet on technology that will be snatched up by the Apples and Googles, buy companies working on sublingual communication. That is, companies who use various technology to turn unspoken speech into parseable words.</p>
+
+<p>In the close future this will probably be in the form of detecting muscle movements in your neck and mouth. Think about forming all your sentences but not making any sound, or talking without opening your mouth. That may take some practice.</p>
+
+<p>Until then, I will continue to laugh at my turn-by-turn directions, somewhat awkwardly now, and want a Glass headset even though it&rsquo;s not stylish and totally weird to talk to yourself.</p>
+
+<p>And yes, I will probably want an Apple wearable thing &ndash; as long as it&rsquo;s not a watch. Ugh, who wants to wear a watch again?</p>
+
+<p><strong>A thing</strong>: Andre has an interesting take on the other obvious sense, <a href="http://notes.torrez.org/2013/02/if-you-see-the-computer-they-blew-it.html">the very sight of wearable technology</a>.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Post-Fab Construction]]></title>
+    <link href="http://nickoneill.github.io/postfab/"/>
+    <updated>2013-02-16T10:00:00-08:00</updated>
+    <id>http://nickoneill.github.io/postfab</id>
+    <content type="html"><![CDATA[<p>Here&rsquo;s what I don&rsquo;t understand about modern house construction; despite modern computation and robotics, we still rely on humans to measure and cut things piece-by-piece in order to build a house.</p>
+
+<p>Prefab has negative connotations for being used to create cookie cutter houses that have no individuality but it&rsquo;s a self-imposed  limitation, especially considering that planning is already computerized. I think we can do better.</p>
+
+<p>Given a few laser measurements of a land plot, we could easily use these as a baseline for architect plans which are already computerized in most cases. Even manual transfer of this plan into discrete wall and floor segments would be acceptable, but I think computers could do it automatically too.</p>
+
+<p>Send it off to the robotic construction warehouse. Two-by-fours are tested and cut to perfect sizes with millimeter precision. Holes are drilled, electrical and plumbing equipment is placed and everything is sealed up with sheetrock, ready to be set in place at the construction site with LEGO-like instruction manuals.</p>
+
+<p>Sure, human intervention is still required in the building process. There are benefits to pouring concrete on-site for foundations and all the fabricated parts still have to be secured together and painted over.</p>
+
+<p>I suspect this would shorten the time spent on a new house significantly. What percent of the building process is spent framing a house? From the outside it looks to be a large chunk &ndash; once a building is framed it seems like a takes much less time to finish it. And much of the rest of the process (painting, carpeting) doesn&rsquo;t benefit from a significant increase in precision fabrication.</p>
+
+<p>Given the evidence of many house remodeling shows on HGTV (strong evidence if I&rsquo;ve ever seen it), I suspect quality would improve as well. Any pipes or wire that was fabricated at a warehouse could be well-tested beforehand, reducing the chance of electrical fires in walls or leaky pipes due to improper soldering.</p>
+
+<p>We&rsquo;ve definitely taken small steps in this direction, you buy cabinets that are pre-made for the kitchen and windows are packaged for easy installation. But, as always, we fear the steps that remove humans from parts of the equation &ndash; particularly now that the term &ldquo;job killer&rdquo; is such a politically loaded term &ndash; even when they&rsquo;re added in other locations.</p>
+
+<p>Like most new things though, jobs wouldn&rsquo;t disappear but rather transition. Humans are needed to program, maintain and inspect the work in the fabrication warehouse. Construction speed would benefit greatly from having these warehouses close by, so many small-to-medium warehouses all over the country would be more beneficial than large factories that then have to ship parts thousands of miles.</p>
+
+<p>I give it 20 years until we see something like this take form. Not due to technical limitations, we could do all of this right now, but mostly human factors.</p>
+
+<p>This is what I get for having so much construction in Noe Valley; everywhere I go I see humans cutting and nailing wood together and I have to think &ldquo;can&rsquo;t we improve this?&rdquo; In my opinion, we can.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Holidays Book Fest]]></title>
+    <link href="http://nickoneill.github.io/2012-books-review/"/>
+    <updated>2012-12-31T12:43:00-08:00</updated>
+    <id>http://nickoneill.github.io/2012-books-review</id>
+    <content type="html"><![CDATA[<p>As promised in <a href="http://blog.nickoneill.name/return-of-blog-holidays-edition.html">my last post</a>, some books I&rsquo;ve made my way through (or not) this year:</p>
+
+<p>I started with <a href="http://www.amazon.com/s/?_encoding=UTF8&amp;tag=finestru-20">World War Z</a>, the quintessential worldwide zombie outbreak book. The book is told as a series of interviews with survivors around the world, discussing the war from an interesting combination of personal and professional points of view. I enjoyed the format but I doubt it&rsquo;ll survive to the <a href="http://www.imdb.com/title/tt0816711/">movie interpretation</a>. Highly suggested to read before the movie comes out next year.</p>
+
+<p>I&rsquo;ve tried to get through later books in the Ender&rsquo;s Game series a few times after I binge-read a bunch of them a few years ago and this year was no exception with an attempt to get through <a href="http://www.amazon.com/gp/product/B001ANUQ0K/ref=as_li_ss_tl?ie=UTF8&amp;tag=finestru-20">Ender in Exile</a>. And again, I couldn&rsquo;t push myself through the religious nonsense and sophomoric whining that the series has come to display in every iteration. At any rate, the <a href="http://www.imdb.com/title/tt1731141/">Ender&rsquo;s Game movie</a> is finally being made and although I have no idea how much plot they&rsquo;ll fit into the the movie, I do have some hope since an <a href="http://img2.timeinc.net//ew/i/2012/12/03/fl-enders-game_810x543.jpg">early photo</a> looked pretty good.</p>
+
+<p>I picked through a few technical books as well. <a href="http://www.amazon.com/gp/product/B0086I5MCO/ref=as_li_ss_il?ie=UTF8&amp;tag=finestru-20">Getting Started with Dwarf Fortress</a> was a huge help getting started. I spent some time in Amsterdam with Steffen Itterheim&rsquo;s <a href="http://www.amazon.com/gp/product/B006CO7ZQ0/ref=as_li_ss_tl?ie=UTF8&amp;tag=finestru-20">Learn cocos2d Game Development</a> though the project I was learning it for didn&rsquo;t pan out.</p>
+
+<p>One of the more fascinating technical books this year was <a href="http://www.amazon.com/gp/product/B002RI8ZSW/ref=as_li_ss_tl?ie=UTF8&amp;tag=finestru-20">The New Science of Strong Materials</a> which isn&rsquo;t exactly new but has a number of great atomic-level explainations for material properties.</p>
+
+<p>I have not touched any of the books from the <a href="http://blog.humblebundle.com/post/33237485887/introducing-the-humble-ebook-bundle">Humble ebook Bundle</a> which is unfortunate. Maybe next year.</p>
+
+<p><a href="http://www.amazon.com/gp/product/B008TRU7SQ/ref=as_li_ss_tl?ie=UTF8&amp;tag=finestru-20">Richard Rhodes&#8217; <em>The Making of the Atomic Bomb</em></a> is an incredible view into the life of scientists during the lead up to the second world war. In no way is it only about the literal manufacturing of atomic bombs but rather a look at how the chemistry and physics community discussed and developed new results in the first half of the 20th century. I&rsquo;m barely through a third of the book since I picked it up in November because of frequent side trips to Wikipedia to look up technical details or just to remind myself which scientist did what (keeping track of them all would require a dedicated notepad).</p>
+
+<p>I started Isaacson&rsquo;s <a href="http://www.amazon.com/gp/product/B000PC0S0K/ref=as_li_ss_tl?ie=UTF8&amp;tag=finestru-20">Einstein</a> biography before that but I couldn&rsquo;t get into it before my focus was stolen away by something else. I may go back and give it another chance given how much I&rsquo;ve enjoyed The Making of the Atomic Bomb with the knowledge that I&rsquo;ll have to slog through the early years before more interesting science comes up.</p>
+
+<p>My last great ambition for reading this year was Nate Silver&rsquo;s <a href="http://www.amazon.com/gp/product/B007V65R54/ref=as_li_ss_tl?ie=UTF8&amp;tag=finestru-20">The Signal and the Noise</a> which did not happen at all. Perhaps I should have started it earlier with respect to the election.</p>
+
+<p>Lastly, my reading device switched from my kindle to an iPad mini late this year. I treat most of my reading as research in that I don&rsquo;t restrict myself from wandering the internet in search of more detail on a particular topic that has come up during reading, so the iPad mini is an incredible tool for me. Previously I would read on the kindle but I would always keep an iPad or computer nearby. Now I can just carry one thing around. I won&rsquo;t give a full review because I&rsquo;m sure you&rsquo;ve read others already but as a reading device it&rsquo;s highly recommended.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Return of Blog, Holidays Edition]]></title>
+    <link href="http://nickoneill.github.io/return-of-blog/"/>
+    <updated>2012-12-22T15:13:00-08:00</updated>
+    <id>http://nickoneill.github.io/return-of-blog</id>
+    <content type="html"><![CDATA[<p>Good day, blog friends!</p>
+
+<p>Not counting <a href="http://blog.nickoneill.name/muniverse-2.html">Muniverse</a> (and I don&rsquo;t, it was waiting to be published for a while), it has been quite a time since I last wrote a thing. Here&rsquo;s some stuff that doesn&rsquo;t warrant its own post:</p>
+
+<p>Brad and I finally finished a remote garage door opener based on an Arduino and WiFly. See the incredible frustration documented on G+ <a href="https://plus.google.com/115863474911002159675/posts/2PSkLbtUJRB">here</a> and <a href="https://plus.google.com/115863474911002159675/posts/WCen2ZJE9vz">here</a>. A few more tweaks and the whole thing will be on github.</p>
+
+<p>I&rsquo;m doing some more frequent science tweeting with <a href="https://twitter.com/finestructure">@finestructure</a>. I never realized I felt a little trapped in my regular twitter account, I&rsquo;m not an oversharer and I don&rsquo;t like to innundate my friends with dumb stuff. Strangers, on the other hand, love dumb stuff. Seriously though, it&rsquo;s full of excellent science and snark.</p>
+
+<p>I want to get back to blogging more on the proper Fine Structure blog but I&rsquo;m frustrated with my publishing setup there. I want to adapt <a href="https://github.com/nickoneill/go-publisher">my dropbox static publisher</a> for this purpose but it requires some thinking, generalizing and coding. Maybe during vacation, or after I write some content.</p>
+
+<p>Work continues to be enjoyable. There are many ways to run a small contracting business and my current method involves doing enough directly billable work to be comfortable and then investing the rest of my time in learning new things &ndash; not always directly related to work. I don&rsquo;t think I could ever swing a deal like that at a standard salaried job so I think I&rsquo;ll be doing this for a while.</p>
+
+<p>I&rsquo;m spending a bit of time playing <a href="http://www.bay12games.com/dwarves/">Dwarf Fortress</a> (as little time as someone can spend and still improve in the Most Complex Game Ever). I tend to leave it alone for a few weeks then see something that inspires me to start a new fort, play that for a few days and get totally destroyed by a seige of undead. Such is life in the DF. I would very much like to try a Let&rsquo;s Play video for DF so we&rsquo;ll see where that idea goes in the next few weeks.</p>
+
+<p>I started writing about my current reading list here but it ran far too long, that will have to come at a later date. Welcome back, blog!</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Muniverse 2]]></title>
+    <link href="http://nickoneill.github.io/muniverse-20/"/>
+    <updated>2012-12-17T09:43:00-08:00</updated>
+    <id>http://nickoneill.github.io/muniverse-20</id>
+    <content type="html"><![CDATA[<p>Many years ago as I was learning Objective-C and Jamison was going through his public transit phase (yes, as far as I know he&rsquo;s still in it), we joined forces to create an epic San Francisco Muni app for the iPhone.</p>
+
+<p>It was my first ground-up project for the iPhone so I found myself wanting to rewrite large swaths of the code every 2-3 weeks. For obvious reasons, I tried to keep the stuff that was ugly but effective and that got us to the release. Unfortunately it was little help for keeping things updated as any Muni route changes were a big pain to incorporate. Eventually new versions of iOS deprecated bits and pieces of APIs we were using and new APIs replaced them. After a while the app started crashing on startup and I didn&rsquo;t have the heart to debug (my) ancient newbie code.</p>
+
+<p>The original Muniverse has since been removed from the app store for those reasons (interestingly, Apple doesn&rsquo;t seem to care if a previously approved app starts crashing on new iOS versions). However, I still stand by our goals for the project; find when your bus or train or street car arrives in the least amount of taps. We literally want you to be in the app for as little time as possible (but every day, of course).</p>
+
+<p>Looking at other Muni apps since then, it&rsquo;s pretty sad to be a rider with an iPhone. Everyone has clunky methods for finding your stops (be they map-oriented or otherwise) and no one makes it as easy as Muniverse to get times for the stop you use every single day. Most of the apps are clearly built by people who don&rsquo;t live in San Francisco or who don&rsquo;t use Muni often enough to know the weird configuration for the KT or which stop names are wrong when they come out of the NextBus API.</p>
+
+<p>That&rsquo;s why Jamison and I have rethought Muniverse from the ground up and are happy to report that an all new Muniverse is currently on the app store. For free.</p>
+
+<p>Why rerelease Muniverse? We both feel that having a showpiece for our separate skills on the App Store is a great example to show potential clients. Jamison&rsquo;s UI/UX contributions are obvious when using the app, though the code is a bit more difficult to evaluate even if the app works as intended.</p>
+
+<p>Rewriting everything gave me an opportunity to explore some of the modern Objective-C features that can make development easier and faster. Muniverse uses storyboards, core data, new literals and eventually will integrate with the new transit routing APIs. To better illustrate my side of the development process and provide a complete, modern reference for those who are learning Objective-C, <a href="https://github.com/nickoneill/Muniverse2">the entire codebase is on github</a>.</p>
+
+<p>However, the open source license doesn&rsquo;t cover everything since we don&rsquo;t want anyone to re-release the very same code as their own. The graphics are included in the project but are not licensed for use. In addition, there&rsquo;s some magic (written in Go) that generates a large file containing relevant information about all the stops and lines in Muniverse which isn&rsquo;t included in the repository. I think this serves the interests of all parties, providing a great mass of code for those who want to learn Objective-C while keeping blatant plagiarism at bay.</p>
+
+<p>Lest you think this project was entirely for the good will of SFers and Obj-C newbies, let me be clear: this is an obvious ploy to bring in more work. Jamison works on UI/UX stuff as <a href="http://fattrash.com">Fat Trash Design</a> and he&rsquo;s highly recommended if you need this kind of work done. I run a small iOS development shop called <a href="http://launchapps.net">Launch Apps</a> (yay placeholder website!) doing contract work for big and small companies alike. Feel free to get in touch if you like Muniverse and want to see the same level of quality in your own mobile apps.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[13.5 Billion Year Movie]]></title>
+    <link href="http://nickoneill.github.io/135-billion-year-movie/"/>
+    <updated>2012-11-05T14:28:00-08:00</updated>
+    <id>http://nickoneill.github.io/135-billion-year-movie</id>
+    <content type="html"><![CDATA[<p>This <a href="http://www.youtube.com/watch?v=_Ssc1GsqHds">youtube video from NASA</a> shows a galactic simulation for approximately 13.5 Billion years. While watching galaxies tear each other apart is fun and all, the fascinating part is that it is, after all, a simulation.</p>
+
+<p>Take some physical rules and enough processing power and you can simulate 13.5 Billion years of dust coming together which in turn attracts more dust and creates stars which attracts more dust which creates young stars which… you get the idea.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Kickstarting Spacecraft Thrusters]]></title>
+    <link href="http://nickoneill.github.io/spacecraft-thrusters-kickstarter/"/>
+    <updated>2012-10-30T17:51:00-07:00</updated>
+    <id>http://nickoneill.github.io/spacecraft-thrusters-kickstarter</id>
+    <content type="html"><![CDATA[<p>Wanna back something novel on Kickstarter? <a href="http://www.hyperv.com/">HyperV</a> is attempting to raise funds to develop <a href="http://www.kickstarter.com/projects/2027072188/plasma-jet-electric-thrusters-for-spacecraft">plasma jet thrusters</a> that could be used in spacecraft outside of the atmosphere.</p>
+
+<p>It&rsquo;s not exactly citizen science (which I&rsquo;d like to see on Kickstarter some day) but it&rsquo;s a great start if you want to be involved with funding an awesome science and technology project and get interesting updates along the way.</p>
+
+<p>Ignore their standard science company website and the slightly awkward funding video and back their awesome project today!</p>
+
+<p>Update: They were successful! They&rsquo;ve done a really great job of keeping backers up-to-date on the project so far, I think this is a great model for science on Kickstarter.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Raptor Suit Creation]]></title>
+    <link href="http://nickoneill.github.io/raptor-suits/"/>
+    <updated>2012-10-21T08:08:00-07:00</updated>
+    <id>http://nickoneill.github.io/raptor-suits</id>
+    <content type="html"><![CDATA[<p>It&rsquo;s one thing to know that there are actors inside some of the raptors in Jurassic Park. It&rsquo;s quite another thing to see the process of creating the suits and characters themselves.</p>
+
+<p><a href="http://www.youtube.com/watch?v=jAzQr3Ml0UI#!">This video</a> and <a href="https://www.stanwinstonschool.com/blog/jurassic-park-evolution-of-a-raptor-suit">post</a> from Stan Winston school of character arts (who knew!) show the whole behind-the-scenes process for creating the raptor. It&rsquo;s incredibly fascinating to watch the movements of the actor go from unfamiliar and jerky to something entirely convincing near the end. He can even play tug of war while being stuffed into the bottom of that suit!</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Annual Business Registration Scam]]></title>
+    <link href="http://nickoneill.github.io/business-registration-scam/"/>
+    <updated>2012-10-06T14:11:00-07:00</updated>
+    <id>http://nickoneill.github.io/business-registration-scam</id>
+    <content type="html"><![CDATA[<p>One of the downsides to officially registering with the state as a business is that your address is added to yet another public list and various types of spam increase, regardless of your business&#8217; purpose. Not a huge deal &ndash; this is what the recycling pile is for, right?</p>
+
+<p>I recently received a letter that is actually a problem. It purports to be from an &ldquo;Annual Business Registration&rdquo; office and suggests that you need to pay some amount of money ($218, in my case) and then there&rsquo;s some fear-inducing talk about suspension of your business if you don&rsquo;t file your Statement of Information.</p>
+
+<p>Part of this is true! A Statement of Information does have to be filed with the state in a timely manner and you can be fined for not filing. However, this form is <em>not</em> a statement of information, it&rsquo;s a scam.</p>
+
+<p>The letterhead looks vaguely state-like with a modified California seal (without the term &ldquo;The Great Seal…&rdquo; since it very clearly isn&rsquo;t the actual seal). It includes your business name and LLC number, plus the amount of money you &ldquo;need&rdquo; to pay and a P.O. Box to send your payment to. For reference, here&rsquo;s the address:</p>
+
+<blockquote><p>Annual Business Registration<br/>
+P.O. Box 931597<br/>
+Los Angeles, CA 90093</p></blockquote>
+
+<p>Whatever you do, do not send your money here. There is no state business registration office in Los Angeles and you will not be penalized for disregarding this piece of junk mail.</p>
+
+<p>According to <a href="http://www.yelp.com/biz/annual-review-board-los-angeles?sort_by=date_desc">Yelp</a>, this exact scam without any modification has been occurring since at least 2009. Is there nothing illegal about deceptively suggesting that the owner here is associated with the state?</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Endeavour Over San Francisco]]></title>
+    <link href="http://nickoneill.github.io/endeavour-over-sf/"/>
+    <updated>2012-09-07T10:32:00-07:00</updated>
+    <id>http://nickoneill.github.io/endeavour-over-sf</id>
+    <content type="html"><![CDATA[<p>Yes, we&rsquo;ll be getting <a href="http://www.nasa.gov/home/hqnews/2012/sep/HQ_M12-173_Endeavour_Ferry_Flight.html">our own Shuttle flyover</a>!</p>
+
+<p>September 20th will see flyovers of Moffet Field, Sacramento and San Francisco on the way to Endeavour&rsquo;s final resting place at the space center in LA. Expect some awesome shots of the Golden Gate Bridge!</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[White House Beer Recipes]]></title>
+    <link href="http://nickoneill.github.io/beer-recipes-white-house/"/>
+    <updated>2012-09-04T13:30:00-07:00</updated>
+    <id>http://nickoneill.github.io/beer-recipes-white-house</id>
+    <content type="html"><![CDATA[<p>I&rsquo;ve been brewing beer at home since the spring so it was pretty cool to see the White House staff getting into brewing and then releasing their own <a href="http://www.whitehouse.gov/blog/2012/09/01/ale-chief-white-house-beer-recipe">recipes for Honey Ale and Honey Porter</a>.</p>
+
+<p>I&rsquo;m tempted to pick up the ingredients for the porter and try it out &ndash; I&rsquo;m sure the <a href="http://www.sanfranciscobrewcraft.com/">Brewcraft store in SF</a> (where I get all my recipes) is getting plenty of requests for those ingredients. So far I&rsquo;ve made a Pale Ale (decent!), an Amber Ale (slightly watery), a Pilsner (tasty but slightly overcarbonated) and an IPA is almost ready to be bottled.</p>
+
+<p>Echoing Sam Kass (White House assistant chef), it&rsquo;s surprisingly easy to make a really tasty beer at home. I would suggest two things if you&rsquo;re new to brewing: get the supplies to do primary and secondary fermentation and pay attention to your sanitization. Transfering to a second container after a few days will get your beer off the dead yeast which can give off weird flavors (there are simple brewing methods that use a single container for all fermentation before the bottle). Keeping equipment sanitized through the entire process is not hard but you have to pay attention to what tools are in a clean state and only use those on your clean equipment (or resanitize them). Wild yeasts and bacteria are everywhere and a batch of fermenting beer can be a pretty ideal place for unpleasant things to grow.</p>
+
+<p>Go forth and brew White House beer!</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Personal Hovercrafts NOW]]></title>
+    <link href="http://nickoneill.github.io/personal-hovercraft/"/>
+    <updated>2012-08-24T10:33:00-07:00</updated>
+    <id>http://nickoneill.github.io/personal-hovercraft</id>
+    <content type="html"><![CDATA[<p>I don&rsquo;t think I know anyone who wouldn&rsquo;t want to drive to work on their <a href="http://boingboing.net/2012/08/24/testing-out-a-star-wars-style.html">personal hovercraft</a>. It seems completely possible and this same group has released a number of videos showing their progress making the thing, so probably not a hoax.</p>
+
+<p>It seems like this is one area where Hollywood has really understood how these things will behave according to the laws of physics. You&rsquo;ll be surprised at the intuitiveness of how the hoverbike behaves when turning and stopping.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[SSD + Thunderbolt = Speed]]></title>
+    <link href="http://nickoneill.github.io/ssd-thunderbolt-speed/"/>
+    <updated>2012-08-20T09:00:00-07:00</updated>
+    <id>http://nickoneill.github.io/ssd-thunderbolt-speed</id>
+    <content type="html"><![CDATA[<p>I&rsquo;ve been eyeballing external Thunderbolt enclosures ever since I started running my iMac startup disk off a separate SSD. It was sitting in an old USB 2.0 enclosure but not only did it take up a precious USB slot but because SSD read/write speeds can out perform USB 2.0 transfer speeds it also wasn&rsquo;t reaching its true potential, a turn of phrase I&rsquo;m all too familiar with from high school.</p>
+
+<p>I had opened up my mid-2011 iMac a while back to see how hard it was to implant the SSD into space that I knew was reserved for such a thing. Perhaps as a warning of things to come, the guts of this computer are an impenetrable fortress &ndash; I got as far as having to take the entire logic board out before I bailed.</p>
+
+<p>I&rsquo;m usually pretty comfortable taking stuff apart but the iMac felt so delicately put together with every wire in its proper place that I decided it was not worth the cost of breaking something. A fear perhaps perpetuated by my experience replacing my home button on my iPhone (so many tiny screws!) in which I didn&rsquo;t properly thread a ribbon cable and ended up tearing the thing in two and having to replace the screen entirely. It was frustrating but cheaper to fix than a similar potential problem in the iMac.</p>
+
+<p>That&rsquo;s how I got stuck with the USB enclosure which, for most purposes, has still been a great improvement over spinning disks. Even if I&rsquo;m maxing out the USB transfer speed, I was getting much better performance than I would on a standard disk.</p>
+
+<p>But that&rsquo;s not good enough for nerds. Not. At. All.</p>
+
+<p>My options for SSD enclosures were pretty limited until recently. Everything from LaCie looks nice but is pretty expensive and they insist on bundling spinning disks with the damn enclosure. Elgato has one that ships with an SSD but no empty option and I&rsquo;ve already had an off-brand SSD fail on me so no thanks, I&rsquo;ll bring my own.</p>
+
+<p>Enter Buffalo Technology. They make routers and hard drives and various internal components… your standard modern computer component manufacturer. And their <a href="http://www.amazon.com/gp/product/B008D4X9VC/ref=as_li_ss_tl?ie=UTF8&amp;camp=1789&amp;creative=390957&amp;creativeASIN=B008D4X9VC&amp;linkCode=as2&amp;tag=finestru-20">MiniStation Thunderbolt drive</a> (kickback link) is inexpensive enough to warrant taking apart, or so I thought. Also Amazon has the terrible habit of delivering most of my prime items next day, which is probably why I made the impulse purchase in the first place.</p>
+
+<p>In short, this enclosure is not designed to be taken apart, by anyone, ever. Why would you ship an enclosure with two incredibly fast communication channels and then toss some slow spinning disk in it and top the whole thing off with super strong adhesive, plenty of screws and enough clips to secure the thing during liftoff to Mars? My guess is that they just don&rsquo;t know how many people are looking for something external to put their SSD inside. Or its a hardware test run for more dual thunderbolt/usb3 components down the line.</p>
+
+<p>Do I have a working thunderbolt enclosure with an SSD now? Yes, it&rsquo;s awesome. Did I struggle to extricate the guts out of it in the first place? Absolutely. I do not recommend it for those uncomfortable with a lot of prying at new hardware. I put a few scratches on the case.</p>
+
+<p>Verdict: purchase only if you are desperate, or if your inner nerd is nagging at you. It came with a thunderbolt cable, at least.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Go-powered Beer at Original Gravity Pub]]></title>
+    <link href="http://nickoneill.github.io/original-gravity-pub/"/>
+    <updated>2012-08-15T13:00:00-07:00</updated>
+    <id>http://nickoneill.github.io/original-gravity-pub</id>
+    <content type="html"><![CDATA[<p>Last month saw the official opening of San Jose&rsquo;s newest drinking establishment, <a href="http://www.originalgravitypub.com/">Original Gravity Public House</a>. Dan is a friend from before he became a full-time beer slinger and I offered to whip up something for the website a while back.</p>
+
+<p>As a craft beer bar they had the opportunity to change their selection of beers regularly and wanted a way to reflect those changes on their website and in the bar with minimal effort. You can see the virtual result on their website which has an up-to-date list of all their current beers. The other solution was showing a list of all their current beers on a 40&#8221; TV above the bar, you can see a picture of how it turned out here:</p>
+
+<p><span class="blogimage">
+<img src="http://blog.nickoneill.name/images/ogtv.jpg" alt="Original Gravity Beer List" /><br />
+From <a href="http://www.yelp.com/biz_photos/uXCsgEdownjTGlQtnWvkjQ?select=Gxg_cJOzDkKUv8pnprOiBQ#Gxg_cJOzDkKUv8pnprOiBQ">Yelp</a>
+</span></p>
+
+<p>Designing for a big screen TV is not something I remember doing since webTV stopped being <em>a thing</em>. It was a fun exercise in scaling and clarity, and it seems like it has been successful so far.</p>
+
+<p>The behind-the-scenes wiring is pretty minimal. I built a small Go-powered web service that allows Dan to add to, remove from and reorder the beer list which is written to disk. Whenever an item changes, templates are built and put in their proper locations. Static publishing at its best.</p>
+
+<p>The bar view on the TV is just a fullscreen view of a special website in Chrome, it periodically refreshes to pick up the updated beer list. Nothing is particularly complex about the system, just adding together all the right components. I&rsquo;ve been spending more time writing servers and other tools in Go so this was a good way to learn more of the standard library. As far as I know this is the first Go-powered craft beer bar, though I haven&rsquo;t spent a lot of time asking around at bars.</p>
+
+<p>Dan and friends at Original Gravity have a really welcoming space and some very tasty beers on tap. Stop by if you need a drink in San Jose!</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Pictures from Curiosity Landing]]></title>
+    <link href="http://nickoneill.github.io/curiosity-landing-pictures/"/>
+    <updated>2012-08-06T09:14:00-07:00</updated>
+    <id>http://nickoneill.github.io/curiosity-landing-pictures</id>
+    <content type="html"><![CDATA[<p>While Curiosity was busy going through it&rsquo;s <a href="http://www.finestructure.com/2012/06/challenges-of-getting-to-mars/">seven minutes of terror</a>, the Mars Recon Orbiter was taking pictures overhead.</p>
+
+<p>Yes, you heard that right. We <a href="http://www.wired.com/wiredscience/2012/08/mro-curiosity-descent/">took a picture</a> of a tiny little lander descending through the Martian atmosphere with another robot which currently orbits Mars.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Mars Science Lab Planning]]></title>
+    <link href="http://nickoneill.github.io/mars-science-lab-landing/"/>
+    <updated>2012-08-03T09:05:00-07:00</updated>
+    <id>http://nickoneill.github.io/mars-science-lab-landing</id>
+    <content type="html"><![CDATA[<p>Need some help getting ready for Sunday&rsquo;s MSL landing on Mars? <a href="http://boingboing.net/2012/08/02/mars-science-laboratory-rover.html">BoingBoing has details</a> of all the online NASA livestream events where you can watch the landing (more or less) live.</p>
+
+<p>Landing should occur at 10:31pm Pacific time on Sunday night. It&rsquo;s great timing for the west coast, I might make a little Google hangout for anyone else watching on Sunday.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[The IntelliMouse]]></title>
+    <link href="http://nickoneill.github.io/the-intellimouse/"/>
+    <updated>2012-07-18T08:41:00-07:00</updated>
+    <id>http://nickoneill.github.io/the-intellimouse</id>
+    <content type="html"><![CDATA[<p>Ah, <a href="http://www.theverge.com/2012/7/18/3155619/microsoft-intellimouse-status-symbols">the IntelliMouse</a>! It was simply the best mouse at the time, and I used one for a long time despite those being some of my prime Microsoft-hating years.</p>
+
+<p>It doesn&rsquo;t matter what people think of you when you create something so much better than the competition.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Tiny NES Cartridge Keychains]]></title>
+    <link href="http://nickoneill.github.io/tiny-nes-cartridge/"/>
+    <updated>2012-07-09T08:16:00-07:00</updated>
+    <id>http://nickoneill.github.io/tiny-nes-cartridge</id>
+    <content type="html"><![CDATA[<p>This is a serious labor of love. Ben Purdy puts together a <a href="http://www.benpurdy.com/2012/07/quarter-scale-nes-cartridges/">scale, keychainable NES cartridge</a> for his band.</p>
+
+<p>Laser cutting and 3D printing were not quite up to the task (cost, materials, etc) so he milled his own in wax using a drill press on a moving stage and then cast it in resin. Old school methods but absolutely awesome results. You must see it to believe it.</p>
 ]]></content>
   </entry>
   

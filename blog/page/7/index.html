@@ -1,0 +1,603 @@
+
+<!DOCTYPE HTML>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>authenticgeek</title>
+	<meta name="author" content="Nick O'Neill">
+
+	
+	<meta name="description" content="This is out of date, I don&rsquo;t use this tool anymore. I want to build something similar on a more robust platform but for now I&rsquo;m just &hellip;">
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<link href="/atom.xml" rel="alternate" title="authenticgeek" type="application/atom+xml">
+	<link rel="canonical" href="">
+	<link href="/favicon.png" rel="shortcut icon">
+	<link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+	<!--[if lt IE 9]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+	<script async="true" src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+	
+</head>
+
+
+<body>
+	<header id="header" class="inner"><h1><a href="/">authenticgeek</a></h1>
+<nav id="main-nav"><ul class="main">
+	<li><a href="/">Blog</a></li>
+	<li><a href="/blog/archives">Archives</a></li>
+</ul>
+</nav>
+<nav id="mobile-nav">
+	<div class="alignleft menu">
+		<a class="button">Menu</a>
+		<div class="container"><ul class="main">
+	<li><a href="/">Blog</a></li>
+	<li><a href="/blog/archives">Archives</a></li>
+</ul>
+</div>
+	</div>
+	<div class="alignright search">
+		<a class="button"></a>
+		<div class="container">
+			<form action="http://google.com/search" method="get">
+				<input type="text" name="q" results="0">
+				<input type="hidden" name="q" value="site:nickoneill.github.io">
+			</form>
+		</div>
+	</div>
+</nav>
+<nav id="sub-nav" class="alignright">
+	<div class="social">
+		
+		
+		
+		<a class="twitter" href="http://twitter.com/nickoneill" title="Twitter">Twitter</a>
+		
+		
+		<a class="github" href="https://github.com/nickoneill" title="GitHub">GitHub</a>
+		
+    
+		
+		
+		
+		
+		
+		<a class="rss" href="/atom.xml" title="RSS">RSS</a>
+		
+    
+	</div>
+	<form class="search" action="http://google.com/search" method="get">
+		<input class="alignright" type="text" name="q" results="0">
+		<input type="hidden" name="q" value="site:nickoneill.github.io">
+	</form>
+</nav>
+
+</header>
+	
+		
+	
+	<div id="content" class="inner">
+
+
+    <article class="post">
+	<h2 class="title">
+		
+		<a href="/Publishing/">
+		
+			This Is How I Blog</a>
+	</h2>
+	<div class="entry-content">
+		<h3>This is out of date, I don&rsquo;t use this tool anymore. I want to build something similar on a more robust platform but for now I&rsquo;m just back to Octopress</h3>
+
+<p>Pinboard is my blog platform. Or at least it was for most of 2011. I let my science blog Fine Structure wane at the start of last year when I stopped having time to research and write long posts about science topics. It was incredibly enlightening to dig deep into a complex topic it but it&rsquo;s not easy.</p>
+
+<p>I still wanted to keep the blog alive even if I was just posting some short links and summaries because I was still reading a plethora of science blogs. I found that wrapping up complex topics in a few sentences is a great way to solidify my understanding of whatever I was reading as well.</p>
+
+<p>Eventually I started Pinboarding links I wanted to write about in an attempt to pick up the habit but I resisted pasting my Pinboard descriptions in the Movable Type interface out of laziness (or intimidation).</p>
+
+<p>There&rsquo;s nothing like a technical challenge to motivate though so I glued together something from existing plugins to grab pinboard links with certain tags and generate posts on Fine Structure. Yes, I put in a bunch of effort upfront in an attempt to reduce the amount of effort I needed to post daily. It sounds contrary.</p>
+
+<p>But the result was great. I felt liberated by the tiny non-wysiwyg text box of Pinboard and the lazy publishing model. I would write a few sentences about a link, add a tag and save it. Sometime in the next 30 minutes it would be posted to Fine Structure and it would float by on twitter.</p>
+
+<p>I was pretty happy with that amount of effort for Fine Structure so I didn&rsquo;t think more about it.</p>
+
+<p>A little later I started writing some posts on topics that weren&rsquo;t science related so I resurrected a personal blog (here! that&rsquo;s this!). I still felt sick of web writing interfaces so I wrote a little static site generator in python. It took a bunch of text files and made a blog. Easy enough, right?</p>
+
+<p>I still wasn&rsquo;t happy though. I fussed with <a href="http://octopress.org/">Octopress</a> a bit which I felt was a great flexible tool to publish a blog &ndash; a (much much) more polished version of the thing I had written previously.</p>
+
+<p>The thing was… I still had to generate my blog on one computer. Even if I had synced my templates and posts and octopres on every computer I own, I still had to do some work between <em>writing</em> and being <em>done</em>. It was still a pain.</p>
+
+<p>I spoke to <a href="http://alexba.in">Alex</a> about it over chat one day. I recall saying &ldquo;what I really want is cloud Octopress, but who has the time to build such a thing?&rdquo;</p>
+
+<p>As it turns out, I did.</p>
+
+<p>The answer was rooted in Dropbox. I wanted to write stuff and put it on Dropbox from anywhere &ndash; what device <em>doesn&rsquo;t</em> have a Dropbox client? &ndash; and then just have a computer somewhere else do the octopressing for me. Don&rsquo;t make me configure a post, just let me write, save and publish.</p>
+
+<p>I&rsquo;d been using <a href="http://www.golang.org">Go</a> on a few small projects and I was really getting into the groove of prototyping things quickly. I figured it&rsquo;d be a good exercise so I started writing a <a href="https://github.com/nickoneill/go-dropbox">Dropbox API wrapper</a>. Once that was done, a few more lines had me generating a site from files in my Dropbox.</p>
+
+<p>As it stands, <a href="https://github.com/nickoneill/go-publisher">go-publisher</a> looks at files in Dropbox every 20 minutes or so and generates a site if something has changed. Posts are easy to write, just Markdown and some YAML front matter (ala <a href="https://github.com/mojombo/jekyll/wiki/yaml-front-matter">Jekyll</a>), most of which is generated for you. Minimally, you can just write until you&rsquo;re done and add <code>---published: true---</code> to the top of your post. Everything else is just done.</p>
+
+<p>Back to Pinboard. I loved my Fine Structure posting method so much that I wanted to retain it in this new thing I was building so I wrote a quick addition that makes documents in Dropbox from Pinboard posts (modularity!). This is still my favorite way to keep on top of my blog on a daily basis.</p>
+
+<p>There are a few other projects that I didn&rsquo;t know about at the time, including <a href="http://calepin.co/">Calepin</a> and <a href="http://scriptogr.am/">scriptogr.am</a> which <a href="http://www.dashes.com/anil">Anil</a> tipped me off to. They feel very similar in goals, probably great if you want a simple blog and don&rsquo;t care to run it yourself. I didn&rsquo;t honestly expect to be the only one with this idea. In fact, it feels nice to have my needs reflected by others.</p>
+
+<p>So it <a href="https://github.com/nickoneill/go-publisher">exists on github</a> now. It&rsquo;s actively used (by me) and I update it whenever I run into something that makes blogging not fun (or, y&#8217;know, bugs). It needs a name as well. Something clever. If this is the sort of thing that interests you, you should fork it. Learning Go is fairly enjoyable as well but that&rsquo;s another blog post.</p>
+
+<p>I wrote a few core foundations for my motivation in the readme:</p>
+
+<blockquote><p>• you already write long form with your favorite tools<br />
+• you already have streams of short form stuff<br />
+• you don&rsquo;t want to be constrained to a single computer/device<br />
+• you don&rsquo;t want to babysit a publishing platform</p></blockquote>
+
+<p>Make these tools get out of my way so I can Just Fucking Write. Let&rsquo;s make it a trend.</p>
+
+		
+		
+	</div>
+
+
+<div class="meta">
+	<div class="date">
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2012-02-20T23:30:00-08:00" pubdate data-updated="true">Feb 20<span>th</span>, 2012</time></div>
+	<div class="tags">
+
+
+	<a class='category' href='/blog/categories/blogging/'>blogging</a>, <a class='category' href='/blog/categories/golang/'>golang</a>
+
+
+</div>
+	
+</div>
+</article>
+
+
+    <article class="post">
+	<h2 class="title">
+		
+		<a href="/maker-faire-bay-area-2012-tickets/">
+		
+			Maker Faire Bay Area 2012 Tickets</a>
+	</h2>
+	<div class="entry-content">
+		<p>Maker Faire Bay Area tickets are on sale for 2012! This year the faire covers May 19th and 20th at the same spot, the San Mateo Event Center.</p>
+
+<p>The 9th of February also marked the opening of the call for Makers for those of you inclined to show your creations at this event.  You only have until March 20th to submit your application, so get started!</p>
+
+<br /><a href="http://makerfaire.com/bayarea/2012/tickets/">source</a>
+
+
+		
+		
+	</div>
+
+
+<div class="meta">
+	<div class="date">
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2012-02-20T18:48:00-08:00" pubdate data-updated="true">Feb 20<span>th</span>, 2012</time></div>
+	<div class="tags">
+
+</div>
+	
+</div>
+</article>
+
+
+    <article class="post">
+	<h2 class="title">
+		
+		<a href="/ice-cream-sandwich-galaxy-tab-io/">
+		
+			Ice Cream Sandwich Preview on Galaxy Tab 10.1 Google I/O Edition</a>
+	</h2>
+	<div class="entry-content">
+		<p>There are a couple guides for installing CyanogenMod9 preview (Ice Cream Sandwich) on retail versions of the Samsung Galaxy Tab 10.1 but a couple quirks prevented me from readily installing it on my Google I/O limited edition from I/O 2011. I&rsquo;ll run down the details for Mac and Windows.</p>
+
+<p>Google I/O tabs don&rsquo;t have the standard Recovery/Download firmware that you get when you hold POWER+DOWN on boot. Instead they have fastboot/Download. Traditional instructions tell you to use the Odin downloader to install ClockworkMod to the recovery partition, but we just use fastboot to boot to a ClockworkMod image whenever we need it. It&rsquo;s less steps and less chance to fuck something up.</p>
+
+<p>If you&rsquo;ve installed the android tools you already have the fastboot command line tool, otherwise you need to download a standalone version (OSX: <a href="http://rootzwiki.com/topic/5697-tool-fastboot-on-your-mac/">this one</a>, Windows: <a href="http://forum.xda-developers.com/showthread.php?p=13499325#post13499325">there&rsquo;s a fastboot download in this post</a>, easily searchable if either of those no longer exist). There used to be an official standalone from HTC but now people just pass around links to standalone versions. Sometimes it&rsquo;s called &lsquo;fastboot-mac&rsquo; for the mac, you can rename it before use if you want.</p>
+
+<p>A brief interlude for Windows users, and stop me if you&rsquo;ve heard this before: you need drivers. Not stock ones. Better ones. Download this thing called <a href="http://junefabrics.com/android/">PDANet</a> which is normally used for sharing your mobile internet connection through USB to your computer. We don&rsquo;t use it for this purpose. During install it&rsquo;ll ask you about reinstalling drivers, say YES and choose Samsung.</p>
+
+<p>Back on both platforms. Booting into ClockworkMod is pretty easy now. Put your Tab into fastboot mode by holding POWER+DOWN on startup and selecting the left option (DOWN to change, UP to select, fastboot is the USB icon). It&rsquo;ll say some things about fastboot being ready. Connect the USB cable to your computer.</p>
+
+<p>Windows users: PDANet will bring up a window recognizing your mobile device &ndash; CLICK THIS WINDOW. It&rsquo;ll attempt to connect to your device and fail. That&rsquo;s OK.</p>
+
+<p>Mac users: just kick back and look cool.</p>
+
+<p>You should be able to use your command line tool now: <code>fastboot devices</code> should return a list of devices connected to your machine (hopefully just one &ndash; your Tab). If not, you did something wrong. Bummer.</p>
+
+<p><a href="http://droidbasement.com/db-blog/?p=2439">This</a> is the latest version of ClockworkMod for the Tab. Download the &ldquo;Fastboot/Nvflash&rdquo; version and unzip the single img file somewhere convenient.</p>
+
+<p>Presuming your device is still connected and in fastboot mode, just run <code>fastboot boot /path/to/recovery-cwm_5.0.2.7-sam-tab-10.1.img</code> (the ClockworkMod image is called something like that) and your Tab will reboot into cwm recovery mode. You must do this every time you want to get into ClockworkMod. Luckily you don&rsquo;t have to do it more than once or twice.</p>
+
+<p>That was the hard part. Now you can follow such instructions as <a href="http://forum.xda-developers.com/showthread.php?t=1239185">&ldquo;How to Root your Samsung Galaxy Tab 10.1&rdquo;</a> which is a requirement of such tutorials as <a href="http://www.youtube.com/watch?v=qcvfmnJdxdQ">&ldquo;How to Install the CyanogenMod 9 ICS Preview Rom on the Samsung Galaxy Tab 10.1&rdquo;</a>. Don&rsquo;t bother with the instructions for Odin or flashing your recovery partition &ndash; just boot into CWM using the fastboot method when instructions require it.</p>
+
+<p>We haven&rsquo;t actually changed anything on the Tab using these instructions. Both the Root and the CM9 instructions will have you drop zip files onto the flash memory of the device itself which requires you to be booted regularly but none of the fastboot commands I discuss here prevent that. Good luck!</p>
+
+		
+		
+	</div>
+
+
+<div class="meta">
+	<div class="date">
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2012-02-18T09:46:00-08:00" pubdate data-updated="true">Feb 18<span>th</span>, 2012</time></div>
+	<div class="tags">
+
+</div>
+	
+</div>
+</article>
+
+
+    <article class="post">
+	<h2 class="title">
+		
+		<a href="/enders-game-full-cast-and-crew/">
+		
+			Ender&apos;s Game Full Cast and Crew</a>
+	</h2>
+	<div class="entry-content">
+		<p>The cast list is out for 2013s -biggest disappointment- best movie, the film interpretation of Ender&apos;s Game. And get this: <em>Harrison Ford</em> as <em>Graff</em>.</p>
+
+<p>Otherwise mostly unknowns since it features a bunch of kids. That kid from <em>Hugo</em> as Ender is spot on, otherwise no one is really as I pictured them. Or I simply never had a very good idea of what anyone looked like.</p>
+
+<p>Also, the headshots that kids do for acting are fucking creepy.</p>
+
+<br /><a href="http://www.imdb.com/title/tt1731141/fullcredits">source</a>
+
+
+		
+		
+	</div>
+
+
+<div class="meta">
+	<div class="date">
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2012-02-15T19:42:00-08:00" pubdate data-updated="true">Feb 15<span>th</span>, 2012</time></div>
+	<div class="tags">
+
+</div>
+	
+</div>
+</article>
+
+
+    <article class="post">
+	<h2 class="title">
+		
+		<a href="/remix-some-interactive-fiction/">
+		
+			Remix Some Interactive Fiction</a>
+	</h2>
+	<div class="entry-content">
+		<p>I like it when people take old things and move them into the future in such a way that it compliments both the classic feel and the new technology. Such is the case with Playfic.</p>
+
+<p>First thing: Waxy.org has an intern. Andy Baio hired his nephew to do some work and the two of them ended up with a way to play interactive fiction on the internet. That&apos;s not too original, but they added ways to remix the stories or easily create something new from scratch. Plus Twitter&apos;s Bootstrap, so of course it looks great. It really compliments interactive fiction and the technology just gets out of the way.</p>
+
+<br /><a href="http://playfic.com/">source</a>
+
+
+		
+		
+	</div>
+
+
+<div class="meta">
+	<div class="date">
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2012-02-15T19:29:00-08:00" pubdate data-updated="true">Feb 15<span>th</span>, 2012</time></div>
+	<div class="tags">
+
+</div>
+	
+</div>
+</article>
+
+
+    <article class="post">
+	<h2 class="title">
+		
+		<a href="/the-2012-update-for-dwarf-fortress/">
+		
+			The 2012 Update for Dwarf Fortress</a>
+	</h2>
+	<div class="entry-content">
+		<p>Insanity. This game always amazes me with its depth and complexity. The hardness of smelted ore is actually based on <a href="http://gaming.stackexchange.com/a/8014/1070">real stress/strain physics</a>:</p>
+
+<p>&gt; When Toady redesigned the combat system in DF2010 (the successor to 40d), he changed it from a heuristic system (with values he decided on) to a system based on the properties of Yield, Fracture and Elasticity. He did this in an attempt to simulate proper Stress/Strain equations. However, because Iron has poorer properties in comparison to Bronze, the result was the Iron Weapons/Armor are inferior to Bronze Weapons/Armor in DF2010</p>
+
+<p>It&apos;s difficult to say if the confusing interface makes this game better (use your imagination, like text based games!) or if it only serves to limit the audience. At the very least, I can imagine a Sim Dwarf City doing very well on the app store.</p>
+
+<br /><a href="http://www.bay12games.com/dwarves/index.html#2012-02-14">source</a>
+
+
+		
+		
+	</div>
+
+
+<div class="meta">
+	<div class="date">
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2012-02-14T16:41:00-08:00" pubdate data-updated="true">Feb 14<span>th</span>, 2012</time></div>
+	<div class="tags">
+
+</div>
+	
+</div>
+</article>
+
+
+    <article class="post">
+	<h2 class="title">
+		
+		<a href="/In+TIme/">
+		
+			In Time</a>
+	</h2>
+	<div class="entry-content">
+		<p><a href="http://www.imdb.com/title/tt1637688/">In Time</a> turned out to be a movie that relied far too heavily on making time puns. As for the plot, there are about a million ways one can make an interesting scifi storyline with immortality <em>and</em> time-as-currency but the writer/director managed to keep everything pretty shallow.</p>
+
+<p>Speaking of, writing <em>and</em> directing a film seems like a Lucas-esque control freak move. You&rsquo;re the best writer you could convince to do your movie? Unlikely. And the best director? These odds are not getting better. Don&rsquo;t even get me started on people who write/direct/star.</p>
+
+<p>I&rsquo;m a fan of Matt Bomer on <em>White Collar</em> so I was disappointed by his lack of screen time. He may have been the only character in the entire film with clear motivations, though that may have been simply a side effect of being a chracter who dies early.</p>
+
+<p>In conclusion, do not watch.</p>
+
+		
+		
+	</div>
+
+
+<div class="meta">
+	<div class="date">
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2012-02-13T11:39:00-08:00" pubdate data-updated="true">Feb 13<span>th</span>, 2012</time></div>
+	<div class="tags">
+
+</div>
+	
+</div>
+</article>
+
+
+    <article class="post">
+	<h2 class="title">
+		
+		<a href="/the-fifty/">
+		
+			The Fifty</a>
+	</h2>
+	<div class="entry-content">
+		<p>Yes, they make 50 thousand ton presses. They&apos;re used for making all sorts of parts that you don&apos;t want to welt or bolt together. This particular machine was built in 1955 and its relevance is impressive:</p>
+
+<p>&gt;Every manned U.S. military aircraft now flying uses parts forged by the Fifty. So does every commercial aircraft made by Airbus and Boeing.</p>
+
+<p>How many other commercial machines built in 1955 are still in use today, let alone being used for some of the most cutting edge machines?</p>
+
+<p>I love giant machines like this one because they stand as large and imposing as a particle accelerator but in a totally different context.</p>
+
+<br /><a href="http://www.theatlantic.com/magazine/archive/2012/03/iron-giant/8886/">source</a>
+
+
+		
+		
+	</div>
+
+
+<div class="meta">
+	<div class="date">
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2012-02-11T18:18:00-08:00" pubdate data-updated="true">Feb 11<span>th</span>, 2012</time></div>
+	<div class="tags">
+
+</div>
+	
+</div>
+</article>
+
+
+    <article class="post">
+	<h2 class="title">
+		
+		<a href="/minecraft/">
+		
+			A Personal Virtual Space</a>
+	</h2>
+	<div class="entry-content">
+		<p>High above the surrounding forrest, a <a href="http://imgur.com/a/1DhuT">small wooden house sits on a pillar of stone</a><sup>1</sup>. It has a single inhabitant who visits daily to improve on the structure and explore the world, often bringing back rare materials from mines underground or far away lands. For as far as we can compute, this land is devoid of any other humans or human-built structures. Sometimes a few friends visit, popping in and out of existence nearby and making their way to the sole pillar of sentience in a vast blockscape of computer generated valleys and oceans.</p>
+
+<p>That&rsquo;s not an unlikely paragraph in an average internet-era scifi novel. The idea of visiting the virtual world of a friend seems like old news when you take the concept of 3D first-person exploration, the ability to connect with a friend from anywhere on the planet via the internet and the basic need for users to have a place to call home. Despite this, Personal Virtual Spaces have remained elusive to the average internet user &ndash; at least in any form that puts users first.</p>
+
+<p>That&rsquo;s not to say there haven&rsquo;t been attempts. In fact, most massively multiplayer games have some sense of &ldquo;home&rdquo; for the user but these features are bolted on and mostly used as extra storage for RPG-style games. Like so many things, it seems that the harder a game tries to implement a personal space the harder they fail at actually doing so.</p>
+
+<p>Minecraft, on the other hand, is the first real success at having your own world that you can share with friends. And it succeeds at the concept because it tries the <em>least</em>. The game simply gives users the tools to connect and persist and the rest is so open ended that it manages to achieve the goals of anyone who cares to be there. As long as you like adventure or creativity, you can like Minecraft.</p>
+
+<p>I would be mistaken to not mention <a href="http://speakerdeck.com/u/markpasc/p/treehouses-online-community-for-internet">Mark&rsquo;s Treehouses presentation</a>. I think Mark has some incredibly useful ideas for what could make an intentionally successful PVS product (Minecraft being unintentional, as far as I know), combining knowledge of what Minecraft, Second Life, MUDS and most notably Animal Crossing do correctly and incorrectly. Kids with access to the internet grow up with these limited vitual spaces and it only serves to prime a new generation for more of those types of social interactions over the internet. I think there is a clearly growing segment of internet users who want and would use a well designed PVS on a regular basis.</p>
+
+<p>I have little doubt that there will be more products trying out this space in the near future but there are still lots of questions about how this will materialize. Glitch has seen some success with their web-based Flash 2D world but standards for WebGL (and most recently <a href="http://blog.chromium.org/2012/02/gpu-accelerating-2d-canvas-and-enabling.html">hardware-accelerated 2D canvas</a>) are making native 3D games in the browser a very real possibility. And there&rsquo;s always room for more social creativity on the web.</p>
+
+<p><sup>1</sup> Not mine but pretty cool, right?</p>
+
+		
+		
+	</div>
+
+
+<div class="meta">
+	<div class="date">
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2012-02-10T18:06:00-08:00" pubdate data-updated="true">Feb 10<span>th</span>, 2012</time></div>
+	<div class="tags">
+
+</div>
+	
+</div>
+</article>
+
+
+    <article class="post">
+	<h2 class="title">
+		
+		<a href="/project-shellter/">
+		
+			Project Shellter</a>
+	</h2>
+	<div class="entry-content">
+		<p>MakerBot-printed shells for hermit crabs. This one is inhabited by &quot;Paris Shellton&quot;. Possibly the best new use of 3D printing so far this year?</p>
+
+<br /><a href="http://www.makerbot.com/blog/tag/project-shellter/">source</a>
+
+
+		
+		
+	</div>
+
+
+<div class="meta">
+	<div class="date">
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2012-02-09T18:26:00-08:00" pubdate data-updated="true">Feb 9<span>th</span>, 2012</time></div>
+	<div class="tags">
+
+</div>
+	
+</div>
+</article>
+
+<nav id="pagenavi">
+    
+        <a href="/blog/page/6/" class="prev">Prev</a>
+    
+    
+        <a href="/blog/page/8/" class="next">Next</a>
+    
+    <div class="center"><a href="/blog/archives">Blog Archives</a></div>
+</nav></div>
+	<footer id="footer" class="inner">Copyright &copy; 2013
+
+    Nick O'Neill
+
+</footer>
+	<script src="/javascripts/slash.js"></script>
+<script src="/javascripts/jquery.fancybox.pack.js"></script>
+<script type="text/javascript">
+(function($){
+	$('.fancybox').fancybox();
+})(jQuery);
+</script> <!-- Delete or comment this line to disable Fancybox -->
+
+
+
+
+
+
+</body>
+</html>

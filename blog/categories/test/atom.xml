@@ -4,7 +4,7 @@
   <title><![CDATA[Category: test | authenticgeek]]></title>
   <link href="http://nickoneill.github.io/blog/categories/test/atom.xml" rel="self"/>
   <link href="http://nickoneill.github.io/"/>
-  <updated>2013-09-10T09:22:25-07:00</updated>
+  <updated>2013-09-10T15:10:38-07:00</updated>
   <id>http://nickoneill.github.io/</id>
   <author>
     <name><![CDATA[Nick O'Neill]]></name>
@@ -14,13 +14,16 @@
 
   
   <entry>
-    <title type="html"><![CDATA[a first test post]]></title>
-    <link href="http://nickoneill.github.io/a-first-test-post/"/>
-    <updated>2013-09-10T09:09:00-07:00</updated>
-    <id>http://nickoneill.github.io/a-first-test-post</id>
-    <content type="html"><![CDATA[<h2>title for a post</h2>
+    <title type="html"><![CDATA[A Minecraft Catsplosion]]></title>
+    <link href="http://nickoneill.github.io/a-minecraft-catsplosion/"/>
+    <updated>2012-03-01T17:01:00-08:00</updated>
+    <id>http://nickoneill.github.io/a-minecraft-catsplosion</id>
+    <content type="html"><![CDATA[<p>A (melon) slice of what makes Minecraft great. It&apos;s just a bunch of objects connected by a bag of rules, some of which you can exploit to make an infinite fountain of cats.</p>
 
-<p>trying this thing out</p>
+<div class="video-container">
+    <iframe width="560" height="315" src="http://nickoneill.github.io//www.youtube.com/embed/iNw2YcAK9Wc" frameborder="0" allowfullscreen></iframe>
+</div>
+
 ]]></content>
   </entry>
   
