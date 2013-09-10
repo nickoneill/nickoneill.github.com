@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[authenticgeek]]></title>
+  <link href="http://nickoneill.github.io/atom.xml" rel="self"/>
+  <link href="http://nickoneill.github.io/"/>
+  <updated>2013-09-10T09:15:38-07:00</updated>
+  <id>http://nickoneill.github.io/</id>
+  <author>
+    <name><![CDATA[Nick O'Neill]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[a first test post]]></title>
+    <link href="http://nickoneill.github.io/a-first-test-post/"/>
+    <updated>2013-09-10T09:09:00-07:00</updated>
+    <id>http://nickoneill.github.io/a-first-test-post</id>
+    <content type="html"><![CDATA[<h2>title for a post</h2>
+
+<p>trying this thing out</p>
+]]></content>
+  </entry>
+  
+</feed>
