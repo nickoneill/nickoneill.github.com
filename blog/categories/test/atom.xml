@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[authenticgeek]]></title>
-  <link href="http://nickoneill.github.io/atom.xml" rel="self"/>
+  <title><![CDATA[Category: test | authenticgeek]]></title>
+  <link href="http://nickoneill.github.io/blog/categories/test/atom.xml" rel="self"/>
   <link href="http://nickoneill.github.io/"/>
   <updated>2013-09-10T09:15:38-07:00</updated>
   <id>http://nickoneill.github.io/</id>
