@@ -20,7 +20,9 @@ $header-height: 30px;
 	h1{
 		float: left;
 		font-weight: 300;
-		font-size: 30px;
+		font-size: 40px;
+		font-style: italic;
+		font-family: "pragmatica-web-1", "pragmatica-web-2",serif;
 		@media screen and (max-width: 1040px){
 			float: none;
 		}
@@ -39,7 +41,6 @@ $header-height: 30px;
 			display: none;
 		}
 		>li{
-			margin-left: 50px;
 			@include inline-block;
 			@media screen and (max-width: 1040px){
 				margin-left: 0;

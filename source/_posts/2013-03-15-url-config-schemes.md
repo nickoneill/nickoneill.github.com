@@ -1,4 +1,5 @@
 ---
+layout: post
 published: true
 title: "App Configuration with URL Schemes"
 date: 2013-03-15 10:43

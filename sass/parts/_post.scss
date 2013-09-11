@@ -1,13 +1,12 @@
 .post{
 	h2.title, .entry-content{
-		margin-left: 200px;
 		@media screen and (max-width: 800px){
 			margin-left: 0;
 		}
 	}
 	.meta{
-		position: absolute;
-		top: 85px;
+		display: inline-block;
+		margin: 10px 0 0 0;
 		line-height: 2;
 		font-size: 0.9em;
 		color: $color-gray02;
@@ -22,7 +21,9 @@
 			@include transition(0.3s);
 		}
 		.date, .tags, .comments{
-			padding-left: 30px;
+			float: left;
+			padding-left: 20px;
+			margin-right: 20px;
 			position: relative;
 			&:before{
 				color: $color-gray03;
