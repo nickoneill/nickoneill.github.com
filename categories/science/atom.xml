@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: science | authenticgeek]]></title>
+  <link href="http://nickoneill.github.io/categories/science/atom.xml" rel="self"/>
+  <link href="http://nickoneill.github.io/"/>
+  <updated>2013-09-11T14:55:21-07:00</updated>
+  <id>http://nickoneill.github.io/</id>
+  <author>
+    <name><![CDATA[Nick O'Neill]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Jurassic Park: Nope]]></title>
+    <link href="http://nickoneill.github.io/jurassic-park-nope/"/>
+    <updated>2013-09-11T14:48:00-07:00</updated>
+    <id>http://nickoneill.github.io/jurassic-park-nope</id>
+    <content type="html"><![CDATA[<p>Ok, this is mostly me just trying out crossposting to Fine Structure, but you&rsquo;ve got to admit a little part of your ten year-old self just died a bit:</p>
+
+<blockquote><p>Researchers studying insects from sub-fossilized fragments of copal, an amber-like resin, extracted remains of stingless bees trapped around 10,000 years ago and attempted to analyze DNA fragments found within. A few very short base pair chains matched parts from an asian bumblebee and some bacteria but nothing significant, the DNA has long since decayed and this is only after a short (geological) time.</p></blockquote>
+]]></content>
+  </entry>
+  
+</feed>
