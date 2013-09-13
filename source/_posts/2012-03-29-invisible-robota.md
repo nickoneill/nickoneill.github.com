@@ -2,6 +2,9 @@
 published: true
 title: "Invisible Robota"
 date: 2012-03-29 19:25
+layout: post
+categories: robots
+alias: /invisible-robota.html
 ---
 BoingBoing links to a video that accompanies a [Marketplace special](http://www.marketplace.org/robots-ate-my-job) on robots taking over Human jobs. It&apos;s a really well done video, with lots of examples that you don&apos;t normally think of as robots but fit the general idea well.
 

@@ -2,6 +2,8 @@
 published: false
 title: "Unreasonable Math"
 date: 2013-02-19 14:30
+layout: post
+categories: math
 ---
 I’m starting this course in [Quantum Computation via edx.org](https://www.edx.org/courses/BerkeleyX/CS191x/2013_Spring/about) and finding, as I always do, that the mathematics involved is impenetrable. I’m a pretty clever guy so I always wonder why I have such issues with math courses. Learning a new language isn’t frustrating as much as a fun challenge as you discover and implement various rules even though you have no idea what the vocabulary is. I regularly work on programming tasks that are challenging, including some that could be considered applied mathematics. None of this is so difficult as trying to learn something new that is a step or two beyond my current comfort level in mathematics.
 

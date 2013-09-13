@@ -2,7 +2,7 @@
 layout: post
 title: "Jurassic Park: Nope"
 date: 2013-09-11 14:48
-categories: finestructure science xpost
+categories: finestructure science dinosaurs
 via: http://www.finestructure.com/2013/09/jurassic-park-nope/
 ---
 Ok, this is mostly me just trying out crossposting to Fine Structure, but you've got to admit a little part of your ten year-old self just died a bit:

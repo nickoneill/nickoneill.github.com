@@ -2,6 +2,9 @@
 published: true
 title: "Return of Blog, Holidays Edition"
 date: 2012-12-22 15:13
+layout: post
+categories: hardware hacking games code
+alias: /return-of-blog-holidays-edition.html
 ---
 Good day, blog friends!
 

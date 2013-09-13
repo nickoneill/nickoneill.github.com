@@ -2,6 +2,9 @@
 published: true
 title: "Feature Detection with Objective-C"
 date: 2012-06-12 12:49
+layout: post
+categories: ios code
+alias: /feature-detection-with-objective-c.html
 ---
 *(I'm at WWDC this week, I figure I should probably release something of my own)*
 

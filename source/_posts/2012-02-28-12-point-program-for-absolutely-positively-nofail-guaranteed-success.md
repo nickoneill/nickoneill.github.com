@@ -1,8 +1,9 @@
 ---
 published: true
-layout: post
 title: "12 Point Program for Absolutely, Positively No-Fail Guaranteed Success"
 date: 2012-02-28 20:51
+layout: post
+alias: /12-point-program-for-absolutely-positively-no-fail-guaranteed-success.html
 ---
 Jesse Thorn (I think I&apos;ve mentioned [Put This On](http://putthison.com/) before but he can adequately be described as a public radio nerd regardless of if you&apos;ve heard him before) write about *things* - methods, outlooks, etc - that you should do to Make Your Thing. They&apos;re all great notes about specific people who are successful at doing what they care about.
 

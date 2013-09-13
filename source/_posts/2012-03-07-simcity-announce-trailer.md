@@ -2,6 +2,8 @@
 published: true
 title: "SimCity Announce Trailer"
 date: 2012-03-07 16:31
+layout: post
+alias: /simcity-announce-trailer.html
 ---
 Will Wright is back on board the Sim train to Simland.
 

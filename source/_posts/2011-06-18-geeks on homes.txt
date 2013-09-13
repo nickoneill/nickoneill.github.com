@@ -2,6 +2,8 @@
 published: true
 title: "geeks on homes"
 date: 2011-06-18 17:26
+layout: post
+alias: /geeks-on-homes.html
 ---
 Let me tell you about the nerdiest show on television.
 

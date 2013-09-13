@@ -2,6 +2,9 @@
 published: true
 title: "Go-powered Beer at Original Gravity Pub"
 date: 2012-08-15 13:00
+layout: post
+categories: booze code golang
+alias: /gopowered-beer.html
 ---
 Last month saw the official opening of San Jose's newest drinking establishment, [Original Gravity Public House](http://www.originalgravitypub.com/). Dan is a friend from before he became a full-time beer slinger and I offered to whip up something for the website a while back.
 

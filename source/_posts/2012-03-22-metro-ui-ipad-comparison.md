@@ -2,6 +2,8 @@
 published: true
 title: "Does the Metro UI Have Room For Smacktalk?"
 date: 2012-03-22 20:10
+layout: post
+alias: /does-the-metro-ui-have-room-for-smacktalk.html
 ---
 
 Microsoft is hard at work pushing their new Metro UI in the months leading up to the Windows 8 release sometime in 2012. I don't pay too much attention to most of it but they recently posted a [case study for UI differences between a standard iOS interface and Metro](http://msdn.microsoft.com/en-us/library/windows/apps/hh868262.aspx).

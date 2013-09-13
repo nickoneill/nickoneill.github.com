@@ -2,6 +2,8 @@
 published: true
 title: "Ender&apos;s Game Full Cast and Crew"
 date: 2012-02-15 19:42
+layout: post
+alias: /enders-game-full-cast-and-crew.html
 ---
 The cast list is out for 2013s -biggest disappointment- best movie, the film interpretation of Ender&apos;s Game. And get this: *Harrison Ford* as *Graff*.
 

@@ -2,6 +2,8 @@
 published: true
 title: "Ice Cream Sandwich Preview on Galaxy Tab 10.1 Google I/O Edition"
 date: 2012-02-18 09:46
+layout: post
+alias: /ice-cream-sandwich-preview-on-galaxy-tab-101-google-io-edition.html
 ---
 There are a couple guides for installing CyanogenMod9 preview (Ice Cream Sandwich) on retail versions of the Samsung Galaxy Tab 10.1 but a couple quirks prevented me from readily installing it on my Google I/O limited edition from I/O 2011. I'll run down the details for Mac and Windows.
 

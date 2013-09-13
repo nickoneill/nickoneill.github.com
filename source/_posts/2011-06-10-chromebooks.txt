@@ -2,6 +2,8 @@
 published: true
 title: "these chromebooks"
 date: 2011-06-10 12:40
+layout: post
+alias: /these-chromebooks.html
 ---
 Let's get back to nerdiness. And by nerdiness I mean freshly unwrapped hardware reviews for some new technology. **Chromebooks**, my friend. I have been using a classy (not Apple classy, but classy) Samsung 5 Chromebook since earlier this week and I'm going to tell you about it.
 

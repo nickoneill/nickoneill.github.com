@@ -2,6 +2,9 @@
 published: true
 title: "Pictures from Curiosity Landing"
 date: 2012-08-06 09:14
+layout: post
+categories: science mars
+alias: /pictures-from-curiosity-landing.html
 ---
 While Curiosity was busy going through it's [seven minutes of terror](http://www.finestructure.com/2012/06/challenges-of-getting-to-mars/), the Mars Recon Orbiter was taking pictures overhead.
 

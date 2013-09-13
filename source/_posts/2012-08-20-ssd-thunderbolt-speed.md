@@ -2,6 +2,9 @@
 published: true
 title: "SSD + Thunderbolt = Speed"
 date: 2012-08-20 9:00
+layout: post
+categories: hardware ssd
+alias: /ssd--thunderbolt--speed.html
 ---
 I've been eyeballing external Thunderbolt enclosures ever since I started running my iMac startup disk off a separate SSD. It was sitting in an old USB 2.0 enclosure but not only did it take up a precious USB slot but because SSD read/write speeds can out perform USB 2.0 transfer speeds it also wasn't reaching its true potential, a turn of phrase I'm all too familiar with from high school.
 

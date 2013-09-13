@@ -2,6 +2,8 @@
 published: true
 title: "The 2012 Update for Dwarf Fortress"
 date: 2012-02-14 16:41
+layout: post
+alias: /the-2012-update-for-dwarf-fortress.html
 ---
 Insanity. This game always amazes me with its depth and complexity. The hardness of smelted ore is actually based on [real stress/strain physics](http://gaming.stackexchange.com/a/8014/1070):
 

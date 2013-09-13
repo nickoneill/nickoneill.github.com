@@ -2,6 +2,9 @@
 published: true
 title: "Lightning vs. the Bay Bridge"
 date: 2012-04-13 08:32
+layout: post
+categories: sanfrancisco
+alias: /lightning-vs-the-bay-bridge.html
 ---
 Here's a [pretty awesome photo](http://a.yfrog.com/img515/4024/5k4p.jpg) from last night's rare thunderstorm in San Francisco. It shows lightning simultaneously striking all four western span towers of the Bay Bridge.
 

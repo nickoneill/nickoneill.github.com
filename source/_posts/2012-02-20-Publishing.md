@@ -4,6 +4,7 @@ published: true
 title: "This is How I Blog"
 date: 2012-02-20 23:30
 categories: blogging golang
+alias: /this-is-how-i-blog.html
 ---
 
 ### This is out of date, I don't use this tool anymore. I want to build something similar on a more robust platform but for now I'm just back to Octopress ###

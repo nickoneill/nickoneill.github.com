@@ -2,6 +2,9 @@
 published: true
 title: "Industry City Distillery"
 date: 2012-06-06 11:42
+layout: post
+categories: booze ideals
+alias: /industry-city-distillery.html
 ---
 I love the philosophies behind Industry City Distillery, shown in [this very well produced video](http://vimeo.com/42991839).
 

@@ -2,6 +2,8 @@
 published: true
 title: "Why Do Some People Learn Faster?"
 date: 2012-02-23 19:52
+layout: post
+alias: /why-do-some-people-learn-faster.html
 ---
 An oldie but goodie about Failure-Learning loops.
 

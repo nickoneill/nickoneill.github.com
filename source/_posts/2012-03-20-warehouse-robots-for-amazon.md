@@ -2,6 +2,8 @@
 published: true
 title: "Warehouse Robots for Amazon"
 date: 2012-03-20 20:59
+layout: post
+alias: /warehouse-robots-for-amazon.html
 ---
 Amazon purchased a company called Kiva (not the microloans place) yesterday that makes warehouse robotics systems that look something like a southeast asian intersection on a good day.
 

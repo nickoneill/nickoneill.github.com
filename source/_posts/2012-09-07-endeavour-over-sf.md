@@ -2,6 +2,9 @@
 published: true
 title: "Endeavour Over San Francisco"
 date: 2012-09-07 10:32
+layout: post
+categories: science shuttle
+alias: /endeavour-over-san-francisco.html
 ---
 Yes, we'll be getting [our own Shuttle flyover](http://www.nasa.gov/home/hqnews/2012/sep/HQ_M12-173_Endeavour_Ferry_Flight.html)!
 

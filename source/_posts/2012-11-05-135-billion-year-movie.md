@@ -2,6 +2,9 @@
 published: true
 title: "13.5 Billion Year Movie"
 date: 2012-11-05 14:28
+layout: post
+categories: videos science
+alias: /135-billion-year-movie.html
 ---
 This [youtube video from NASA](http://www.youtube.com/watch?v=_Ssc1GsqHds) shows a galactic simulation for approximately 13.5 Billion years. While watching galaxies tear each other apart is fun and all, the fascinating part is that it is, after all, a simulation.
 

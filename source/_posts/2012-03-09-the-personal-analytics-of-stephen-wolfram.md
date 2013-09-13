@@ -2,6 +2,8 @@
 published: true
 title: "The Personal Analytics of Stephen Wolfram"
 date: 2012-03-09 01:40
+layout: post
+alias: /the-personal-analytics-of-stephen-wolfram.html
 ---
 The kind of data that Stephen Wolfram collects about himself is absolutely mind-boggling. Here he writes a post about data he&apos;s collected, most of it dating back to the early 90s.
 

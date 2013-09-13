@@ -2,6 +2,9 @@
 published: true
 title: "An Interesting Moment of Future Technology"
 date: 2013-02-22 12:05
+layout: post
+categories: tech
+alias: /an-interesting-moment-of-future-technology.html
 ---
 There's a common theme in scifi where humans have some personalized technology which only they can hear and interact with, transparent to those around them. I think we're near that point, I give it less than five years before something iPhone-like takes off in this space.
 

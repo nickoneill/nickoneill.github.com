@@ -2,6 +2,8 @@
 published: true
 title: "Start Developing iOS Apps Today"
 date: 2012-02-29 18:52
+layout: post
+alias: /start-developing-ios-apps-today.html
 ---
 Someone at Apple understands that developers drive a platform. Of course, it&apos;s not exceedingly easy to get started developing for the iPhone though it does become apparent that there&apos;s a ton of code from which to draw inspiration and answers once you have a basic grasp of the language and SDK components.
 

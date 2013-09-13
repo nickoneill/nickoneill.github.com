@@ -2,6 +2,8 @@
 published: true
 title: "What do all the controls in an airplane cockpit do?"
 date: 2012-03-13 22:32
+layout: post
+alias: /what-do-all-the-controls-in-an-airplane-cockpit-do.html
 ---
 A completely amazing answer about every single control in the cockpit of a 737. For all my dislike of Quora and its insular tech-centric postings, posts like this really make up for it.
 

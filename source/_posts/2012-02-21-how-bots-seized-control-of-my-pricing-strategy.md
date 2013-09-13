@@ -2,6 +2,8 @@
 published: true
 title: "How Bots Seized Control of My Pricing Strategy"
 date: 2012-02-21 23:19
+layout: post
+alias: /how-bots-seized-control-of-my-pricing-strategy.html
 ---
 An interesting tale of Amazon pricing and used books that may or may not exist.
 

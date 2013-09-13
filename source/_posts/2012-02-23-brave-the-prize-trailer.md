@@ -2,6 +2,8 @@
 published: true
 title: "Brave &quot;The Prize&quot; Trailer"
 date: 2012-02-23 19:48
+layout: post
+alias: /brave-the-prize-trailer.html
 ---
 Pixar continues to amaze. I love the whole arrow firing animation. The attention to detail is really why I love Pixar films so much, there&apos;s always something new to find.
 

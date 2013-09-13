@@ -2,6 +2,9 @@
 published: true
 title: "Annual Business Registration Scam"
 date: 2012-10-06 14:11
+layout: post
+categories: scam
+alias: /annual-business-registration-scam.html
 ---
 One of the downsides to officially registering with the state as a business is that your address is added to yet another public list and various types of spam increase, regardless of your business' purpose. Not a huge deal - this is what the recycling pile is for, right?
 

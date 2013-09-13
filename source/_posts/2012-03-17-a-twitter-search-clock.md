@@ -2,6 +2,8 @@
 published: true
 title: "A Twitter Search Clock"
 date: 2012-03-17 16:20
+layout: post
+alias: /a-twitter-search-clock.html
 ---
 Chirp Clock is a clever &quot;clock&quot; design that displays recent tweets containing the current time.
 

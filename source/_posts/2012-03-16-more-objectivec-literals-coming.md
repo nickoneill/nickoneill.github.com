@@ -2,6 +2,8 @@
 published: true
 title: "More Objective-C Literals Coming"
 date: 2012-03-16 16:34
+layout: post
+alias: /more-objective-c-literals-coming.html
 ---
 Hooray! It&apos;s inside baseball for anyone who doesn&apos;t use Objective-C on a regular basis but one of those nitpicky issues is finally being fixed in a new clang version: literals for NSNumber, NSArray and NSDictionary!
 

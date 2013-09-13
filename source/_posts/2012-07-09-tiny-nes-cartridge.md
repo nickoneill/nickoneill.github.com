@@ -2,6 +2,9 @@
 published: true
 title: "Tiny NES Cartridge Keychains"
 date: 2012-07-09 08:16
+layout: post
+categories: nes games
+alias: /tiny-nes-cartridge-keychain.html
 ---
 This is a serious labor of love. Ben Purdy puts together a [scale, keychainable NES cartridge](http://www.benpurdy.com/2012/07/quarter-scale-nes-cartridges/) for his band.
 

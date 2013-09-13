@@ -2,6 +2,9 @@
 published: true
 title: "White House Beer Recipes"
 date: 2012-09-04 13:30
+layout: post
+categories: booze
+alias: /white-house-beer-recipes.html
 ---
 I've been brewing beer at home since the spring so it was pretty cool to see the White House staff getting into brewing and then releasing their own [recipes for Honey Ale and Honey Porter](http://www.whitehouse.gov/blog/2012/09/01/ale-chief-white-house-beer-recipe).
 

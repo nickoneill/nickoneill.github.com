@@ -1,8 +1,10 @@
 ---
-layout: post
 published: true
 title: "App Configuration with URL Schemes"
 date: 2013-03-15 10:43
+layout: post
+categories: ios code
+alias: /app-configuration-with-url-schemes.html
 ---
 I just read about a neat feature for [Letterpress 1.4 where savvy users can test Spanish games](http://www.atebits.com/letterpress/experimental/) by loading "letterpress:experimental" in Safari and I wanted to share an alternate example that I build for a client a while back.
 

@@ -2,6 +2,9 @@
 published: true
 title: "Raptor Suit Creation"
 date: 2012-10-21 08:08
+layout: post
+categories: videos dinosaurs
+alias: /raptor-suit-creation.html
 ---
 It's one thing to know that there are actors inside some of the raptors in Jurassic Park. It's quite another thing to see the process of creating the suits and characters themselves.
 

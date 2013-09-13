@@ -2,6 +2,9 @@
 published: true
 title: "Build a Tiny Printer"
 date: 2012-04-12 13:19
+layout: post
+categories: hardware
+alias: /build-a-tiny-printer.html
 ---
 There's something about this [tiny, open source printer](http://gofreerange.com/hello-printer) that makes me think about non-digital communication in a positive way, which is a somewhat rare occurrence. Something about the way it's designed and how nicely the print quality is… and the simplicity of it all.
 

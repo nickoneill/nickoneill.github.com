@@ -2,6 +2,8 @@
 published: true
 title: "Awesome Quadcopter Views of SF"
 date: 2012-03-02 04:17
+layout: post
+alias: /awesome-quadcopter-views-of-sf.html
 ---
 Quadcopter videos are awesome!
 

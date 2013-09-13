@@ -2,6 +2,9 @@
 published: true
 title: "The Control System Transition"
 date: 2012-04-08 09:15
+layout: post
+categories: airplanes hci
+alias: /the-control-system-transition.html
 ---
 Here's a fascinating look at some unique problems our society is experiencing during the transition between primarily Human to primarily Computer-based control of critical systems.   
 

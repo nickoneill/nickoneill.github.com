@@ -2,6 +2,9 @@
 published: true
 title: "Slow Motion (and Physics)"
 date: 2012-04-18 14:32
+layout: post
+categories: videos physics
+alias: /slow-motion-and-physics.html
 ---
 Possibly my favorite part of this [montage of dumb things filmed with a high speed camera](http://kottke.org/12/04/slow-motion-stupidity) is the physics.
 

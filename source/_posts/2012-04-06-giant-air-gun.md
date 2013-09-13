@@ -2,6 +2,9 @@
 published: true
 title: "Giant Air Gun Shoots… Stuff"
 date: 2012-04-06 16:03
+layout: post
+categories: making video
+alias: /giant-air-gun-shoots-stuff.html
 ---
 I'm not entirely sure what this [giant air gun](http://blog.makezine.com/2012/04/06/vera-super-spud-gun/) is used for ("research", clearly) but the people who built it made an excellent video showing off its capabilities with *slow motion*.
 

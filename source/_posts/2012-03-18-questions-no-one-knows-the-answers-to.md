@@ -2,6 +2,8 @@
 published: true
 title: "Questions No One Knows the Answers to"
 date: 2012-03-18 17:47
+layout: post
+alias: /questions-no-one-knows-the-answers-to.html
 ---
 Here&apos;s a video of Chris Anderson&apos;s (yes, the WIRED editor) TED Ed talk on questions that no one knows the answer to. The talk consistently touches on curiosity which is conveniently one of my favorite topics.
 

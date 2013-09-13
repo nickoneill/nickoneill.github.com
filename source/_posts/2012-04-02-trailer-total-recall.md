@@ -2,6 +2,9 @@
 published: true
 title: "Trailer: Total Recall"
 date: 2012-04-02 20:38
+layout: post
+categories: trailers
+alias: /trailer-total-recall.html
 ---
 Ah, more dystopian future movies. Not quite a remake of 1990&apos;s *Total Recall* and possibly more closely based on Dick&apos;s *We Can Remember It for You Wholesale*.
 

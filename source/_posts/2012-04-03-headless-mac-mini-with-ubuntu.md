@@ -2,6 +2,9 @@
 published: true
 title: "Headless Mac Mini with Ubuntu"
 date: 2012-04-03 14:48
+layout: post
+categories: techniche hardware
+alias: /headless-mac-mini-with-ubuntu.html
 ---
 
 It's time for another episode ([yet again](http://blog.nickoneill.name/ice-cream-sandwich-preview-on-galaxy-tab-101-google-io-edition.html)) of *A Technical Guide to a Niche Topic*! This episode is sponsored by my insistence that personal research not be lost to the void.

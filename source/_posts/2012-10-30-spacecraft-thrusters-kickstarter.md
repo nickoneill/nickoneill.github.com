@@ -2,6 +2,9 @@
 published: true
 title: "Kickstarting Spacecraft Thrusters"
 date: 2012-10-30 17:51
+layout: post
+categories: crowdfunding science
+alias: /kickstarting-spacecraft-thrusters.html
 ---
 Wanna back something novel on Kickstarter? [HyperV](http://www.hyperv.com/) is attempting to raise funds to develop [plasma jet thrusters](http://www.kickstarter.com/projects/2027072188/plasma-jet-electric-thrusters-for-spacecraft) that could be used in spacecraft outside of the atmosphere.
 

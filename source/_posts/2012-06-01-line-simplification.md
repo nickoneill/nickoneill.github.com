@@ -2,6 +2,9 @@
 published: true
 title: "Line Simplification"
 date: 2012-06-01 17:50
+layout: post
+categories: research
+alias: /line-simplification.html
 ---
 [This post](http://bost.ocks.org/mike/simplify/) about line simplification may seem esoteric but it's work like this, displayed and understood simply, that pushes technology forward. It's not new research but it's applied in a way that fits exactly the use case that a niche needs.
 

@@ -2,6 +2,8 @@
 published: true
 title: "Remix Some Interactive Fiction"
 date: 2012-02-15 19:29
+layout: post
+alias: /remix-some-interactive-fiction.html
 ---
 I like it when people take old things and move them into the future in such a way that it compliments both the classic feel and the new technology. Such is the case with Playfic.
 

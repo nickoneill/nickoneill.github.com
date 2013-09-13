@@ -2,6 +2,9 @@
 published: true
 title: "The IntelliMouse"
 date: 2012-07-18 08:41
+layout: post
+categories: hardware microsoft
+alias: /the-intellimouse.html
 ---
 Ah, [the IntelliMouse]( http://www.theverge.com/2012/7/18/3155619/microsoft-intellimouse-status-symbols )! It was simply the best mouse at the time, and I used one for a long time despite those being some of my prime Microsoft-hating years.
 

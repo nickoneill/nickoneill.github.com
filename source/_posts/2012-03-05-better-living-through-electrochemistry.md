@@ -2,6 +2,8 @@
 published: true
 title: "Better Living Through Electrochemistry"
 date: 2012-03-05 20:27
+layout: post
+alias: /better-living-through-electrochemistry.html
 ---
 The author of [this new scientist article](http://www.newscientist.com/article/mg21328501.600-zap-your-brain-into-the-zone-fast-track-to-pure-focus.html) on using transcranial direct current stimulation to boost focus when learning decided to write a bit more on her experiences when testing the equipment:
 

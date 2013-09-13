@@ -2,6 +2,9 @@
 published: true
 title: "How Does Pain Work?"
 date: 2012-06-27 06:17
+layout: post
+categories: video
+alias: /how-does-pain-work.html
 ---
 This [animated TED talk]( http://www.youtube.com/watch?v=9mcuIc5O-DE&feature=player_embedded) is actually about how pain *relievers* work but it explains the basis of pain as well, including some curious details that I didn't know.
 

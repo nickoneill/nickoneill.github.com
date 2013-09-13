@@ -1,7 +1,9 @@
 ---
+layout: post
 published: true
 title: "sf vs nyc"
 date: 2011-01-11 11:45
+alias: /sf-vs-nyc.html
 ---
 Listen up, nerds. Do you hear that? It's the whooshing sound of people moving from San Francisco to New York City. Seriously, NYC is taking talent from the Bay Area and they're doing it right under our noses. Anil Dash may not have been the start of this trend (I would say he was on a brief two or three year visit to SF), but he is surely one of the first to acknowledge it and take it seriously.
 

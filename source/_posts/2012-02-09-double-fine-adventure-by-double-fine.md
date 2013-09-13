@@ -2,6 +2,8 @@
 published: true
 title: "Double Fine Adventure by Double Fine"
 date: 2012-02-09 04:57
+layout: post
+alias: /double-fine-adventure-by-double-fine.html
 ---
 It&apos;s an adventure thing. By Double Fine. Do it. Now.
 

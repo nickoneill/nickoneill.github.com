@@ -2,6 +2,9 @@
 published: true
 title: "Ice Maker Repair for a GE Profile Refrigerator"
 date: 2013-03-07 15:06
+layout: post
+categories: repair hardware
+alias: /ice-maker-repair-for-a-ge-profile-refrigerator.html
 ---
 If you've got one of these GE Profile refrigerators from a few years ago (this one was installed 8 years ago, I think, model PSS26MSRD) and the ice maker isn't making ice, there are a few simple steps you can go through to troubleshoot.
 

@@ -2,6 +2,9 @@
 published: true
 title: "Buy Design Is a Job"
 date: 2012-04-10 16:09
+layout: post
+categories: books
+alias: /buy-design-is-a-job.html
 ---
 I haven't read *[Design Is a Job](http://www.abookapart.com/products/design-is-a-job)* yet but you should buy it if you have clients, even if you don't specifically do design.
 

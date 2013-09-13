@@ -2,6 +2,9 @@
 published: true
 title: "What Exactly is Obamacare?"
 date: 2012-07-02 08:34
+layout: post
+categories: reddit healthcare
+alias: /what-exactly-is-obamacare.html
 ---
 Two of my favorite subreddits are Ask Science and Explain Like I'm Five because of the frequent awesome answers from people who actually know what they're talking about (on the internet! I know!).  
 

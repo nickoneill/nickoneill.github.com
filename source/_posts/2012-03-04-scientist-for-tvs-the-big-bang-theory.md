@@ -2,6 +2,8 @@
 published: true
 title: "Scientist for TVs The Big Bang Theory"
 date: 2012-03-04 00:44
+layout: post
+alias: /scientist-for-tvs-the-big-bang-theory.html
 ---
 There was a lot of talk when TBBT first started playing about the accuracy of the science on the show, whiteboards included. Now you can read an interview with the Science Advisor to the show, David Saltzberg.
 
