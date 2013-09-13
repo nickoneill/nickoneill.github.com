@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: videos | authenticgeek]]></title>
+  <link href="http://nickoneill.github.io/categories/videos/atom.xml" rel="self"/>
+  <link href="http://nickoneill.github.io/"/>
+  <updated>2013-09-13T13:09:19-07:00</updated>
+  <id>http://nickoneill.github.io/</id>
+  <author>
+    <name><![CDATA[Nick O'Neill]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[13.5 Billion Year Movie]]></title>
+    <link href="http://nickoneill.github.io/135-billion-year-movie/"/>
+    <updated>2012-11-05T14:28:00-08:00</updated>
+    <id>http://nickoneill.github.io/135-billion-year-movie</id>
+    <content type="html"><![CDATA[<p>This <a href="http://www.youtube.com/watch?v=_Ssc1GsqHds">youtube video from NASA</a> shows a galactic simulation for approximately 13.5 Billion years. While watching galaxies tear each other apart is fun and all, the fascinating part is that it is, after all, a simulation.</p>
+
+<p>Take some physical rules and enough processing power and you can simulate 13.5 Billion years of dust coming together which in turn attracts more dust and creates stars which attracts more dust which creates young stars which… you get the idea.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Raptor Suit Creation]]></title>
+    <link href="http://nickoneill.github.io/raptor-suits/"/>
+    <updated>2012-10-21T08:08:00-07:00</updated>
+    <id>http://nickoneill.github.io/raptor-suits</id>
+    <content type="html"><![CDATA[<p>It&rsquo;s one thing to know that there are actors inside some of the raptors in Jurassic Park. It&rsquo;s quite another thing to see the process of creating the suits and characters themselves.</p>
+
+<p><a href="http://www.youtube.com/watch?v=jAzQr3Ml0UI#!">This video</a> and <a href="https://www.stanwinstonschool.com/blog/jurassic-park-evolution-of-a-raptor-suit">post</a> from Stan Winston school of character arts (who knew!) show the whole behind-the-scenes process for creating the raptor. It&rsquo;s incredibly fascinating to watch the movements of the actor go from unfamiliar and jerky to something entirely convincing near the end. He can even play tug of war while being stuffed into the bottom of that suit!</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Personal Hovercrafts NOW]]></title>
+    <link href="http://nickoneill.github.io/personal-hovercraft/"/>
+    <updated>2012-08-24T10:33:00-07:00</updated>
+    <id>http://nickoneill.github.io/personal-hovercraft</id>
+    <content type="html"><![CDATA[<p>I don&rsquo;t think I know anyone who wouldn&rsquo;t want to drive to work on their <a href="http://boingboing.net/2012/08/24/testing-out-a-star-wars-style.html">personal hovercraft</a>. It seems completely possible and this same group has released a number of videos showing their progress making the thing, so probably not a hoax.</p>
+
+<p>It seems like this is one area where Hollywood has really understood how these things will behave according to the laws of physics. You&rsquo;ll be surprised at the intuitiveness of how the hoverbike behaves when turning and stopping.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Slow Motion (and Physics)]]></title>
+    <link href="http://nickoneill.github.io/slow-motion-and-physics/"/>
+    <updated>2012-04-18T14:32:00-07:00</updated>
+    <id>http://nickoneill.github.io/slow-motion-and-physics</id>
+    <content type="html"><![CDATA[<p>Possibly my favorite part of this <a href="http://kottke.org/12/04/slow-motion-stupidity">montage of dumb things filmed with a high speed camera</a> is the physics.</p>
+
+<p>At 2500fps it gets really obvious that gravity and air resistance play a major role in slowing down fast moving things. Even small pieces of watermelon that are ejected by fireworks get noticeably slower right after the explosion. I won&rsquo;t bother with the kinematics, I&rsquo;m sure you get all the video analysis you need from <a href="http://www.wired.com/wiredscience/dotphysics/">Dot Physics</a>.</p>
+
+<p>I noticed two really fast things in this video, one of which is obvious and the other not so much. Can you guess what they are?</p>
+]]></content>
+  </entry>
+  
+</feed>

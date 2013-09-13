@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: sanfrancisco | authenticgeek]]></title>
+  <link href="http://nickoneill.github.io/categories/sanfrancisco/atom.xml" rel="self"/>
+  <link href="http://nickoneill.github.io/"/>
+  <updated>2013-09-13T13:09:19-07:00</updated>
+  <id>http://nickoneill.github.io/</id>
+  <author>
+    <name><![CDATA[Nick O'Neill]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Lightning vs. the Bay Bridge]]></title>
+    <link href="http://nickoneill.github.io/lightning-vs-bay-bridge/"/>
+    <updated>2012-04-13T08:32:00-07:00</updated>
+    <id>http://nickoneill.github.io/lightning-vs-bay-bridge</id>
+    <content type="html"><![CDATA[<p>Here&rsquo;s a <a href="http://a.yfrog.com/img515/4024/5k4p.jpg">pretty awesome photo</a> from last night&rsquo;s rare thunderstorm in San Francisco. It shows lightning simultaneously striking all four western span towers of the Bay Bridge.</p>
+
+<p>Mother Nature: more like this, plz!</p>
+
+<p><strong>Update:</strong> <a href="http://www.flickr.com/photos/philmcgrew/6926707884/">Another shot</a> of the same thing!</p>
+]]></content>
+  </entry>
+  
+</feed>

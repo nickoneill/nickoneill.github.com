@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: making | authenticgeek]]></title>
+  <link href="http://nickoneill.github.io/categories/making/atom.xml" rel="self"/>
+  <link href="http://nickoneill.github.io/"/>
+  <updated>2013-09-13T13:09:19-07:00</updated>
+  <id>http://nickoneill.github.io/</id>
+  <author>
+    <name><![CDATA[Nick O'Neill]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Evil Mad Science 24/7]]></title>
+    <link href="http://nickoneill.github.io/evil-mad-science-247/"/>
+    <updated>2012-05-01T12:36:00-07:00</updated>
+    <id>http://nickoneill.github.io/evil-mad-science-247</id>
+    <content type="html"><![CDATA[<p>I&rsquo;ve been a fan of the Evil Mad Scientists since I first saw Egg Bot back at the first Maker Faire. Windell and Lenore essentially invented the type of business they run now (along with Adafruit, Sparkfun and others) and the two of them are finally doing <a href="http://www.evilmadscientist.com/article.php/moreevilmad">Evil Mad Science full time</a>.</p>
+
+<p>I love it when smart people can grow a totally different business into something that can both support the community and the people behind it. Congrats to them!</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Giant Air Gun Shoots… Stuff]]></title>
+    <link href="http://nickoneill.github.io/giant-air-gun/"/>
+    <updated>2012-04-06T16:03:00-07:00</updated>
+    <id>http://nickoneill.github.io/giant-air-gun</id>
+    <content type="html"><![CDATA[<p>I&rsquo;m not entirely sure what this <a href="http://blog.makezine.com/2012/04/06/vera-super-spud-gun/">giant air gun</a> is used for (&ldquo;research&rdquo;, clearly) but the people who built it made an excellent video showing off its capabilities with <em>slow motion</em>.</p>
+
+<p>I&rsquo;m sure there&rsquo;s a good reason to launch things at high speed with &ldquo;low&rdquo; acceleration (&lt; 600g) but the author of the video is clearly playing it casual. From the description:</p>
+
+<blockquote><p>In the world of ordnance system development the need for system and subsystem testing under dynamic conditions is obvious.</p></blockquote>
+
+<p><em>Obviously</em>.</p>
+]]></content>
+  </entry>
+  
+</feed>

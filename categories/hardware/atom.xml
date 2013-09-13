@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: hardware | authenticgeek]]></title>
+  <link href="http://nickoneill.github.io/categories/hardware/atom.xml" rel="self"/>
+  <link href="http://nickoneill.github.io/"/>
+  <updated>2013-09-13T13:09:19-07:00</updated>
+  <id>http://nickoneill.github.io/</id>
+  <author>
+    <name><![CDATA[Nick O'Neill]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Ice Maker Repair for a GE Profile Refrigerator]]></title>
+    <link href="http://nickoneill.github.io/ice-maker-repair/"/>
+    <updated>2013-03-07T15:06:00-08:00</updated>
+    <id>http://nickoneill.github.io/ice-maker-repair</id>
+    <content type="html"><![CDATA[<p>If you&rsquo;ve got one of these GE Profile refrigerators from a few years ago (this one was installed 8 years ago, I think, model PSS26MSRD) and the ice maker isn&rsquo;t making ice, there are a few simple steps you can go through to troubleshoot.</p>
+
+<p>First, pull out the ice bin and eyeball the ice maker device behind it. See if the switch is turned on and the green light is lit. If it&rsquo;s blinking, that indicates &ldquo;ice stuck in tray&rdquo; and you&rsquo;ll have to take it out and thaw the whole contraption out. It&rsquo;s not that hard: unplug the giant molex connector on the right side and use a small hex wrench to unscrew the obvious screw holding it to the left side of the freezer wall. Then you can firmly pull the device up and out until it pops free from the notches where it sits in the back.</p>
+
+<p>If there&rsquo;s ice stuck in the device, or if it&rsquo;s just not filling properly, let it sit out for a few hours until it warms up. Depending on the humidity conditions in your freezer, something could have frosted over.</p>
+
+<p>Check the swing arm on the bottom of the device. Despite the appearance as a bit of useless plastic, it has a magnet attached to an arm inside the main ice maker housing which allows the maker to tell if the arm is extended or pushed part ways in. Ice being make and pushed into the bucket depresses the swing arm when it falls and the arm returns to the extended position via a small spring mounted between it and the unit unless the ice maker is full. This spring has a habit of popping out of a tiny hole and not providing the force needed for the arm to return to &ldquo;make more ice&rdquo; position. Check that it pushes back at you if you depress it.</p>
+
+<p>Hopefully one of these items you&rsquo;ve checked wasn&rsquo;t working because they&rsquo;re all easy fixes. Reassemble and add it back to the freezer, making sure that the water dispenser in the back of the freezer leads INTO the ice maker, not BELOW it. This would cause a mess. Make sure the thing is plugged in again, and the green light is back on.</p>
+
+<p>If you&rsquo;re impatient about waiting for another ice cycle to start, depress the swing arm three times in a row. This should tell the ice maker to immediately dispense water and start a new cycle.</p>
+
+<p>This information was only found in bits and pieces scattered around the corners of the internet so I join them together here for the betterment of refrigerator-using people everywhere. Go forth and make ice.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Post-Fab Construction]]></title>
+    <link href="http://nickoneill.github.io/postfab/"/>
+    <updated>2013-02-16T10:00:00-08:00</updated>
+    <id>http://nickoneill.github.io/postfab</id>
+    <content type="html"><![CDATA[<p>Here&rsquo;s what I don&rsquo;t understand about modern house construction; despite modern computation and robotics, we still rely on humans to measure and cut things piece-by-piece in order to build a house.</p>
+
+<p>Prefab has negative connotations for being used to create cookie cutter houses that have no individuality but it&rsquo;s a self-imposed  limitation, especially considering that planning is already computerized. I think we can do better.</p>
+
+<p>Given a few laser measurements of a land plot, we could easily use these as a baseline for architect plans which are already computerized in most cases. Even manual transfer of this plan into discrete wall and floor segments would be acceptable, but I think computers could do it automatically too.</p>
+
+<p>Send it off to the robotic construction warehouse. Two-by-fours are tested and cut to perfect sizes with millimeter precision. Holes are drilled, electrical and plumbing equipment is placed and everything is sealed up with sheetrock, ready to be set in place at the construction site with LEGO-like instruction manuals.</p>
+
+<p>Sure, human intervention is still required in the building process. There are benefits to pouring concrete on-site for foundations and all the fabricated parts still have to be secured together and painted over.</p>
+
+<p>I suspect this would shorten the time spent on a new house significantly. What percent of the building process is spent framing a house? From the outside it looks to be a large chunk &ndash; once a building is framed it seems like a takes much less time to finish it. And much of the rest of the process (painting, carpeting) doesn&rsquo;t benefit from a significant increase in precision fabrication.</p>
+
+<p>Given the evidence of many house remodeling shows on HGTV (strong evidence if I&rsquo;ve ever seen it), I suspect quality would improve as well. Any pipes or wire that was fabricated at a warehouse could be well-tested beforehand, reducing the chance of electrical fires in walls or leaky pipes due to improper soldering.</p>
+
+<p>We&rsquo;ve definitely taken small steps in this direction, you buy cabinets that are pre-made for the kitchen and windows are packaged for easy installation. But, as always, we fear the steps that remove humans from parts of the equation &ndash; particularly now that the term &ldquo;job killer&rdquo; is such a politically loaded term &ndash; even when they&rsquo;re added in other locations.</p>
+
+<p>Like most new things though, jobs wouldn&rsquo;t disappear but rather transition. Humans are needed to program, maintain and inspect the work in the fabrication warehouse. Construction speed would benefit greatly from having these warehouses close by, so many small-to-medium warehouses all over the country would be more beneficial than large factories that then have to ship parts thousands of miles.</p>
+
+<p>I give it 20 years until we see something like this take form. Not due to technical limitations, we could do all of this right now, but mostly human factors.</p>
+
+<p>This is what I get for having so much construction in Noe Valley; everywhere I go I see humans cutting and nailing wood together and I have to think &ldquo;can&rsquo;t we improve this?&rdquo; In my opinion, we can.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Return of Blog, Holidays Edition]]></title>
+    <link href="http://nickoneill.github.io/return-of-blog/"/>
+    <updated>2012-12-22T15:13:00-08:00</updated>
+    <id>http://nickoneill.github.io/return-of-blog</id>
+    <content type="html"><![CDATA[<p>Good day, blog friends!</p>
+
+<p>Not counting <a href="http://blog.nickoneill.name/muniverse-2.html">Muniverse</a> (and I don&rsquo;t, it was waiting to be published for a while), it has been quite a time since I last wrote a thing. Here&rsquo;s some stuff that doesn&rsquo;t warrant its own post:</p>
+
+<p>Brad and I finally finished a remote garage door opener based on an Arduino and WiFly. See the incredible frustration documented on G+ <a href="https://plus.google.com/115863474911002159675/posts/2PSkLbtUJRB">here</a> and <a href="https://plus.google.com/115863474911002159675/posts/WCen2ZJE9vz">here</a>. A few more tweaks and the whole thing will be on github.</p>
+
+<p>I&rsquo;m doing some more frequent science tweeting with <a href="https://twitter.com/finestructure">@finestructure</a>. I never realized I felt a little trapped in my regular twitter account, I&rsquo;m not an oversharer and I don&rsquo;t like to innundate my friends with dumb stuff. Strangers, on the other hand, love dumb stuff. Seriously though, it&rsquo;s full of excellent science and snark.</p>
+
+<p>I want to get back to blogging more on the proper Fine Structure blog but I&rsquo;m frustrated with my publishing setup there. I want to adapt <a href="https://github.com/nickoneill/go-publisher">my dropbox static publisher</a> for this purpose but it requires some thinking, generalizing and coding. Maybe during vacation, or after I write some content.</p>
+
+<p>Work continues to be enjoyable. There are many ways to run a small contracting business and my current method involves doing enough directly billable work to be comfortable and then investing the rest of my time in learning new things &ndash; not always directly related to work. I don&rsquo;t think I could ever swing a deal like that at a standard salaried job so I think I&rsquo;ll be doing this for a while.</p>
+
+<p>I&rsquo;m spending a bit of time playing <a href="http://www.bay12games.com/dwarves/">Dwarf Fortress</a> (as little time as someone can spend and still improve in the Most Complex Game Ever). I tend to leave it alone for a few weeks then see something that inspires me to start a new fort, play that for a few days and get totally destroyed by a seige of undead. Such is life in the DF. I would very much like to try a Let&rsquo;s Play video for DF so we&rsquo;ll see where that idea goes in the next few weeks.</p>
+
+<p>I started writing about my current reading list here but it ran far too long, that will have to come at a later date. Welcome back, blog!</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Personal Hovercrafts NOW]]></title>
+    <link href="http://nickoneill.github.io/personal-hovercraft/"/>
+    <updated>2012-08-24T10:33:00-07:00</updated>
+    <id>http://nickoneill.github.io/personal-hovercraft</id>
+    <content type="html"><![CDATA[<p>I don&rsquo;t think I know anyone who wouldn&rsquo;t want to drive to work on their <a href="http://boingboing.net/2012/08/24/testing-out-a-star-wars-style.html">personal hovercraft</a>. It seems completely possible and this same group has released a number of videos showing their progress making the thing, so probably not a hoax.</p>
+
+<p>It seems like this is one area where Hollywood has really understood how these things will behave according to the laws of physics. You&rsquo;ll be surprised at the intuitiveness of how the hoverbike behaves when turning and stopping.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[SSD + Thunderbolt = Speed]]></title>
+    <link href="http://nickoneill.github.io/ssd-thunderbolt-speed/"/>
+    <updated>2012-08-20T09:00:00-07:00</updated>
+    <id>http://nickoneill.github.io/ssd-thunderbolt-speed</id>
+    <content type="html"><![CDATA[<p>I&rsquo;ve been eyeballing external Thunderbolt enclosures ever since I started running my iMac startup disk off a separate SSD. It was sitting in an old USB 2.0 enclosure but not only did it take up a precious USB slot but because SSD read/write speeds can out perform USB 2.0 transfer speeds it also wasn&rsquo;t reaching its true potential, a turn of phrase I&rsquo;m all too familiar with from high school.</p>
+
+<p>I had opened up my mid-2011 iMac a while back to see how hard it was to implant the SSD into space that I knew was reserved for such a thing. Perhaps as a warning of things to come, the guts of this computer are an impenetrable fortress &ndash; I got as far as having to take the entire logic board out before I bailed.</p>
+
+<p>I&rsquo;m usually pretty comfortable taking stuff apart but the iMac felt so delicately put together with every wire in its proper place that I decided it was not worth the cost of breaking something. A fear perhaps perpetuated by my experience replacing my home button on my iPhone (so many tiny screws!) in which I didn&rsquo;t properly thread a ribbon cable and ended up tearing the thing in two and having to replace the screen entirely. It was frustrating but cheaper to fix than a similar potential problem in the iMac.</p>
+
+<p>That&rsquo;s how I got stuck with the USB enclosure which, for most purposes, has still been a great improvement over spinning disks. Even if I&rsquo;m maxing out the USB transfer speed, I was getting much better performance than I would on a standard disk.</p>
+
+<p>But that&rsquo;s not good enough for nerds. Not. At. All.</p>
+
+<p>My options for SSD enclosures were pretty limited until recently. Everything from LaCie looks nice but is pretty expensive and they insist on bundling spinning disks with the damn enclosure. Elgato has one that ships with an SSD but no empty option and I&rsquo;ve already had an off-brand SSD fail on me so no thanks, I&rsquo;ll bring my own.</p>
+
+<p>Enter Buffalo Technology. They make routers and hard drives and various internal components… your standard modern computer component manufacturer. And their <a href="http://www.amazon.com/gp/product/B008D4X9VC/ref=as_li_ss_tl?ie=UTF8&amp;camp=1789&amp;creative=390957&amp;creativeASIN=B008D4X9VC&amp;linkCode=as2&amp;tag=finestru-20">MiniStation Thunderbolt drive</a> (kickback link) is inexpensive enough to warrant taking apart, or so I thought. Also Amazon has the terrible habit of delivering most of my prime items next day, which is probably why I made the impulse purchase in the first place.</p>
+
+<p>In short, this enclosure is not designed to be taken apart, by anyone, ever. Why would you ship an enclosure with two incredibly fast communication channels and then toss some slow spinning disk in it and top the whole thing off with super strong adhesive, plenty of screws and enough clips to secure the thing during liftoff to Mars? My guess is that they just don&rsquo;t know how many people are looking for something external to put their SSD inside. Or its a hardware test run for more dual thunderbolt/usb3 components down the line.</p>
+
+<p>Do I have a working thunderbolt enclosure with an SSD now? Yes, it&rsquo;s awesome. Did I struggle to extricate the guts out of it in the first place? Absolutely. I do not recommend it for those uncomfortable with a lot of prying at new hardware. I put a few scratches on the case.</p>
+
+<p>Verdict: purchase only if you are desperate, or if your inner nerd is nagging at you. It came with a thunderbolt cable, at least.</p>
+]]></content>
+  </entry>
+  
+</feed>

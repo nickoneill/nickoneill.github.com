@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: reddit | authenticgeek]]></title>
+  <link href="http://nickoneill.github.io/categories/reddit/atom.xml" rel="self"/>
+  <link href="http://nickoneill.github.io/"/>
+  <updated>2013-09-13T13:09:19-07:00</updated>
+  <id>http://nickoneill.github.io/</id>
+  <author>
+    <name><![CDATA[Nick O'Neill]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[What Exactly is Obamacare?]]></title>
+    <link href="http://nickoneill.github.io/what-is-obamacare/"/>
+    <updated>2012-07-02T08:34:00-07:00</updated>
+    <id>http://nickoneill.github.io/what-is-obamacare</id>
+    <content type="html"><![CDATA[<p>Two of my favorite subreddits are Ask Science and Explain Like I&rsquo;m Five because of the frequent awesome answers from people who actually know what they&rsquo;re talking about (on the internet! I know!).</p>
+
+<p>If you&rsquo;ve been hearing more hubbub about Obamacare recently but don&rsquo;t really know how the changes to insurance will effect you, <a href="http://www.reddit.com/tb/vbkfm">this is a great summary</a> from someone answering a question on Explain Like I&rsquo;m 5. It&rsquo;s definitely biased towards the legislation being a positive change but it also doesn&rsquo;t hide the potentially negative points. Make your own opinion!</p>
+]]></content>
+  </entry>
+  
+</feed>

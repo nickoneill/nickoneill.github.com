@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: video | authenticgeek]]></title>
+  <link href="http://nickoneill.github.io/categories/video/atom.xml" rel="self"/>
+  <link href="http://nickoneill.github.io/"/>
+  <updated>2013-09-13T13:09:19-07:00</updated>
+  <id>http://nickoneill.github.io/</id>
+  <author>
+    <name><![CDATA[Nick O'Neill]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[How Does Pain Work?]]></title>
+    <link href="http://nickoneill.github.io/how-does-pain-work/"/>
+    <updated>2012-06-27T06:17:00-07:00</updated>
+    <id>http://nickoneill.github.io/how-does-pain-work</id>
+    <content type="html"><![CDATA[<p>This <a href="http://www.youtube.com/watch?v=9mcuIc5O-DE&amp;feature=player_embedded">animated TED talk</a> is actually about how pain <em>relievers</em> work but it explains the basis of pain as well, including some curious details that I didn&rsquo;t know.</p>
+
+<p>George Zaidan (creator of the lesson, not the animator) finds a way to explain some fairly complicated biology without resorting to useless over simplications (it works by &ldquo;blocking pain&rdquo;!). I&rsquo;ll have to flip through more educational videos on <a href="http://ed.ted.com/">TED-ed</a>.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Technical SIGGRAPH Paper Preview]]></title>
+    <link href="http://nickoneill.github.io/siggraph-technical-preview-2012/"/>
+    <updated>2012-05-21T14:33:00-07:00</updated>
+    <id>http://nickoneill.github.io/siggraph-technical-preview-2012</id>
+    <content type="html"><![CDATA[<p>SIGGRAPH always delivers some high quality futurism, albeit in a very preliminary form. If that gets your brain going though you&rsquo;ll want to check out the <a href="http://www.youtube.com/watch?feature=player_embedded&amp;v=cKrng7ztpog">trailer for technical papers on youtube</a>.</p>
+
+<p>Nearly all of these papers have multiple interesting applications in games, virtual worlds, scientific computing and computing in general. It&rsquo;s like peering into the future to see what we&rsquo;ll be able to create &ndash; quite inspiring.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Giant Air Gun Shoots… Stuff]]></title>
+    <link href="http://nickoneill.github.io/giant-air-gun/"/>
+    <updated>2012-04-06T16:03:00-07:00</updated>
+    <id>http://nickoneill.github.io/giant-air-gun</id>
+    <content type="html"><![CDATA[<p>I&rsquo;m not entirely sure what this <a href="http://blog.makezine.com/2012/04/06/vera-super-spud-gun/">giant air gun</a> is used for (&ldquo;research&rdquo;, clearly) but the people who built it made an excellent video showing off its capabilities with <em>slow motion</em>.</p>
+
+<p>I&rsquo;m sure there&rsquo;s a good reason to launch things at high speed with &ldquo;low&rdquo; acceleration (&lt; 600g) but the author of the video is clearly playing it casual. From the description:</p>
+
+<blockquote><p>In the world of ordnance system development the need for system and subsystem testing under dynamic conditions is obvious.</p></blockquote>
+
+<p><em>Obviously</em>.</p>
+]]></content>
+  </entry>
+  
+</feed>

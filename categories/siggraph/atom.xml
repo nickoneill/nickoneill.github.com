@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: siggraph | authenticgeek]]></title>
+  <link href="http://nickoneill.github.io/categories/siggraph/atom.xml" rel="self"/>
+  <link href="http://nickoneill.github.io/"/>
+  <updated>2013-09-13T13:09:19-07:00</updated>
+  <id>http://nickoneill.github.io/</id>
+  <author>
+    <name><![CDATA[Nick O'Neill]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Technical SIGGRAPH Paper Preview]]></title>
+    <link href="http://nickoneill.github.io/siggraph-technical-preview-2012/"/>
+    <updated>2012-05-21T14:33:00-07:00</updated>
+    <id>http://nickoneill.github.io/siggraph-technical-preview-2012</id>
+    <content type="html"><![CDATA[<p>SIGGRAPH always delivers some high quality futurism, albeit in a very preliminary form. If that gets your brain going though you&rsquo;ll want to check out the <a href="http://www.youtube.com/watch?feature=player_embedded&amp;v=cKrng7ztpog">trailer for technical papers on youtube</a>.</p>
+
+<p>Nearly all of these papers have multiple interesting applications in games, virtual worlds, scientific computing and computing in general. It&rsquo;s like peering into the future to see what we&rsquo;ll be able to create &ndash; quite inspiring.</p>
+]]></content>
+  </entry>
+  
+</feed>

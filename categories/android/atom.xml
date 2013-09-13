@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: android | authenticgeek]]></title>
+  <link href="http://nickoneill.github.io/categories/android/atom.xml" rel="self"/>
+  <link href="http://nickoneill.github.io/"/>
+  <updated>2013-09-13T13:09:19-07:00</updated>
+  <id>http://nickoneill.github.io/</id>
+  <author>
+    <name><![CDATA[Nick O'Neill]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Android Design Patterns]]></title>
+    <link href="http://nickoneill.github.io/android-design-patterns-settings/"/>
+    <updated>2012-04-10T14:00:00-07:00</updated>
+    <id>http://nickoneill.github.io/android-design-patterns-settings</id>
+    <content type="html"><![CDATA[<p>There are a lot of design decisions that I&rsquo;m not too fond of in Ice Cream Sandwich but the Android design pattern document is pretty damn good at not hiding anything behind secret gestures, unlike Metro and that new iPhoto app.</p>
+
+<p>I think I&rsquo;ve linked to the whole thing before but they just updated <a href="http://developer.android.com/design/patterns/settings.html">the settings patterns</a>. They&rsquo;re clear and consistent, though I don&rsquo;t really like the List > List > Modal pattern they use for options that require more than a checkmark.</p>
+]]></content>
+  </entry>
+  
+</feed>

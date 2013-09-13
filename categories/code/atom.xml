@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: code | authenticgeek]]></title>
+  <link href="http://nickoneill.github.io/categories/code/atom.xml" rel="self"/>
+  <link href="http://nickoneill.github.io/"/>
+  <updated>2013-09-13T13:09:19-07:00</updated>
+  <id>http://nickoneill.github.io/</id>
+  <author>
+    <name><![CDATA[Nick O'Neill]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[App Configuration with URL Schemes]]></title>
+    <link href="http://nickoneill.github.io/url-config-schemes/"/>
+    <updated>2013-03-15T10:43:00-07:00</updated>
+    <id>http://nickoneill.github.io/url-config-schemes</id>
+    <content type="html"><![CDATA[<p>I just read about a neat feature for <a href="http://www.atebits.com/letterpress/experimental/">Letterpress 1.4 where savvy users can test Spanish games</a> by loading &ldquo;letterpress:experimental&rdquo; in Safari and I wanted to share an alternate example that I build for a client a while back.</p>
+
+<p>In this particular case, the client wanted to distribute a single app binary via enterprise distribution or ad-hoc builds to various clients of his own. The catch was that all these clients wanted the app to look customized to their own brand with logos and colors.</p>
+
+<p>Not only was I opposed to building a system where I would have to build multiple versions of the same app for multiple clients, I was pretty sure that anyone maintaining that sort of system down the road would put in the extra effort to seek me out and chop off each finger that contributed to writing that code.</p>
+
+<p>Instead, I developed a configuration framework that responded to a specially crafted URL scheme. The app was totally functional upon first install but a URL could be sent along in the install email which prompted users to tap on it from their iOS device.</p>
+
+<p>The url scheme was passed along to the app which inferred the location of a JSON configuration file somewhere on the internet, downloaded it, parsed the file for logo urls, offsets and RGBA color components and redrew the app with these visual changes. The JSON document was stored on the local disk for easy parsing sans-connectivity on the next startup.</p>
+
+<p>It required a bit of conversion to drawing customizable elements with drawRect rather than patterning images but the flexibility was worth it many times over.</p>
+
+<p>For this purpose, an unsolicited plug: recreating complex photoshop-made effects in Quartz2D is pretty easy with <a href="https://itunes.apple.com/us/app/paintcode/id507897570?mt=12">PaintCode</a>. Don&rsquo;t let the price throw you off if visual customizability or small app size is important to you, it&rsquo;s an incredible tool.</p>
+
+<p>Depending on your feeling towards these fairly insecure URL schemes, you could package a username and password within them and provide users an automated way of logging in to your app. The possibilities for configuration are nearly endless and mostly underutilized, it seems.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Return of Blog, Holidays Edition]]></title>
+    <link href="http://nickoneill.github.io/return-of-blog/"/>
+    <updated>2012-12-22T15:13:00-08:00</updated>
+    <id>http://nickoneill.github.io/return-of-blog</id>
+    <content type="html"><![CDATA[<p>Good day, blog friends!</p>
+
+<p>Not counting <a href="http://blog.nickoneill.name/muniverse-2.html">Muniverse</a> (and I don&rsquo;t, it was waiting to be published for a while), it has been quite a time since I last wrote a thing. Here&rsquo;s some stuff that doesn&rsquo;t warrant its own post:</p>
+
+<p>Brad and I finally finished a remote garage door opener based on an Arduino and WiFly. See the incredible frustration documented on G+ <a href="https://plus.google.com/115863474911002159675/posts/2PSkLbtUJRB">here</a> and <a href="https://plus.google.com/115863474911002159675/posts/WCen2ZJE9vz">here</a>. A few more tweaks and the whole thing will be on github.</p>
+
+<p>I&rsquo;m doing some more frequent science tweeting with <a href="https://twitter.com/finestructure">@finestructure</a>. I never realized I felt a little trapped in my regular twitter account, I&rsquo;m not an oversharer and I don&rsquo;t like to innundate my friends with dumb stuff. Strangers, on the other hand, love dumb stuff. Seriously though, it&rsquo;s full of excellent science and snark.</p>
+
+<p>I want to get back to blogging more on the proper Fine Structure blog but I&rsquo;m frustrated with my publishing setup there. I want to adapt <a href="https://github.com/nickoneill/go-publisher">my dropbox static publisher</a> for this purpose but it requires some thinking, generalizing and coding. Maybe during vacation, or after I write some content.</p>
+
+<p>Work continues to be enjoyable. There are many ways to run a small contracting business and my current method involves doing enough directly billable work to be comfortable and then investing the rest of my time in learning new things &ndash; not always directly related to work. I don&rsquo;t think I could ever swing a deal like that at a standard salaried job so I think I&rsquo;ll be doing this for a while.</p>
+
+<p>I&rsquo;m spending a bit of time playing <a href="http://www.bay12games.com/dwarves/">Dwarf Fortress</a> (as little time as someone can spend and still improve in the Most Complex Game Ever). I tend to leave it alone for a few weeks then see something that inspires me to start a new fort, play that for a few days and get totally destroyed by a seige of undead. Such is life in the DF. I would very much like to try a Let&rsquo;s Play video for DF so we&rsquo;ll see where that idea goes in the next few weeks.</p>
+
+<p>I started writing about my current reading list here but it ran far too long, that will have to come at a later date. Welcome back, blog!</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Muniverse 2]]></title>
+    <link href="http://nickoneill.github.io/muniverse-20/"/>
+    <updated>2012-12-17T09:43:00-08:00</updated>
+    <id>http://nickoneill.github.io/muniverse-20</id>
+    <content type="html"><![CDATA[<p>Many years ago as I was learning Objective-C and Jamison was going through his public transit phase (yes, as far as I know he&rsquo;s still in it), we joined forces to create an epic San Francisco Muni app for the iPhone.</p>
+
+<p>It was my first ground-up project for the iPhone so I found myself wanting to rewrite large swaths of the code every 2-3 weeks. For obvious reasons, I tried to keep the stuff that was ugly but effective and that got us to the release. Unfortunately it was little help for keeping things updated as any Muni route changes were a big pain to incorporate. Eventually new versions of iOS deprecated bits and pieces of APIs we were using and new APIs replaced them. After a while the app started crashing on startup and I didn&rsquo;t have the heart to debug (my) ancient newbie code.</p>
+
+<p>The original Muniverse has since been removed from the app store for those reasons (interestingly, Apple doesn&rsquo;t seem to care if a previously approved app starts crashing on new iOS versions). However, I still stand by our goals for the project; find when your bus or train or street car arrives in the least amount of taps. We literally want you to be in the app for as little time as possible (but every day, of course).</p>
+
+<p>Looking at other Muni apps since then, it&rsquo;s pretty sad to be a rider with an iPhone. Everyone has clunky methods for finding your stops (be they map-oriented or otherwise) and no one makes it as easy as Muniverse to get times for the stop you use every single day. Most of the apps are clearly built by people who don&rsquo;t live in San Francisco or who don&rsquo;t use Muni often enough to know the weird configuration for the KT or which stop names are wrong when they come out of the NextBus API.</p>
+
+<p>That&rsquo;s why Jamison and I have rethought Muniverse from the ground up and are happy to report that an all new Muniverse is currently on the app store. For free.</p>
+
+<p>Why rerelease Muniverse? We both feel that having a showpiece for our separate skills on the App Store is a great example to show potential clients. Jamison&rsquo;s UI/UX contributions are obvious when using the app, though the code is a bit more difficult to evaluate even if the app works as intended.</p>
+
+<p>Rewriting everything gave me an opportunity to explore some of the modern Objective-C features that can make development easier and faster. Muniverse uses storyboards, core data, new literals and eventually will integrate with the new transit routing APIs. To better illustrate my side of the development process and provide a complete, modern reference for those who are learning Objective-C, <a href="https://github.com/nickoneill/Muniverse2">the entire codebase is on github</a>.</p>
+
+<p>However, the open source license doesn&rsquo;t cover everything since we don&rsquo;t want anyone to re-release the very same code as their own. The graphics are included in the project but are not licensed for use. In addition, there&rsquo;s some magic (written in Go) that generates a large file containing relevant information about all the stops and lines in Muniverse which isn&rsquo;t included in the repository. I think this serves the interests of all parties, providing a great mass of code for those who want to learn Objective-C while keeping blatant plagiarism at bay.</p>
+
+<p>Lest you think this project was entirely for the good will of SFers and Obj-C newbies, let me be clear: this is an obvious ploy to bring in more work. Jamison works on UI/UX stuff as <a href="http://fattrash.com">Fat Trash Design</a> and he&rsquo;s highly recommended if you need this kind of work done. I run a small iOS development shop called <a href="http://launchapps.net">Launch Apps</a> (yay placeholder website!) doing contract work for big and small companies alike. Feel free to get in touch if you like Muniverse and want to see the same level of quality in your own mobile apps.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Go-powered Beer at Original Gravity Pub]]></title>
+    <link href="http://nickoneill.github.io/original-gravity-pub/"/>
+    <updated>2012-08-15T13:00:00-07:00</updated>
+    <id>http://nickoneill.github.io/original-gravity-pub</id>
+    <content type="html"><![CDATA[<p>Last month saw the official opening of San Jose&rsquo;s newest drinking establishment, <a href="http://www.originalgravitypub.com/">Original Gravity Public House</a>. Dan is a friend from before he became a full-time beer slinger and I offered to whip up something for the website a while back.</p>
+
+<p>As a craft beer bar they had the opportunity to change their selection of beers regularly and wanted a way to reflect those changes on their website and in the bar with minimal effort. You can see the virtual result on their website which has an up-to-date list of all their current beers. The other solution was showing a list of all their current beers on a 40" TV above the bar, you can see a picture of how it turned out here:</p>
+
+<p><span class="blogimage">
+<img src="http://blog.nickoneill.name/images/ogtv.jpg" alt="Original Gravity Beer List" /><br />
+From <a href="http://www.yelp.com/biz_photos/uXCsgEdownjTGlQtnWvkjQ?select=Gxg_cJOzDkKUv8pnprOiBQ#Gxg_cJOzDkKUv8pnprOiBQ">Yelp</a>
+</span></p>
+
+<p>Designing for a big screen TV is not something I remember doing since webTV stopped being <em>a thing</em>. It was a fun exercise in scaling and clarity, and it seems like it has been successful so far.</p>
+
+<p>The behind-the-scenes wiring is pretty minimal. I built a small Go-powered web service that allows Dan to add to, remove from and reorder the beer list which is written to disk. Whenever an item changes, templates are built and put in their proper locations. Static publishing at its best.</p>
+
+<p>The bar view on the TV is just a fullscreen view of a special website in Chrome, it periodically refreshes to pick up the updated beer list. Nothing is particularly complex about the system, just adding together all the right components. I&rsquo;ve been spending more time writing servers and other tools in Go so this was a good way to learn more of the standard library. As far as I know this is the first Go-powered craft beer bar, though I haven&rsquo;t spent a lot of time asking around at bars.</p>
+
+<p>Dan and friends at Original Gravity have a really welcoming space and some very tasty beers on tap. Stop by if you need a drink in San Jose!</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Feature Detection with Objective-C]]></title>
+    <link href="http://nickoneill.github.io/image-correlation-with-objc/"/>
+    <updated>2012-06-12T12:49:00-07:00</updated>
+    <id>http://nickoneill.github.io/image-correlation-with-objc</id>
+    <content type="html"><![CDATA[<p><em>(I&rsquo;m at WWDC this week, I figure I should probably release something of my own)</em></p>
+
+<p>I wasn&rsquo;t being completely modest when I recently <a href="http://blog.nickoneill.name/line-simplification.html">praised line simplification</a> for bringing a method to the masses. It&rsquo;s not a great example though, so let me explain in a little more detail.</p>
+
+<p>For any large group of people interacting with a technology, the vast majority are using it as a means to an end. I say this in a positive way. In fact, one sign of a truly successful technology is when people can ignore the amazing technical steps that enable them to do things they couldn&rsquo;t otherwise do.</p>
+
+<p>It&rsquo;s a matter of technical chops. I don&rsquo;t know how to write my own touchscreen driver but I can make apps that run on an iPhone because of the abstraction given to me by Apple.</p>
+
+<p>Apple happens to be particularly good at technical complexity abstraction but open source projects are my favorite examples of technical movement because they&rsquo;re not driven by an obvious monitary incentive (I&rsquo;m sure there&rsquo;s an argument that OS is driven by ego, but let&rsquo;s move on).</p>
+
+<p>Before javascript frameworks, a limited number of people were using (and hating) straight javascript for everything. jQuery may have not been the first framework but it was the most effective at abstracting the hard/dumb parts of javascript away so that it was less intimidating to write.</p>
+
+<p>Considering that javascript is already one of the easiest languages to get started with (everybody already has an interpreter!), it&rsquo;s not much of a stretch to suggest that jQuery made more programmers.</p>
+
+<p>Arduino has done the same thing for microcontrollers. I spent some time on microcontroller projects just before arduino hardware started gaining popularity and the technical challenges at the time were huge. It was incredibly difficult to get started without having a pool of knowledge across multiple domains.</p>
+
+<p>Arduino gave people a device that didn&rsquo;t require testing and soldering before they were writing code and making things blink.</p>
+
+<p>I think Arduino is still stronger on the hardware side than software (there are so many tiny rules in C one must know…), but the adoption is amazing. It was difficult to turn around without smacking your head on an Arduino at Maker Faire this year.</p>
+
+<p>The fascinating thing about these projects is that they didn&rsquo;t necessarily invent anything new. Touchscreens existed before the iPhone (though Apple made them suck less) but it wraped the experience in an intuitive way. Everyone wrote their own javascript framework for projects before jQuery, but they packaged it together and made it fast. Arduino just made hardware that had the exact functionality that hobbyists wanted.</p>
+
+<p>I&rsquo;m a particular fan of one subgenre: Projects that take complex methods that exist in academic research and making them available in a familiar format. That brings me to my own project that I&rsquo;ve been working on for a while: <a href="http://github.com/nickoneill/LAFeatureDetection">Feature Detection</a>, which finds features in images programmatically.</p>
+
+<p>The most obvious computational method of finding a feature in an image is to look at each pixel in the image. It&rsquo;s pretty straightforward; anyone who understands that images are made of pixels could write a simple algorithm to do it.</p>
+
+<p>You can improve on that basic method a little bit but there are no incredible gains to be had with an iterative method.</p>
+
+<p>Generalized, the problem is essentially how to find the location of some two dimensional submatrix within a larger matrix. It sounds like a problem with a clever mathematical solution and it, in fact, is.</p>
+
+<p>The Fast Fourier Transform is usually used in digital signal processing (i.e. one dimension) to decompose a signal into its constiuent parts. Interestingly, performing discrete FFTs on images (i.e. two dimensions) is a process known as convolution where (roughly) the two images are superimposed on eachother at every point. You can use this method to find parts of a large image that are similar to a smaller image.</p>
+
+<p>None of this is new research. The fast fourier transform is a common and useful function that is used in image processing. It also has the added benefit that it can be significantly sped up with specialized vector instructions on CPUs and GPUs.</p>
+
+<p>There are a number of packages that exist for doing image processing via FFT on different platforms but none that take advantage of the accelerated vector libraries that exist on all recent Mac and iOS devices and that are easy for anyone with a passing knowledge of Objective-C to use. That&rsquo;s what I set out to do.</p>
+
+<p><strong>Feature Detection exposes an easy interface for Objective-C developers to identify features in images.</strong> The more technical details are on <a href="http://github.com/nickoneill/LAFeatureDetection">the github project</a>if you&rsquo;re interested, as well as some example images.</p>
+]]></content>
+  </entry>
+  
+</feed>

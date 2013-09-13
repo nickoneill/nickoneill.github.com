@@ -4,7 +4,7 @@
   <title><![CDATA[Category: golang | authenticgeek]]></title>
   <link href="http://nickoneill.github.io/categories/golang/atom.xml" rel="self"/>
   <link href="http://nickoneill.github.io/"/>
-  <updated>2013-09-11T14:55:21-07:00</updated>
+  <updated>2013-09-13T13:09:19-07:00</updated>
   <id>http://nickoneill.github.io/</id>
   <author>
     <name><![CDATA[Nick O'Neill]]></name>
@@ -12,6 +12,30 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Go-powered Beer at Original Gravity Pub]]></title>
+    <link href="http://nickoneill.github.io/original-gravity-pub/"/>
+    <updated>2012-08-15T13:00:00-07:00</updated>
+    <id>http://nickoneill.github.io/original-gravity-pub</id>
+    <content type="html"><![CDATA[<p>Last month saw the official opening of San Jose&rsquo;s newest drinking establishment, <a href="http://www.originalgravitypub.com/">Original Gravity Public House</a>. Dan is a friend from before he became a full-time beer slinger and I offered to whip up something for the website a while back.</p>
+
+<p>As a craft beer bar they had the opportunity to change their selection of beers regularly and wanted a way to reflect those changes on their website and in the bar with minimal effort. You can see the virtual result on their website which has an up-to-date list of all their current beers. The other solution was showing a list of all their current beers on a 40" TV above the bar, you can see a picture of how it turned out here:</p>
+
+<p><span class="blogimage">
+<img src="http://blog.nickoneill.name/images/ogtv.jpg" alt="Original Gravity Beer List" /><br />
+From <a href="http://www.yelp.com/biz_photos/uXCsgEdownjTGlQtnWvkjQ?select=Gxg_cJOzDkKUv8pnprOiBQ#Gxg_cJOzDkKUv8pnprOiBQ">Yelp</a>
+</span></p>
+
+<p>Designing for a big screen TV is not something I remember doing since webTV stopped being <em>a thing</em>. It was a fun exercise in scaling and clarity, and it seems like it has been successful so far.</p>
+
+<p>The behind-the-scenes wiring is pretty minimal. I built a small Go-powered web service that allows Dan to add to, remove from and reorder the beer list which is written to disk. Whenever an item changes, templates are built and put in their proper locations. Static publishing at its best.</p>
+
+<p>The bar view on the TV is just a fullscreen view of a special website in Chrome, it periodically refreshes to pick up the updated beer list. Nothing is particularly complex about the system, just adding together all the right components. I&rsquo;ve been spending more time writing servers and other tools in Go so this was a good way to learn more of the standard library. As far as I know this is the first Go-powered craft beer bar, though I haven&rsquo;t spent a lot of time asking around at bars.</p>
+
+<p>Dan and friends at Original Gravity have a really welcoming space and some very tasty beers on tap. Stop by if you need a drink in San Jose!</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[This is How I Blog]]></title>

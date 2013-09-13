@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: techniche | authenticgeek]]></title>
+  <link href="http://nickoneill.github.io/categories/techniche/atom.xml" rel="self"/>
+  <link href="http://nickoneill.github.io/"/>
+  <updated>2013-09-13T13:09:19-07:00</updated>
+  <id>http://nickoneill.github.io/</id>
+  <author>
+    <name><![CDATA[Nick O'Neill]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Headless Mac Mini with Ubuntu]]></title>
+    <link href="http://nickoneill.github.io/headless-mac-mini-with-ubuntu/"/>
+    <updated>2012-04-03T14:48:00-07:00</updated>
+    <id>http://nickoneill.github.io/headless-mac-mini-with-ubuntu</id>
+    <content type="html"><![CDATA[<p>It&rsquo;s time for another episode (<a href="http://blog.nickoneill.name/ice-cream-sandwich-preview-on-galaxy-tab-101-google-io-edition.html">yet again</a>) of <em>A Technical Guide to a Niche Topic</em>! This episode is sponsored by my insistence that personal research not be lost to the void.</p>
+
+<p>Last weekend I spent an inordinate amount of time getting Ubuntu running without a monitor on a mac mini so I figure I&rsquo;d write up my findings. FYI, this is a 2009 Core Duo Mac Mini. It&rsquo;s not the newer unibody design though I expect many of the details still apply.</p>
+
+<p>The hardest part of the whole damn thing is getting the mini to boot into Ubuntu at all since all new Macs boot with EFI and support for anything other than BIOS is rare for Linux. Luckily Boot Camp does the hard work for us since it&rsquo;s designed to run anything on that partition in a compatibility BIOS mode.</p>
+
+<p>A fresh install of OS X would be great, but an existing install is fine as long as your disk isn&rsquo;t too full. To maintain our Boot Camp compatibility mode we&rsquo;re going to keep a small OS X partition around forever. We&rsquo;ll can get potential Apple firmware updates this way too.</p>
+
+<p>We start in our fresh (or not) OS X machine. Download and install rEFIt, a tool that lets you choose your boot disk when you start up. <strong>You will not see the rEFIt menu the first time you reboot</strong>. It takes two reboots, don&rsquo;t ask me why &ndash; but don&rsquo;t reboot yet.</p>
+
+<p>Open up the Boot Camp utility and set the OS X partition to something small (~10gb) and set the rest as the Boot Camp partition.</p>
+
+<p>Insert your Ubuntu installation cd (yes, physical media) and reboot. Twice. The second time your rEFIt menu should show up and a smug penguin should be holding a CD. Choose that option.</p>
+
+<p>Go through the Ubuntu installation as normal until you get to the disk setup. Choose to manually partition, then format your big empty Boot Camp partition as ext3 and <strong>don&rsquo;t create any more partitions</strong>. Ubuntu will probably hate on this setup as you&rsquo;re writing it to disk, but it will let you do it. Go through the rest of the ubuntu install.</p>
+
+<p>You may be able to add a swap partition later but it&rsquo;s not required to boot and run Ubuntu. I&rsquo;m running mysql, php-fpm, nginx, etc. and I&rsquo;m only at 20% RAM usage (of 2gb).</p>
+
+<p>The machine will restart after installation and rEFIt should show smug penguin again but as a disk this time. Boot it! Everything should come up OK… assuming you have a monitor plugged in.</p>
+
+<p>This is probably a good time to change the rEFIt config to tell it to boot Linux first, particularly later when you won&rsquo;t have a monitor. You&rsquo;ve got to be in OS X to do it, just edit the config in <code>/etc/EFI/refit/</code>.</p>
+
+<p>I wanted this mini to live somewhere hidden away without a monitor so having a monitor constantly plugged in was not something I was interested in. And, of course, without a monitor plugged in the system was never getting to Ubuntu.</p>
+
+<p>After restarting a number of times with screens plugged in or not, I determined that grub was halting the boot for whatever reason. To the googs!</p>
+
+<p>Failure again. I set <code>GRUB_CMDLINE_LINUX_DEFAULT="nomodeset"</code> and a few other grub options, updated grub and rebooted a few times before being unable to fix the issue. I had to go to plan B.</p>
+
+<p>When searching for headless Ubuntu boot issues, I came across an interesting solution that people running folding@home devised. According to them, most systems don&rsquo;t power a second GPU (or a first for that matter) if a monitor isn&rsquo;t plugged in. They wanted to run the folding stuff on an alternate GPU so they had to come up with a method for powering that GPU without actually having a second monitor.</p>
+
+<p>The solution is stupidly simple. VGA connections can &ldquo;simulate&rdquo; a monitor by having resistance across 3 sets of pins. This can be done by literally inserting resistors into a VGA connector, as shown below. It&rsquo;s the DVI-to-VGA connector that shipped with the mini.</p>
+
+<p><span class="blogimage">
+<img src="http://blog.nickoneill.name/images/dvivgaadapter.png" alt="DVI to VGA adapter with resistors" />
+</span></p>
+
+<p>I searched around for exact specifications and most people say 75 or 68ohm resistors (purple-green-black or blue-gray-black). I only had a few 68ohm resistors on hand so I used those. Apparently anything from 50-150ohm will work (not tested, explosions lol!).</p>
+
+<p>Now grub loves me and restarts jump right into Ubuntu. I tucked the mac mini away and it has been happily chugging away since. Thanks, internet!</p>
+]]></content>
+  </entry>
+  
+</feed>
