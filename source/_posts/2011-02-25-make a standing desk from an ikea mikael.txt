@@ -4,6 +4,7 @@ title: "make a standing desk from an ikea mikael"
 date: 2011-02-25 21:06
 layout: post
 alias: /make-a-standing-desk-from-an-ikea-mikael.html
+categories: making
 ---
 Standing desks are gaining popularity with the nerds who realize that their former sit-all-day behavior might be detrimental to their long-term health. I'm no exception to that realization but I wasn't about to go out and buy a new desk without knowing how I'd feel standing all day. Luckily my desk was [cheapy simple mikael desk](http://www.google.com/images?q=ikea+mikael+desk) from Ikea that had lots of hack potential. This is definitely inspired by [Gina's switcher post](http://smarterware.org/7102/how-and-why-i-switched-to-a-standing-desk) earlier this year as well.
 

@@ -4,6 +4,7 @@ published: true
 title: "free startup idea tuesday"
 date: 2011-01-25 12:43
 alias: free-startup-idea-tuesday.html
+categories: startups
 ---
 So, back when news traveled around that Delicious was being killed off by Yahoo, andre torrez had this great idea to come up with a list of todo items that one would have to do [to clone Delicious](http://notes.torrez.org/2010/12/learn-to-program-in-24-hours.html). I'm not sure if anything ever came from it, but I like the idea of disconnected brainstorming - andre did some thinking about what you'd need but he doesn't want to do the engineering related work for it so he's put his ideas out there in case there's someone who has more time or interest.
 

@@ -4,6 +4,7 @@ title: "the failure of founding users"
 date: 2011-03-28 12:42
 layout: post
 alias: the-failure-of-founding-users.html
+categories: startups failure
 ---
 A while back I tweeted a link to a project I was calling Founding Users. In short, the idea was that new startups needed a solid set of users that would use the product before anyone else and evangelize the product to others. It would employ in-person meetings where a few startups would pitch to a set of users who would eventually become the founding users for each startup.
 
