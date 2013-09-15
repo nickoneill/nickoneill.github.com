@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: hci | authenticgeek]]></title>
-  <link href="http://nickoneill.github.io/categories/hci/atom.xml" rel="self"/>
-  <link href="http://nickoneill.github.io/"/>
-  <updated>2013-09-13T13:13:30-07:00</updated>
-  <id>http://nickoneill.github.io/</id>
+  <link href="http://blog.nickoneill.name/categories/hci/atom.xml" rel="self"/>
+  <link href="http://blog.nickoneill.name/"/>
+  <updated>2013-09-15T11:35:49-07:00</updated>
+  <id>http://blog.nickoneill.name/</id>
   <author>
     <name><![CDATA[Nick O'Neill]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Android Design Patterns]]></title>
-    <link href="http://nickoneill.github.io/android-design-patterns-settings/"/>
+    <link href="http://blog.nickoneill.name/android-design-patterns-settings/"/>
     <updated>2012-04-10T14:00:00-07:00</updated>
-    <id>http://nickoneill.github.io/android-design-patterns-settings</id>
+    <id>http://blog.nickoneill.name/android-design-patterns-settings</id>
     <content type="html"><![CDATA[<p>There are a lot of design decisions that I&rsquo;m not too fond of in Ice Cream Sandwich but the Android design pattern document is pretty damn good at not hiding anything behind secret gestures, unlike Metro and that new iPhoto app.</p>
 
 <p>I think I&rsquo;ve linked to the whole thing before but they just updated <a href="http://developer.android.com/design/patterns/settings.html">the settings patterns</a>. They&rsquo;re clear and consistent, though I don&rsquo;t really like the List > List > Modal pattern they use for options that require more than a checkmark.</p>
@@ -26,9 +26,9 @@
   
   <entry>
     <title type="html"><![CDATA[The Control System Transition]]></title>
-    <link href="http://nickoneill.github.io/the-control-system-transition/"/>
+    <link href="http://blog.nickoneill.name/the-control-system-transition/"/>
     <updated>2012-04-08T09:15:00-07:00</updated>
-    <id>http://nickoneill.github.io/the-control-system-transition</id>
+    <id>http://blog.nickoneill.name/the-control-system-transition</id>
     <content type="html"><![CDATA[<p>Here&rsquo;s a fascinating look at some unique problems our society is experiencing during the transition between primarily Human to primarily Computer-based control of critical systems.</p>
 
 <p>&ldquo;<a href="http://www.macroresilience.com/2011/12/29/people-make-poor-monitors-for-computers/">People Make Poor Monitors for Computers</a>&rdquo; describes the interesting case of Air France 447 which experienced some loss of instrumentation data while flying through <a href="http://www.finestructure.com/2009/06/storms-at-the-equator-or-the-itcz/">storms near the equator</a>. Control of the aircraft was ceded to the Human operators in the midst of an airspeed indicator failure and the operators couldn&rsquo;t make sense of what was going on (and in fact made very wrong choices) before it was too late to recover.</p>

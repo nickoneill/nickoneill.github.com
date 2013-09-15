@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: hardware | authenticgeek]]></title>
-  <link href="http://nickoneill.github.io/categories/hardware/atom.xml" rel="self"/>
-  <link href="http://nickoneill.github.io/"/>
-  <updated>2013-09-13T13:13:30-07:00</updated>
-  <id>http://nickoneill.github.io/</id>
+  <link href="http://blog.nickoneill.name/categories/hardware/atom.xml" rel="self"/>
+  <link href="http://blog.nickoneill.name/"/>
+  <updated>2013-09-15T11:35:49-07:00</updated>
+  <id>http://blog.nickoneill.name/</id>
   <author>
     <name><![CDATA[Nick O'Neill]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Ice Maker Repair for a GE Profile Refrigerator]]></title>
-    <link href="http://nickoneill.github.io/ice-maker-repair/"/>
+    <link href="http://blog.nickoneill.name/ice-maker-repair/"/>
     <updated>2013-03-07T15:06:00-08:00</updated>
-    <id>http://nickoneill.github.io/ice-maker-repair</id>
+    <id>http://blog.nickoneill.name/ice-maker-repair</id>
     <content type="html"><![CDATA[<p>If you&rsquo;ve got one of these GE Profile refrigerators from a few years ago (this one was installed 8 years ago, I think, model PSS26MSRD) and the ice maker isn&rsquo;t making ice, there are a few simple steps you can go through to troubleshoot.</p>
 
 <p>First, pull out the ice bin and eyeball the ice maker device behind it. See if the switch is turned on and the green light is lit. If it&rsquo;s blinking, that indicates &ldquo;ice stuck in tray&rdquo; and you&rsquo;ll have to take it out and thaw the whole contraption out. It&rsquo;s not that hard: unplug the giant molex connector on the right side and use a small hex wrench to unscrew the obvious screw holding it to the left side of the freezer wall. Then you can firmly pull the device up and out until it pops free from the notches where it sits in the back.</p>
@@ -36,9 +36,9 @@
   
   <entry>
     <title type="html"><![CDATA[Post-Fab Construction]]></title>
-    <link href="http://nickoneill.github.io/postfab/"/>
+    <link href="http://blog.nickoneill.name/postfab/"/>
     <updated>2013-02-16T10:00:00-08:00</updated>
-    <id>http://nickoneill.github.io/postfab</id>
+    <id>http://blog.nickoneill.name/postfab</id>
     <content type="html"><![CDATA[<p>Here&rsquo;s what I don&rsquo;t understand about modern house construction; despite modern computation and robotics, we still rely on humans to measure and cut things piece-by-piece in order to build a house.</p>
 
 <p>Prefab has negative connotations for being used to create cookie cutter houses that have no individuality but it&rsquo;s a self-imposed  limitation, especially considering that planning is already computerized. I think we can do better.</p>
@@ -65,9 +65,9 @@
   
   <entry>
     <title type="html"><![CDATA[Return of Blog, Holidays Edition]]></title>
-    <link href="http://nickoneill.github.io/return-of-blog/"/>
+    <link href="http://blog.nickoneill.name/return-of-blog/"/>
     <updated>2012-12-22T15:13:00-08:00</updated>
-    <id>http://nickoneill.github.io/return-of-blog</id>
+    <id>http://blog.nickoneill.name/return-of-blog</id>
     <content type="html"><![CDATA[<p>Good day, blog friends!</p>
 
 <p>Not counting <a href="http://blog.nickoneill.name/muniverse-2.html">Muniverse</a> (and I don&rsquo;t, it was waiting to be published for a while), it has been quite a time since I last wrote a thing. Here&rsquo;s some stuff that doesn&rsquo;t warrant its own post:</p>
@@ -88,9 +88,9 @@
   
   <entry>
     <title type="html"><![CDATA[Personal Hovercrafts NOW]]></title>
-    <link href="http://nickoneill.github.io/personal-hovercraft/"/>
+    <link href="http://blog.nickoneill.name/personal-hovercraft/"/>
     <updated>2012-08-24T10:33:00-07:00</updated>
-    <id>http://nickoneill.github.io/personal-hovercraft</id>
+    <id>http://blog.nickoneill.name/personal-hovercraft</id>
     <content type="html"><![CDATA[<p>I don&rsquo;t think I know anyone who wouldn&rsquo;t want to drive to work on their <a href="http://boingboing.net/2012/08/24/testing-out-a-star-wars-style.html">personal hovercraft</a>. It seems completely possible and this same group has released a number of videos showing their progress making the thing, so probably not a hoax.</p>
 
 <p>It seems like this is one area where Hollywood has really understood how these things will behave according to the laws of physics. You&rsquo;ll be surprised at the intuitiveness of how the hoverbike behaves when turning and stopping.</p>
@@ -99,9 +99,9 @@
   
   <entry>
     <title type="html"><![CDATA[SSD + Thunderbolt = Speed]]></title>
-    <link href="http://nickoneill.github.io/ssd-thunderbolt-speed/"/>
+    <link href="http://blog.nickoneill.name/ssd-thunderbolt-speed/"/>
     <updated>2012-08-20T09:00:00-07:00</updated>
-    <id>http://nickoneill.github.io/ssd-thunderbolt-speed</id>
+    <id>http://blog.nickoneill.name/ssd-thunderbolt-speed</id>
     <content type="html"><![CDATA[<p>I&rsquo;ve been eyeballing external Thunderbolt enclosures ever since I started running my iMac startup disk off a separate SSD. It was sitting in an old USB 2.0 enclosure but not only did it take up a precious USB slot but because SSD read/write speeds can out perform USB 2.0 transfer speeds it also wasn&rsquo;t reaching its true potential, a turn of phrase I&rsquo;m all too familiar with from high school.</p>
 
 <p>I had opened up my mid-2011 iMac a while back to see how hard it was to implant the SSD into space that I knew was reserved for such a thing. Perhaps as a warning of things to come, the guts of this computer are an impenetrable fortress &ndash; I got as far as having to take the entire logic board out before I bailed.</p>

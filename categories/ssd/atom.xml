@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: ssd | authenticgeek]]></title>
-  <link href="http://nickoneill.github.io/categories/ssd/atom.xml" rel="self"/>
-  <link href="http://nickoneill.github.io/"/>
-  <updated>2013-09-13T13:13:30-07:00</updated>
-  <id>http://nickoneill.github.io/</id>
+  <link href="http://blog.nickoneill.name/categories/ssd/atom.xml" rel="self"/>
+  <link href="http://blog.nickoneill.name/"/>
+  <updated>2013-09-15T11:35:49-07:00</updated>
+  <id>http://blog.nickoneill.name/</id>
   <author>
     <name><![CDATA[Nick O'Neill]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[SSD + Thunderbolt = Speed]]></title>
-    <link href="http://nickoneill.github.io/ssd-thunderbolt-speed/"/>
+    <link href="http://blog.nickoneill.name/ssd-thunderbolt-speed/"/>
     <updated>2012-08-20T09:00:00-07:00</updated>
-    <id>http://nickoneill.github.io/ssd-thunderbolt-speed</id>
+    <id>http://blog.nickoneill.name/ssd-thunderbolt-speed</id>
     <content type="html"><![CDATA[<p>I&rsquo;ve been eyeballing external Thunderbolt enclosures ever since I started running my iMac startup disk off a separate SSD. It was sitting in an old USB 2.0 enclosure but not only did it take up a precious USB slot but because SSD read/write speeds can out perform USB 2.0 transfer speeds it also wasn&rsquo;t reaching its true potential, a turn of phrase I&rsquo;m all too familiar with from high school.</p>
 
 <p>I had opened up my mid-2011 iMac a while back to see how hard it was to implant the SSD into space that I knew was reserved for such a thing. Perhaps as a warning of things to come, the guts of this computer are an impenetrable fortress &ndash; I got as far as having to take the entire logic board out before I bailed.</p>

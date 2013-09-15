@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: research | authenticgeek]]></title>
-  <link href="http://nickoneill.github.io/categories/research/atom.xml" rel="self"/>
-  <link href="http://nickoneill.github.io/"/>
-  <updated>2013-09-13T13:13:30-07:00</updated>
-  <id>http://nickoneill.github.io/</id>
+  <link href="http://blog.nickoneill.name/categories/research/atom.xml" rel="self"/>
+  <link href="http://blog.nickoneill.name/"/>
+  <updated>2013-09-15T11:35:49-07:00</updated>
+  <id>http://blog.nickoneill.name/</id>
   <author>
     <name><![CDATA[Nick O'Neill]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Line Simplification]]></title>
-    <link href="http://nickoneill.github.io/line-simplification/"/>
+    <link href="http://blog.nickoneill.name/line-simplification/"/>
     <updated>2012-06-01T17:50:00-07:00</updated>
-    <id>http://nickoneill.github.io/line-simplification</id>
+    <id>http://blog.nickoneill.name/line-simplification</id>
     <content type="html"><![CDATA[<p><a href="http://bost.ocks.org/mike/simplify/">This post</a> about line simplification may seem esoteric but it&rsquo;s work like this, displayed and understood simply, that pushes technology forward. It&rsquo;s not new research but it&rsquo;s applied in a way that fits exactly the use case that a niche needs.</p>
 
 <p>All it takes is an idea of how to do something better, or faster or more clearly. Suddenly there are three libraries in every language that do it and everyone gets a better experience.</p>

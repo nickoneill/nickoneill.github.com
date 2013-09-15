@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: startups | authenticgeek]]></title>
+  <link href="http://blog.nickoneill.name/categories/startups/atom.xml" rel="self"/>
+  <link href="http://blog.nickoneill.name/"/>
+  <updated>2013-09-15T11:35:49-07:00</updated>
+  <id>http://blog.nickoneill.name/</id>
+  <author>
+    <name><![CDATA[Nick O'Neill]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[the failure of founding users]]></title>
+    <link href="http://blog.nickoneill.name/The+Failure+of+Founding+Users/"/>
+    <updated>2011-03-28T12:42:00-07:00</updated>
+    <id>http://blog.nickoneill.name/The Failure of Founding Users</id>
+    <content type="html"><![CDATA[<p>A while back I tweeted a link to a project I was calling Founding Users. In short, the idea was that new startups needed a solid set of users that would use the product before anyone else and evangelize the product to others. It would employ in-person meetings where a few startups would pitch to a set of users who would eventually become the founding users for each startup.</p>
+
+<p>I developed the idea a bit, set up a site to gauge interest and talked to some people who were better connected to the startup world than I. I have a bunch of existing projects going on that I didn&rsquo;t want to ditch so the idea would have to be something that I could at least start in my spare time. Eventually, I decided that I didn&rsquo;t have the existing social ties to make it work as a side project, it would probably require a good chunk of time to gather the resources to get started. The idea was fascinating to me, but it also wasn&rsquo;t an idea I had any existing dedication or passion for, so the project died.</p>
+
+<p>Founding Users is only the most recent unfinished project of mine, which might make some people cringe for lack of end results. While it might constitute a &ldquo;failure&rdquo; in that it never produced the results that it was intended for, I consider it as another important stepping-stone project. There were lots of interesting learning experiences along the way that I wouldn&rsquo;t have had otherwise and that&rsquo;s buildable knowledge.</p>
+
+<p><a href="http://amandahocking.blogspot.com/2011/03/some-things-that-need-to-be-said.html">Time</a> and <a href="http://www.escapistmagazine.com/news/view/108606-Minecraft-Creator-Shows-Off-Early-Gaming-Projects">time again</a> (these are just two examples I&rsquo;ve seen over the last month), we&rsquo;ve seen that success is not random chance or a single stroke of genius. It&rsquo;s hard work over a long period of time and mostly filled with failures or unfinished works.</p>
+
+<p>The idea that success is born of hard work isn&rsquo;t new by any means, and I think you&rsquo;d find it difficult to find someone who disagrees with that statement directly. Unfortunately, we (Americans, in this case, but it&rsquo;s probably a not-uncommon cultural trait) have a terrible habit of condemning failure or half-finished works as a path you should not find yourself on. I don&rsquo;t think it&rsquo;s hard to explain: your half-finished projects don&rsquo;t contribute to the progress of anyone other than yourself so it&rsquo;s easy for an outsider to gain nothing from it and call it a waste of your time.</p>
+
+<p>It&rsquo;s easy for outsiders to think that someone stopped working on a project because they got bored or because they don&rsquo;t have the drive to finish, and maybe that&rsquo;s true in some cases, but I like to think that isn&rsquo;t the reason most of the time. Regardless of the circumstance that led to a project prematurely ending, as long as you&rsquo;re willing to look back and ponder truthfully about why the project ended and you still have the drive start something new, you&rsquo;re on the right track.</p>
+
+<p>The whole &ldquo;ponder truthfully&rdquo; thing is key. We (Humans? I&rsquo;ll stick with cultural Americans, again) have a bit of a tendency to lie to ourselves about the reason things end, maybe because we&rsquo;re fearful of failure in the first place. The opposite, of course, is people who feel more free to share the failures and abandoned projects, explaining the process in detail so others can learn from it. Then, even if no one learns anything specific from a failed project, others can start to see the failure that goes into success.</p>
+
+<p>So, this is my first contribution. Here&rsquo;s to Founding Users; not the first and surely not the last abandoned project.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[free startup idea tuesday]]></title>
+    <link href="http://blog.nickoneill.name/free+startup+idea+tuesday/"/>
+    <updated>2011-01-25T12:43:00-08:00</updated>
+    <id>http://blog.nickoneill.name/free startup idea tuesday</id>
+    <content type="html"><![CDATA[<p>So, back when news traveled around that Delicious was being killed off by Yahoo, andre torrez had this great idea to come up with a list of todo items that one would have to do <a href="http://notes.torrez.org/2010/12/learn-to-program-in-24-hours.html">to clone Delicious</a>. I&rsquo;m not sure if anything ever came from it, but I like the idea of disconnected brainstorming &ndash; andre did some thinking about what you&rsquo;d need but he doesn&rsquo;t want to do the engineering related work for it so he&rsquo;s put his ideas out there in case there&rsquo;s someone who has more time or interest.</p>
+
+<p>Startup-y types like to keep their ideas close to their chest because everyone is so fearful of <strong>stealcloning</strong> (yes, I made that word up right now). Here&rsquo;s how it purportedly works: a big company gets wind of your idea, thinks the whole thing is a brilliant piece of synergistic, user-centric <em>blah blah blah marketingspeak</em> and decides to clone it outright. They take a team of 10 people, evenly spit between engineers, marketing and sales people that were just sitting on their asses and twiddling their thumbs before this very moment and put them to work on <strong>stealcloning</strong> your idea. Despite the fact that this project has been blindly handed down from above with little thought into how it fits into the overall company strategy, the team members are overjoyed to work on the project, put in many hours of overtime and care about it like it&rsquo;s their very own flesh and blood. The big company releases the product two weeks later to critical acclaim and without any bugs. Your project, on the other hand, is left in the dust.</p>
+
+<p>You can see the fallacies here, right? Allow me to show you the venn diagram of what I&rsquo;m talking about:</p>
+
+<p><img src="/images/venn.png" alt="Yes, there is a very small overlap" /></p>
+
+<p>I&rsquo;m not saying that no one can clone your ideas, but it&rsquo;s probably not the threat you&rsquo;re treating it as.</p>
+
+<p>Back to the idea of making a Delicious clone. What strikes me about the current business-of-the-month idea, Groupon clones in this case, is that no one feels the need to innovate and improve on Groupon&rsquo;s model. Living Social is a <em>straightup</em> clone of their features (a me-too clone, not a <strong>stealclone</strong>). Groupon does have its flaws though and there are lots of interesting ways to extend the idea of business-customer interaction. Here&rsquo;s one:</p>
+
+<p>Groupon holds businesses by the balls in so many ways. Customers purchase a deal for the business but the businesses don&rsquo;t get any idea of who their customers are, they just get a list of coupon codes that were purchased. Furthermore, since Groupon holds one deal per day for a given area, businesses are at the whim of Groupon as to when the deal goes down. I&rsquo;ve heard that Groupon gives as little as 24 hours notice to a business before its deal goes live.</p>
+
+<p>Here&rsquo;s a plan: keep the group-buying, loose to tight control and gain a bunch of customer data. Businesses get their own page on the site (let&rsquo;s pretend it&rsquo;s called <strong>deal.me</strong>) at nickscoffee.deal.me where customers can sign up for notifications from that very business. The page is like an about.me for business to customer marketing, nice looking big photos and a bit of text about the business. When the business wants to have a deal for customers, it&rsquo;s listed prominently there along with the standard Groupon sharing links, timer and deal stats.</p>
+
+<p>Customers already have an account on deal.me so they don&rsquo;t have to signup for anything new, or even input credit card data. They might get a micro bonus deal for signing up to be notified of deals from this particular business ($5 off coupon, say) through their email, text message and/or iPhone app notifications. They can explore businesses by location and category and sign up to hear about deals from the stuff they&rsquo;re interested in.</p>
+
+<p>After your first deal goes down, the business has a nice big page of statistics on who purchased their deal. Users are sorted by age, gender, amount of deals purchased, or any other statistic that you can get. Users are incentivized to give this data because businesses can send post-deal coupons to customer segments which is pushed directly to users phones by text or notification. Slow afternoon at the hair salon? Send a $10 coupon out to a demographic that&rsquo;s likely to be free at that time. Once you have an instant connection to your customer base, deals can be shorter and more specific so you can drive customers when you want them.</p>
+
+<p>Or send a coupon to all users who have a connected foursquare account but haven&rsquo;t checked in in the last month. Or thank those who have lots of checkins. It&rsquo;s giving the customers back to the business, not keeping them inside Groupon where they lease some web site space out to you every once in a while.</p>
+
+<p>So that&rsquo;s the idea. It would be fun to develop as a product but it would require some technical skills that I don&rsquo;t have, not to mention some sales skills that I definitely don&rsquo;t have. It&rsquo;s just an idea and now it is free to be executed on by anyone that has the time and desire to do so.</p>
+]]></content>
+  </entry>
+  
+</feed>

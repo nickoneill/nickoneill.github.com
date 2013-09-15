@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: sfmuni | authenticgeek]]></title>
-  <link href="http://nickoneill.github.io/categories/sfmuni/atom.xml" rel="self"/>
-  <link href="http://nickoneill.github.io/"/>
-  <updated>2013-09-13T13:13:30-07:00</updated>
-  <id>http://nickoneill.github.io/</id>
+  <link href="http://blog.nickoneill.name/categories/sfmuni/atom.xml" rel="self"/>
+  <link href="http://blog.nickoneill.name/"/>
+  <updated>2013-09-15T11:35:49-07:00</updated>
+  <id>http://blog.nickoneill.name/</id>
   <author>
     <name><![CDATA[Nick O'Neill]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Muniverse 2]]></title>
-    <link href="http://nickoneill.github.io/muniverse-20/"/>
+    <link href="http://blog.nickoneill.name/muniverse-20/"/>
     <updated>2012-12-17T09:43:00-08:00</updated>
-    <id>http://nickoneill.github.io/muniverse-20</id>
+    <id>http://blog.nickoneill.name/muniverse-20</id>
     <content type="html"><![CDATA[<p>Many years ago as I was learning Objective-C and Jamison was going through his public transit phase (yes, as far as I know he&rsquo;s still in it), we joined forces to create an epic San Francisco Muni app for the iPhone.</p>
 
 <p>It was my first ground-up project for the iPhone so I found myself wanting to rewrite large swaths of the code every 2-3 weeks. For obvious reasons, I tried to keep the stuff that was ugly but effective and that got us to the release. Unfortunately it was little help for keeping things updated as any Muni route changes were a big pain to incorporate. Eventually new versions of iOS deprecated bits and pieces of APIs we were using and new APIs replaced them. After a while the app started crashing on startup and I didn&rsquo;t have the heart to debug (my) ancient newbie code.</p>

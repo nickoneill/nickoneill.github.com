@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: geeklife | authenticgeek]]></title>
+  <link href="http://blog.nickoneill.name/categories/geeklife/atom.xml" rel="self"/>
+  <link href="http://blog.nickoneill.name/"/>
+  <updated>2013-09-15T11:35:49-07:00</updated>
+  <id>http://blog.nickoneill.name/</id>
+  <author>
+    <name><![CDATA[Nick O'Neill]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[geeks on homes]]></title>
+    <link href="http://blog.nickoneill.name/geeks+on+homes/"/>
+    <updated>2011-06-18T17:26:00-07:00</updated>
+    <id>http://blog.nickoneill.name/geeks on homes</id>
+    <content type="html"><![CDATA[<p>Let me tell you about the nerdiest show on television.</p>
+
+<p>It&rsquo;s not a sci-fi miniseries or a space documentary, or even Mythbusters as you might imagine. It&rsquo;s <em>Holmes on Homes</em>. And yes, this means I watch HGTV.</p>
+
+<p>At first glance it&rsquo;s your typical construction/remodel show. It adds the element of &ldquo;something went wrong&rdquo; by selecting regular people who have paid local contractors to fix or remodel something and the contractor has either done clearly shitty work or left without finishing the job. Enter Mike Holmes, apparently the only proper contractor in Canada and generally burly dude. He assesses the damage and then his team tears everything down (usually finding more things to fix in the process) and rebuilds it by the end of the hour.</p>
+
+<p>Emotional fluff, I say. The general overview does not paint a very nerdy picture for this show.</p>
+
+<p>The nerdy part is the teardown and rebuild process. As they remove the offending staircase/bathroom/structure from the house, Holmes gives a fairly succinct description of why the problem occurred. If there&rsquo;s a leak underneath a shower, it&rsquo;s probably because the shower doesn&rsquo;t drain properly. That&rsquo;s somewhat obvious and I&rsquo;m no construction buff but this reasoning is oddly satisfying.</p>
+
+<p>Taking a peek behind the walls of your house, everything is set up <em>just so</em> and clearly there are some rules governing this design of wood, wires and pipes. What those rules said, on the other hand, were completely beyond me until I started watching this show.</p>
+
+<p>As it turns out, these rules are pretty logical. Don&rsquo;t put hot stuff next to flammable stuff, don&rsquo;t put electrical stuff next to other conductive stuff, the shit should always flow downward; I&rsquo;m not 100% sure about what the code says exactly but as long as you know the properties of the items you&rsquo;re working with, it&rsquo;s not too difficult to envision the right solution.</p>
+
+<p>One of the reasons I probably enjoy watching this show is that the process isn&rsquo;t too dissimilar from coding. You learn the details of a particular implementation (how to build a shed, or oauth) and nail it together with some common tools (hammer, screwdriver, standard python syntax). You can do a shitty job by not understanding the problem or solution well enough, just as in code, but generally doing a good job on simple projects doesn&rsquo;t require anything more than properly understanding what to expect from the pieces you&rsquo;re fitting together.</p>
+
+<p>I&rsquo;m sure some thread of this connects back to the resurgence of DIY. At some point in time the need to make something was overwhelmed by grand idea of having it made for you, and then the giants of manufacturing removed quality as a standard in <em>the great cheapening</em> (note: this is a under-researched and probably not very accurate history of 20th century manufacturing). Now here we are, pissed with poor quality products and sheds that don&rsquo;t survive a single San Francisco winter.</p>
+
+<p>We&rsquo;re equipped with the mental capacity to understand the rules governing scripts running on computers in a data center 3000 miles away, so why can&rsquo;t we design and build our own damn shed? Yes, we&rsquo;re geeks and nerds, not known for our brute strength &ndash; but wheels and pulleys solved the heavy lifting problems years ago, there really isn&rsquo;t a reason not to build it yourself.</p>
+
+<p>This was a long way to explain my love for <em>Holmes on Homes</em> (or the hour-long <em>Holmes Inspection</em> &ndash; how clever!) but I think it makes a deeper point about geeks getting into Making, and anyone else for that matter. There&rsquo;s more to say on Making as a cultural phenomenon but I&rsquo;ll leave that for another time.</p>
+
+<p>For now: set the DVR for a Holmes show, don&rsquo;t take it too seriously, and learn something from your TV.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[sf vs nyc]]></title>
+    <link href="http://blog.nickoneill.name/sfvsnyc/"/>
+    <updated>2011-01-11T11:45:00-08:00</updated>
+    <id>http://blog.nickoneill.name/sfvsnyc</id>
+    <content type="html"><![CDATA[<p>Listen up, nerds. Do you hear that? It&rsquo;s the whooshing sound of people moving from San Francisco to New York City. Seriously, NYC is taking talent from the Bay Area and they&rsquo;re doing it right under our noses. Anil Dash may not have been the start of this trend (I would say he was on a brief two or three year visit to SF), but he is surely one of the first to acknowledge it and take it seriously.</p>
+
+<p>Recently Mr. Dash <a href="http://dashes.com/anil/2010/12/im-running-for-the-new-york-tech-meetup-board.html">ran for and won</a> a seat on the NY Tech Meetup board. He ran on a full platform of ideas, one of which was taking regional competition in the technology industry seriously. This may be a shock to some of you but I&rsquo;ll toss it slowly: technology development also occurs outside of the Bay Area. It&rsquo;s true, even though common wisdom says that most startups go where the best talent is and that the best talent is by the Bay. I can&rsquo;t comment on how true this was previously, my experience is just a data point &ndash; I moved to San Francisco because Philadelphia didn&rsquo;t have much of a tech scene in 2004 &ndash; but it&rsquo;s definitely not true now.</p>
+
+<p>Consider this: They have awesome startups that you might not expect like Foursquare, hunch and bit.ly. They have a Google office, Django and RoR meetups (not the mention the NYTM) and an Ignite nyc community that might just be better attended than SF. Yes, they have the internet too. And fuck, they&rsquo;re <em>organized</em>. Maybe it&rsquo;s an east coast thing, but there are so many organizations to be a part of in NYC.</p>
+
+<p>Hardware hacking is no longer the bread and butter of the Bay Area either. NYC Resistor is like the TechShop of the east. Now I hear that they have <a href="http://breadpig.com/hack-club/">Hack Club</a> and <em>this is a thing that we don&rsquo;t have</em>. NYC is clearly gaining ground.</p>
+
+<p>They have the Shake Shack. Four of them. What do we have? One measly In-and-Out in a part of the city that no one visits?</p>
+
+<p>San Francisco has become complacent of our position at the top of the technology ladder. If we don&rsquo;t start realizing the meteoric rise of NYC soon, we&rsquo;re going to be three places behind and wondering what hit us. Get started again, geeks. This is important.</p>
+]]></content>
+  </entry>
+  
+</feed>

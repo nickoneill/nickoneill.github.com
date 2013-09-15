@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: sanfrancisco | authenticgeek]]></title>
-  <link href="http://nickoneill.github.io/categories/sanfrancisco/atom.xml" rel="self"/>
-  <link href="http://nickoneill.github.io/"/>
-  <updated>2013-09-13T13:13:30-07:00</updated>
-  <id>http://nickoneill.github.io/</id>
+  <link href="http://blog.nickoneill.name/categories/sanfrancisco/atom.xml" rel="self"/>
+  <link href="http://blog.nickoneill.name/"/>
+  <updated>2013-09-15T11:35:49-07:00</updated>
+  <id>http://blog.nickoneill.name/</id>
   <author>
     <name><![CDATA[Nick O'Neill]]></name>
     
@@ -15,14 +15,33 @@
   
   <entry>
     <title type="html"><![CDATA[Lightning vs. the Bay Bridge]]></title>
-    <link href="http://nickoneill.github.io/lightning-vs-bay-bridge/"/>
+    <link href="http://blog.nickoneill.name/lightning-vs-bay-bridge/"/>
     <updated>2012-04-13T08:32:00-07:00</updated>
-    <id>http://nickoneill.github.io/lightning-vs-bay-bridge</id>
+    <id>http://blog.nickoneill.name/lightning-vs-bay-bridge</id>
     <content type="html"><![CDATA[<p>Here&rsquo;s a <a href="http://a.yfrog.com/img515/4024/5k4p.jpg">pretty awesome photo</a> from last night&rsquo;s rare thunderstorm in San Francisco. It shows lightning simultaneously striking all four western span towers of the Bay Bridge.</p>
 
 <p>Mother Nature: more like this, plz!</p>
 
 <p><strong>Update:</strong> <a href="http://www.flickr.com/photos/philmcgrew/6926707884/">Another shot</a> of the same thing!</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[sf vs nyc]]></title>
+    <link href="http://blog.nickoneill.name/sfvsnyc/"/>
+    <updated>2011-01-11T11:45:00-08:00</updated>
+    <id>http://blog.nickoneill.name/sfvsnyc</id>
+    <content type="html"><![CDATA[<p>Listen up, nerds. Do you hear that? It&rsquo;s the whooshing sound of people moving from San Francisco to New York City. Seriously, NYC is taking talent from the Bay Area and they&rsquo;re doing it right under our noses. Anil Dash may not have been the start of this trend (I would say he was on a brief two or three year visit to SF), but he is surely one of the first to acknowledge it and take it seriously.</p>
+
+<p>Recently Mr. Dash <a href="http://dashes.com/anil/2010/12/im-running-for-the-new-york-tech-meetup-board.html">ran for and won</a> a seat on the NY Tech Meetup board. He ran on a full platform of ideas, one of which was taking regional competition in the technology industry seriously. This may be a shock to some of you but I&rsquo;ll toss it slowly: technology development also occurs outside of the Bay Area. It&rsquo;s true, even though common wisdom says that most startups go where the best talent is and that the best talent is by the Bay. I can&rsquo;t comment on how true this was previously, my experience is just a data point &ndash; I moved to San Francisco because Philadelphia didn&rsquo;t have much of a tech scene in 2004 &ndash; but it&rsquo;s definitely not true now.</p>
+
+<p>Consider this: They have awesome startups that you might not expect like Foursquare, hunch and bit.ly. They have a Google office, Django and RoR meetups (not the mention the NYTM) and an Ignite nyc community that might just be better attended than SF. Yes, they have the internet too. And fuck, they&rsquo;re <em>organized</em>. Maybe it&rsquo;s an east coast thing, but there are so many organizations to be a part of in NYC.</p>
+
+<p>Hardware hacking is no longer the bread and butter of the Bay Area either. NYC Resistor is like the TechShop of the east. Now I hear that they have <a href="http://breadpig.com/hack-club/">Hack Club</a> and <em>this is a thing that we don&rsquo;t have</em>. NYC is clearly gaining ground.</p>
+
+<p>They have the Shake Shack. Four of them. What do we have? One measly In-and-Out in a part of the city that no one visits?</p>
+
+<p>San Francisco has become complacent of our position at the top of the technology ladder. If we don&rsquo;t start realizing the meteoric rise of NYC soon, we&rsquo;re going to be three places behind and wondering what hit us. Get started again, geeks. This is important.</p>
 ]]></content>
   </entry>
   

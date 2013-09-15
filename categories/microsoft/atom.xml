@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: microsoft | authenticgeek]]></title>
-  <link href="http://nickoneill.github.io/categories/microsoft/atom.xml" rel="self"/>
-  <link href="http://nickoneill.github.io/"/>
-  <updated>2013-09-13T13:13:30-07:00</updated>
-  <id>http://nickoneill.github.io/</id>
+  <link href="http://blog.nickoneill.name/categories/microsoft/atom.xml" rel="self"/>
+  <link href="http://blog.nickoneill.name/"/>
+  <updated>2013-09-15T11:35:49-07:00</updated>
+  <id>http://blog.nickoneill.name/</id>
   <author>
     <name><![CDATA[Nick O'Neill]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[The IntelliMouse]]></title>
-    <link href="http://nickoneill.github.io/the-intellimouse/"/>
+    <link href="http://blog.nickoneill.name/the-intellimouse/"/>
     <updated>2012-07-18T08:41:00-07:00</updated>
-    <id>http://nickoneill.github.io/the-intellimouse</id>
+    <id>http://blog.nickoneill.name/the-intellimouse</id>
     <content type="html"><![CDATA[<p>Ah, <a href="http://www.theverge.com/2012/7/18/3155619/microsoft-intellimouse-status-symbols">the IntelliMouse</a>! It was simply the best mouse at the time, and I used one for a long time despite those being some of my prime Microsoft-hating years.</p>
 
 <p>It doesn&rsquo;t matter what people think of you when you create something so much better than the competition.</p>

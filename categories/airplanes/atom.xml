@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: airplanes | authenticgeek]]></title>
-  <link href="http://nickoneill.github.io/categories/airplanes/atom.xml" rel="self"/>
-  <link href="http://nickoneill.github.io/"/>
-  <updated>2013-09-13T13:13:30-07:00</updated>
-  <id>http://nickoneill.github.io/</id>
+  <link href="http://blog.nickoneill.name/categories/airplanes/atom.xml" rel="self"/>
+  <link href="http://blog.nickoneill.name/"/>
+  <updated>2013-09-15T11:35:49-07:00</updated>
+  <id>http://blog.nickoneill.name/</id>
   <author>
     <name><![CDATA[Nick O'Neill]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[The Control System Transition]]></title>
-    <link href="http://nickoneill.github.io/the-control-system-transition/"/>
+    <link href="http://blog.nickoneill.name/the-control-system-transition/"/>
     <updated>2012-04-08T09:15:00-07:00</updated>
-    <id>http://nickoneill.github.io/the-control-system-transition</id>
+    <id>http://blog.nickoneill.name/the-control-system-transition</id>
     <content type="html"><![CDATA[<p>Here&rsquo;s a fascinating look at some unique problems our society is experiencing during the transition between primarily Human to primarily Computer-based control of critical systems.</p>
 
 <p>&ldquo;<a href="http://www.macroresilience.com/2011/12/29/people-make-poor-monitors-for-computers/">People Make Poor Monitors for Computers</a>&rdquo; describes the interesting case of Air France 447 which experienced some loss of instrumentation data while flying through <a href="http://www.finestructure.com/2009/06/storms-at-the-equator-or-the-itcz/">storms near the equator</a>. Control of the aircraft was ceded to the Human operators in the midst of an airspeed indicator failure and the operators couldn&rsquo;t make sense of what was going on (and in fact made very wrong choices) before it was too late to recover.</p>

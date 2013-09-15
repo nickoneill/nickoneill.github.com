@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: books | authenticgeek]]></title>
-  <link href="http://nickoneill.github.io/categories/books/atom.xml" rel="self"/>
-  <link href="http://nickoneill.github.io/"/>
-  <updated>2013-09-13T13:13:30-07:00</updated>
-  <id>http://nickoneill.github.io/</id>
+  <link href="http://blog.nickoneill.name/categories/books/atom.xml" rel="self"/>
+  <link href="http://blog.nickoneill.name/"/>
+  <updated>2013-09-15T11:35:49-07:00</updated>
+  <id>http://blog.nickoneill.name/</id>
   <author>
     <name><![CDATA[Nick O'Neill]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Holidays Book Fest]]></title>
-    <link href="http://nickoneill.github.io/2012-books-review/"/>
+    <link href="http://blog.nickoneill.name/2012-books-review/"/>
     <updated>2012-12-31T12:43:00-08:00</updated>
-    <id>http://nickoneill.github.io/2012-books-review</id>
+    <id>http://blog.nickoneill.name/2012-books-review</id>
     <content type="html"><![CDATA[<p>As promised in <a href="http://blog.nickoneill.name/return-of-blog-holidays-edition.html">my last post</a>, some books I&rsquo;ve made my way through (or not) this year:</p>
 
 <p>I started with <a href="http://www.amazon.com/s/?_encoding=UTF8&amp;tag=finestru-20">World War Z</a>, the quintessential worldwide zombie outbreak book. The book is told as a series of interviews with survivors around the world, discussing the war from an interesting combination of personal and professional points of view. I enjoyed the format but I doubt it&rsquo;ll survive to the <a href="http://www.imdb.com/title/tt0816711/">movie interpretation</a>. Highly suggested to read before the movie comes out next year.</p>
@@ -42,9 +42,9 @@
   
   <entry>
     <title type="html"><![CDATA[Buy Design Is a Job]]></title>
-    <link href="http://nickoneill.github.io/buy-design-is-a-job/"/>
+    <link href="http://blog.nickoneill.name/buy-design-is-a-job/"/>
     <updated>2012-04-10T16:09:00-07:00</updated>
-    <id>http://nickoneill.github.io/buy-design-is-a-job</id>
+    <id>http://blog.nickoneill.name/buy-design-is-a-job</id>
     <content type="html"><![CDATA[<p>I haven&rsquo;t read <em><a href="http://www.abookapart.com/products/design-is-a-job">Design Is a Job</a></em> yet but you should buy it if you have clients, even if you don&rsquo;t specifically do design.</p>
 
 <p>When he can tear himself away from Twitter, Mike Monteiro does some really great work. In terms of work for <em>his</em> clients and when talking about his process on the <a href="http://weblog.muledesign.com/">Mule Design Blog</a>. And that&rsquo;s why I can recommend <em>Design Is a Job</em> without reading it.</p>

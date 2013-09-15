@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: booze | authenticgeek]]></title>
-  <link href="http://nickoneill.github.io/categories/booze/atom.xml" rel="self"/>
-  <link href="http://nickoneill.github.io/"/>
-  <updated>2013-09-13T13:13:30-07:00</updated>
-  <id>http://nickoneill.github.io/</id>
+  <link href="http://blog.nickoneill.name/categories/booze/atom.xml" rel="self"/>
+  <link href="http://blog.nickoneill.name/"/>
+  <updated>2013-09-15T11:35:49-07:00</updated>
+  <id>http://blog.nickoneill.name/</id>
   <author>
     <name><![CDATA[Nick O'Neill]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[White House Beer Recipes]]></title>
-    <link href="http://nickoneill.github.io/beer-recipes-white-house/"/>
+    <link href="http://blog.nickoneill.name/beer-recipes-white-house/"/>
     <updated>2012-09-04T13:30:00-07:00</updated>
-    <id>http://nickoneill.github.io/beer-recipes-white-house</id>
+    <id>http://blog.nickoneill.name/beer-recipes-white-house</id>
     <content type="html"><![CDATA[<p>I&rsquo;ve been brewing beer at home since the spring so it was pretty cool to see the White House staff getting into brewing and then releasing their own <a href="http://www.whitehouse.gov/blog/2012/09/01/ale-chief-white-house-beer-recipe">recipes for Honey Ale and Honey Porter</a>.</p>
 
 <p>I&rsquo;m tempted to pick up the ingredients for the porter and try it out &ndash; I&rsquo;m sure the <a href="http://www.sanfranciscobrewcraft.com/">Brewcraft store in SF</a> (where I get all my recipes) is getting plenty of requests for those ingredients. So far I&rsquo;ve made a Pale Ale (decent!), an Amber Ale (slightly watery), a Pilsner (tasty but slightly overcarbonated) and an IPA is almost ready to be bottled.</p>
@@ -30,9 +30,9 @@
   
   <entry>
     <title type="html"><![CDATA[Go-powered Beer at Original Gravity Pub]]></title>
-    <link href="http://nickoneill.github.io/original-gravity-pub/"/>
+    <link href="http://blog.nickoneill.name/original-gravity-pub/"/>
     <updated>2012-08-15T13:00:00-07:00</updated>
-    <id>http://nickoneill.github.io/original-gravity-pub</id>
+    <id>http://blog.nickoneill.name/original-gravity-pub</id>
     <content type="html"><![CDATA[<p>Last month saw the official opening of San Jose&rsquo;s newest drinking establishment, <a href="http://www.originalgravitypub.com/">Original Gravity Public House</a>. Dan is a friend from before he became a full-time beer slinger and I offered to whip up something for the website a while back.</p>
 
 <p>As a craft beer bar they had the opportunity to change their selection of beers regularly and wanted a way to reflect those changes on their website and in the bar with minimal effort. You can see the virtual result on their website which has an up-to-date list of all their current beers. The other solution was showing a list of all their current beers on a 40" TV above the bar, you can see a picture of how it turned out here:</p>
@@ -54,9 +54,9 @@ From <a href="http://www.yelp.com/biz_photos/uXCsgEdownjTGlQtnWvkjQ?select=Gxg_c
   
   <entry>
     <title type="html"><![CDATA[Industry City Distillery]]></title>
-    <link href="http://nickoneill.github.io/industry-city-distillery/"/>
+    <link href="http://blog.nickoneill.name/industry-city-distillery/"/>
     <updated>2012-06-06T11:42:00-07:00</updated>
-    <id>http://nickoneill.github.io/industry-city-distillery</id>
+    <id>http://blog.nickoneill.name/industry-city-distillery</id>
     <content type="html"><![CDATA[<p>I love the philosophies behind Industry City Distillery, shown in <a href="http://vimeo.com/42991839">this very well produced video</a>.</p>
 
 <p>The first thing that grabs me is the attention to detail in each of the processes shown. Not only are they paying incredible attention to the science of distilling but the labeling is done on an old letterpress which gives it that extra ounce of style.</p>

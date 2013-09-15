@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: tech | authenticgeek]]></title>
-  <link href="http://nickoneill.github.io/categories/tech/atom.xml" rel="self"/>
-  <link href="http://nickoneill.github.io/"/>
-  <updated>2013-09-13T13:13:30-07:00</updated>
-  <id>http://nickoneill.github.io/</id>
+  <link href="http://blog.nickoneill.name/categories/tech/atom.xml" rel="self"/>
+  <link href="http://blog.nickoneill.name/"/>
+  <updated>2013-09-15T11:35:49-07:00</updated>
+  <id>http://blog.nickoneill.name/</id>
   <author>
     <name><![CDATA[Nick O'Neill]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[An Interesting Moment of Future Technology]]></title>
-    <link href="http://nickoneill.github.io/wearable-technology/"/>
+    <link href="http://blog.nickoneill.name/wearable-technology/"/>
     <updated>2013-02-22T12:05:00-08:00</updated>
-    <id>http://nickoneill.github.io/wearable-technology</id>
+    <id>http://blog.nickoneill.name/wearable-technology</id>
     <content type="html"><![CDATA[<p>There&rsquo;s a common theme in scifi where humans have some personalized technology which only they can hear and interact with, transparent to those around them. I think we&rsquo;re near that point, I give it less than five years before something iPhone-like takes off in this space.</p>
 
 <p>I&rsquo;ve always liked these gadgets in scifi but I only reexamined their possibility the other day. I was driving with my partner (<em>we&rsquo;ve been together too long for me to say &ldquo;girlfriend&rdquo; but have no other incentives to get married so we live in a perpetual middle-ground with no word to describe it. Thanks culture</em>) up above the bay on a trip that I wasn&rsquo;t familiar with so I set up turn-by-turn on my phone.</p>

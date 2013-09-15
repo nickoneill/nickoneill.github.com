@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: science | authenticgeek]]></title>
-  <link href="http://nickoneill.github.io/categories/science/atom.xml" rel="self"/>
-  <link href="http://nickoneill.github.io/"/>
-  <updated>2013-09-13T13:13:30-07:00</updated>
-  <id>http://nickoneill.github.io/</id>
+  <link href="http://blog.nickoneill.name/categories/science/atom.xml" rel="self"/>
+  <link href="http://blog.nickoneill.name/"/>
+  <updated>2013-09-15T11:35:49-07:00</updated>
+  <id>http://blog.nickoneill.name/</id>
   <author>
     <name><![CDATA[Nick O'Neill]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Jurassic Park: Nope]]></title>
-    <link href="http://nickoneill.github.io/jurassic-park-nope/"/>
+    <link href="http://blog.nickoneill.name/jurassic-park-nope/"/>
     <updated>2013-09-11T14:48:00-07:00</updated>
-    <id>http://nickoneill.github.io/jurassic-park-nope</id>
+    <id>http://blog.nickoneill.name/jurassic-park-nope</id>
     <content type="html"><![CDATA[<p>Ok, this is mostly me just trying out crossposting to Fine Structure, but you&rsquo;ve got to admit a little part of your ten year-old self just died a bit:</p>
 
 <blockquote><p>Researchers studying insects from sub-fossilized fragments of copal, an amber-like resin, extracted remains of stingless bees trapped around 10,000 years ago and attempted to analyze DNA fragments found within. A few very short base pair chains matched parts from an asian bumblebee and some bacteria but nothing significant, the DNA has long since decayed and this is only after a short (geological) time.</p></blockquote>
@@ -26,9 +26,9 @@
   
   <entry>
     <title type="html"><![CDATA[13.5 Billion Year Movie]]></title>
-    <link href="http://nickoneill.github.io/135-billion-year-movie/"/>
+    <link href="http://blog.nickoneill.name/135-billion-year-movie/"/>
     <updated>2012-11-05T14:28:00-08:00</updated>
-    <id>http://nickoneill.github.io/135-billion-year-movie</id>
+    <id>http://blog.nickoneill.name/135-billion-year-movie</id>
     <content type="html"><![CDATA[<p>This <a href="http://www.youtube.com/watch?v=_Ssc1GsqHds">youtube video from NASA</a> shows a galactic simulation for approximately 13.5 Billion years. While watching galaxies tear each other apart is fun and all, the fascinating part is that it is, after all, a simulation.</p>
 
 <p>Take some physical rules and enough processing power and you can simulate 13.5 Billion years of dust coming together which in turn attracts more dust and creates stars which attracts more dust which creates young stars which… you get the idea.</p>
@@ -37,9 +37,9 @@
   
   <entry>
     <title type="html"><![CDATA[Kickstarting Spacecraft Thrusters]]></title>
-    <link href="http://nickoneill.github.io/spacecraft-thrusters-kickstarter/"/>
+    <link href="http://blog.nickoneill.name/spacecraft-thrusters-kickstarter/"/>
     <updated>2012-10-30T17:51:00-07:00</updated>
-    <id>http://nickoneill.github.io/spacecraft-thrusters-kickstarter</id>
+    <id>http://blog.nickoneill.name/spacecraft-thrusters-kickstarter</id>
     <content type="html"><![CDATA[<p>Wanna back something novel on Kickstarter? <a href="http://www.hyperv.com/">HyperV</a> is attempting to raise funds to develop <a href="http://www.kickstarter.com/projects/2027072188/plasma-jet-electric-thrusters-for-spacecraft">plasma jet thrusters</a> that could be used in spacecraft outside of the atmosphere.</p>
 
 <p>It&rsquo;s not exactly citizen science (which I&rsquo;d like to see on Kickstarter some day) but it&rsquo;s a great start if you want to be involved with funding an awesome science and technology project and get interesting updates along the way.</p>
@@ -52,9 +52,9 @@
   
   <entry>
     <title type="html"><![CDATA[Endeavour Over San Francisco]]></title>
-    <link href="http://nickoneill.github.io/endeavour-over-sf/"/>
+    <link href="http://blog.nickoneill.name/endeavour-over-sf/"/>
     <updated>2012-09-07T10:32:00-07:00</updated>
-    <id>http://nickoneill.github.io/endeavour-over-sf</id>
+    <id>http://blog.nickoneill.name/endeavour-over-sf</id>
     <content type="html"><![CDATA[<p>Yes, we&rsquo;ll be getting <a href="http://www.nasa.gov/home/hqnews/2012/sep/HQ_M12-173_Endeavour_Ferry_Flight.html">our own Shuttle flyover</a>!</p>
 
 <p>September 20th will see flyovers of Moffet Field, Sacramento and San Francisco on the way to Endeavour&rsquo;s final resting place at the space center in LA. Expect some awesome shots of the Golden Gate Bridge!</p>
@@ -63,9 +63,9 @@
   
   <entry>
     <title type="html"><![CDATA[Pictures from Curiosity Landing]]></title>
-    <link href="http://nickoneill.github.io/curiosity-landing-pictures/"/>
+    <link href="http://blog.nickoneill.name/curiosity-landing-pictures/"/>
     <updated>2012-08-06T09:14:00-07:00</updated>
-    <id>http://nickoneill.github.io/curiosity-landing-pictures</id>
+    <id>http://blog.nickoneill.name/curiosity-landing-pictures</id>
     <content type="html"><![CDATA[<p>While Curiosity was busy going through it&rsquo;s <a href="http://www.finestructure.com/2012/06/challenges-of-getting-to-mars/">seven minutes of terror</a>, the Mars Recon Orbiter was taking pictures overhead.</p>
 
 <p>Yes, you heard that right. We <a href="http://www.wired.com/wiredscience/2012/08/mro-curiosity-descent/">took a picture</a> of a tiny little lander descending through the Martian atmosphere with another robot which currently orbits Mars.</p>

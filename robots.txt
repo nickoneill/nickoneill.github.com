@@ -1,4 +1,4 @@
 User-agent: *
 Disallow: 
 
-Sitemap: http://nickoneill.github.io/sitemap.xml 
+Sitemap: http://blog.nickoneill.name/sitemap.xml 

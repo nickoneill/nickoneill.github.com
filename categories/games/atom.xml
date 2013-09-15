@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: games | authenticgeek]]></title>
-  <link href="http://nickoneill.github.io/categories/games/atom.xml" rel="self"/>
-  <link href="http://nickoneill.github.io/"/>
-  <updated>2013-09-13T13:13:30-07:00</updated>
-  <id>http://nickoneill.github.io/</id>
+  <link href="http://blog.nickoneill.name/categories/games/atom.xml" rel="self"/>
+  <link href="http://blog.nickoneill.name/"/>
+  <updated>2013-09-15T11:35:49-07:00</updated>
+  <id>http://blog.nickoneill.name/</id>
   <author>
     <name><![CDATA[Nick O'Neill]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Return of Blog, Holidays Edition]]></title>
-    <link href="http://nickoneill.github.io/return-of-blog/"/>
+    <link href="http://blog.nickoneill.name/return-of-blog/"/>
     <updated>2012-12-22T15:13:00-08:00</updated>
-    <id>http://nickoneill.github.io/return-of-blog</id>
+    <id>http://blog.nickoneill.name/return-of-blog</id>
     <content type="html"><![CDATA[<p>Good day, blog friends!</p>
 
 <p>Not counting <a href="http://blog.nickoneill.name/muniverse-2.html">Muniverse</a> (and I don&rsquo;t, it was waiting to be published for a while), it has been quite a time since I last wrote a thing. Here&rsquo;s some stuff that doesn&rsquo;t warrant its own post:</p>
@@ -38,9 +38,9 @@
   
   <entry>
     <title type="html"><![CDATA[Tiny NES Cartridge Keychains]]></title>
-    <link href="http://nickoneill.github.io/tiny-nes-cartridge/"/>
+    <link href="http://blog.nickoneill.name/tiny-nes-cartridge/"/>
     <updated>2012-07-09T08:16:00-07:00</updated>
-    <id>http://nickoneill.github.io/tiny-nes-cartridge</id>
+    <id>http://blog.nickoneill.name/tiny-nes-cartridge</id>
     <content type="html"><![CDATA[<p>This is a serious labor of love. Ben Purdy puts together a <a href="http://www.benpurdy.com/2012/07/quarter-scale-nes-cartridges/">scale, keychainable NES cartridge</a> for his band.</p>
 
 <p>Laser cutting and 3D printing were not quite up to the task (cost, materials, etc) so he milled his own in wax using a drill press on a moving stage and then cast it in resin. Old school methods but absolutely awesome results. You must see it to believe it.</p>
@@ -49,9 +49,9 @@
   
   <entry>
     <title type="html"><![CDATA[The Valve Handbook]]></title>
-    <link href="http://nickoneill.github.io/the-valve-handbook/"/>
+    <link href="http://blog.nickoneill.name/the-valve-handbook/"/>
     <updated>2012-04-21T17:10:00-07:00</updated>
-    <id>http://nickoneill.github.io/the-valve-handbook</id>
+    <id>http://blog.nickoneill.name/the-valve-handbook</id>
     <content type="html"><![CDATA[<p>I don&rsquo;t often recommend reading company handbooks but the <a href="http://cdn.flamehaus.com/Valve_Handbook_LowRes.pdf">Valve company handbook</a> is definitely an exception.</p>
 
 <p>It feels like a bunch of smart nerds got together and ignored all the management advice they were given from every other boilerplate company. Then they made a bunch of awesome games and didn&rsquo;t compromise on their values. Now they&rsquo;re smart rich nerds.</p>
@@ -62,9 +62,9 @@
   
   <entry>
     <title type="html"><![CDATA[0x10c]]></title>
-    <link href="http://nickoneill.github.io/0x10c-from-notch/"/>
+    <link href="http://blog.nickoneill.name/0x10c-from-notch/"/>
     <updated>2012-04-04T08:27:00-07:00</updated>
-    <id>http://nickoneill.github.io/0x10c-from-notch</id>
+    <id>http://blog.nickoneill.name/0x10c-from-notch</id>
     <content type="html"><![CDATA[<p>The creator of Minecraft has released the basics around his new game, <a href="http://0x10c.com/">0x10<sup>c</sup></a>. It&rsquo;s scifi-ish, based around space ships and all the great things that come with it.</p>
 
 <p>If Notch taught a bunch of kids about circuits and logic gates in Minecraft, he aims to teach them about programming in assembly as each ship contains a simulated 16-bit CPU. Here&rsquo;s <a href="http://0x10c.com/doc/dcpu-16.txt">a spec</a> for the simulated CPU.</p>
@@ -73,13 +73,13 @@
   
   <entry>
     <title type="html"><![CDATA[A Minecraft Catsplosion]]></title>
-    <link href="http://nickoneill.github.io/a-minecraft-catsplosion/"/>
+    <link href="http://blog.nickoneill.name/a-minecraft-catsplosion/"/>
     <updated>2012-03-01T17:01:00-08:00</updated>
-    <id>http://nickoneill.github.io/a-minecraft-catsplosion</id>
+    <id>http://blog.nickoneill.name/a-minecraft-catsplosion</id>
     <content type="html"><![CDATA[<p>A (melon) slice of what makes Minecraft great. It&apos;s just a bunch of objects connected by a bag of rules, some of which you can exploit to make an infinite fountain of cats.</p>
 
 <div class="video-container">
-    <iframe width="560" height="315" src="http://nickoneill.github.io//www.youtube.com/embed/iNw2YcAK9Wc" frameborder="0" allowfullscreen></iframe>
+    <iframe width="560" height="315" src="http://blog.nickoneill.name//www.youtube.com/embed/iNw2YcAK9Wc" frameborder="0" allowfullscreen></iframe>
 </div>
 
 ]]></content>

@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: blogging | authenticgeek]]></title>
-  <link href="http://nickoneill.github.io/categories/blogging/atom.xml" rel="self"/>
-  <link href="http://nickoneill.github.io/"/>
-  <updated>2013-09-13T13:13:30-07:00</updated>
-  <id>http://nickoneill.github.io/</id>
+  <link href="http://blog.nickoneill.name/categories/blogging/atom.xml" rel="self"/>
+  <link href="http://blog.nickoneill.name/"/>
+  <updated>2013-09-15T11:35:49-07:00</updated>
+  <id>http://blog.nickoneill.name/</id>
   <author>
     <name><![CDATA[Nick O'Neill]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[This is How I Blog]]></title>
-    <link href="http://nickoneill.github.io/Publishing/"/>
+    <link href="http://blog.nickoneill.name/Publishing/"/>
     <updated>2012-02-20T23:30:00-08:00</updated>
-    <id>http://nickoneill.github.io/Publishing</id>
+    <id>http://blog.nickoneill.name/Publishing</id>
     <content type="html"><![CDATA[<h3>This is out of date, I don&rsquo;t use this tool anymore. I want to build something similar on a more robust platform but for now I&rsquo;m just back to Octopress</h3>
 
 <p>Pinboard is my blog platform. Or at least it was for most of 2011. I let my science blog Fine Structure wane at the start of last year when I stopped having time to research and write long posts about science topics. It was incredibly enlightening to dig deep into a complex topic it but it&rsquo;s not easy.</p>

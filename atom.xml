@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[authenticgeek]]></title>
-  <link href="http://nickoneill.github.io/atom.xml" rel="self"/>
-  <link href="http://nickoneill.github.io/"/>
-  <updated>2013-09-13T13:13:30-07:00</updated>
-  <id>http://nickoneill.github.io/</id>
+  <link href="http://blog.nickoneill.name/atom.xml" rel="self"/>
+  <link href="http://blog.nickoneill.name/"/>
+  <updated>2013-09-15T11:35:49-07:00</updated>
+  <id>http://blog.nickoneill.name/</id>
   <author>
     <name><![CDATA[Nick O'Neill]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Jurassic Park: Nope]]></title>
-    <link href="http://nickoneill.github.io/jurassic-park-nope/"/>
+    <link href="http://blog.nickoneill.name/jurassic-park-nope/"/>
     <updated>2013-09-11T14:48:00-07:00</updated>
-    <id>http://nickoneill.github.io/jurassic-park-nope</id>
+    <id>http://blog.nickoneill.name/jurassic-park-nope</id>
     <content type="html"><![CDATA[<p>Ok, this is mostly me just trying out crossposting to Fine Structure, but you&rsquo;ve got to admit a little part of your ten year-old self just died a bit:</p>
 
 <blockquote><p>Researchers studying insects from sub-fossilized fragments of copal, an amber-like resin, extracted remains of stingless bees trapped around 10,000 years ago and attempted to analyze DNA fragments found within. A few very short base pair chains matched parts from an asian bumblebee and some bacteria but nothing significant, the DNA has long since decayed and this is only after a short (geological) time.</p></blockquote>
@@ -26,9 +26,9 @@
   
   <entry>
     <title type="html"><![CDATA[App Configuration with URL Schemes]]></title>
-    <link href="http://nickoneill.github.io/url-config-schemes/"/>
+    <link href="http://blog.nickoneill.name/url-config-schemes/"/>
     <updated>2013-03-15T10:43:00-07:00</updated>
-    <id>http://nickoneill.github.io/url-config-schemes</id>
+    <id>http://blog.nickoneill.name/url-config-schemes</id>
     <content type="html"><![CDATA[<p>I just read about a neat feature for <a href="http://www.atebits.com/letterpress/experimental/">Letterpress 1.4 where savvy users can test Spanish games</a> by loading &ldquo;letterpress:experimental&rdquo; in Safari and I wanted to share an alternate example that I build for a client a while back.</p>
 
 <p>In this particular case, the client wanted to distribute a single app binary via enterprise distribution or ad-hoc builds to various clients of his own. The catch was that all these clients wanted the app to look customized to their own brand with logos and colors.</p>
@@ -49,9 +49,9 @@
   
   <entry>
     <title type="html"><![CDATA[Ice Maker Repair for a GE Profile Refrigerator]]></title>
-    <link href="http://nickoneill.github.io/ice-maker-repair/"/>
+    <link href="http://blog.nickoneill.name/ice-maker-repair/"/>
     <updated>2013-03-07T15:06:00-08:00</updated>
-    <id>http://nickoneill.github.io/ice-maker-repair</id>
+    <id>http://blog.nickoneill.name/ice-maker-repair</id>
     <content type="html"><![CDATA[<p>If you&rsquo;ve got one of these GE Profile refrigerators from a few years ago (this one was installed 8 years ago, I think, model PSS26MSRD) and the ice maker isn&rsquo;t making ice, there are a few simple steps you can go through to troubleshoot.</p>
 
 <p>First, pull out the ice bin and eyeball the ice maker device behind it. See if the switch is turned on and the green light is lit. If it&rsquo;s blinking, that indicates &ldquo;ice stuck in tray&rdquo; and you&rsquo;ll have to take it out and thaw the whole contraption out. It&rsquo;s not that hard: unplug the giant molex connector on the right side and use a small hex wrench to unscrew the obvious screw holding it to the left side of the freezer wall. Then you can firmly pull the device up and out until it pops free from the notches where it sits in the back.</p>
@@ -70,9 +70,9 @@
   
   <entry>
     <title type="html"><![CDATA[An Interesting Moment of Future Technology]]></title>
-    <link href="http://nickoneill.github.io/wearable-technology/"/>
+    <link href="http://blog.nickoneill.name/wearable-technology/"/>
     <updated>2013-02-22T12:05:00-08:00</updated>
-    <id>http://nickoneill.github.io/wearable-technology</id>
+    <id>http://blog.nickoneill.name/wearable-technology</id>
     <content type="html"><![CDATA[<p>There&rsquo;s a common theme in scifi where humans have some personalized technology which only they can hear and interact with, transparent to those around them. I think we&rsquo;re near that point, I give it less than five years before something iPhone-like takes off in this space.</p>
 
 <p>I&rsquo;ve always liked these gadgets in scifi but I only reexamined their possibility the other day. I was driving with my partner (<em>we&rsquo;ve been together too long for me to say &ldquo;girlfriend&rdquo; but have no other incentives to get married so we live in a perpetual middle-ground with no word to describe it. Thanks culture</em>) up above the bay on a trip that I wasn&rsquo;t familiar with so I set up turn-by-turn on my phone.</p>
@@ -105,9 +105,9 @@
   
   <entry>
     <title type="html"><![CDATA[Post-Fab Construction]]></title>
-    <link href="http://nickoneill.github.io/postfab/"/>
+    <link href="http://blog.nickoneill.name/postfab/"/>
     <updated>2013-02-16T10:00:00-08:00</updated>
-    <id>http://nickoneill.github.io/postfab</id>
+    <id>http://blog.nickoneill.name/postfab</id>
     <content type="html"><![CDATA[<p>Here&rsquo;s what I don&rsquo;t understand about modern house construction; despite modern computation and robotics, we still rely on humans to measure and cut things piece-by-piece in order to build a house.</p>
 
 <p>Prefab has negative connotations for being used to create cookie cutter houses that have no individuality but it&rsquo;s a self-imposed  limitation, especially considering that planning is already computerized. I think we can do better.</p>
@@ -134,9 +134,9 @@
   
   <entry>
     <title type="html"><![CDATA[Holidays Book Fest]]></title>
-    <link href="http://nickoneill.github.io/2012-books-review/"/>
+    <link href="http://blog.nickoneill.name/2012-books-review/"/>
     <updated>2012-12-31T12:43:00-08:00</updated>
-    <id>http://nickoneill.github.io/2012-books-review</id>
+    <id>http://blog.nickoneill.name/2012-books-review</id>
     <content type="html"><![CDATA[<p>As promised in <a href="http://blog.nickoneill.name/return-of-blog-holidays-edition.html">my last post</a>, some books I&rsquo;ve made my way through (or not) this year:</p>
 
 <p>I started with <a href="http://www.amazon.com/s/?_encoding=UTF8&amp;tag=finestru-20">World War Z</a>, the quintessential worldwide zombie outbreak book. The book is told as a series of interviews with survivors around the world, discussing the war from an interesting combination of personal and professional points of view. I enjoyed the format but I doubt it&rsquo;ll survive to the <a href="http://www.imdb.com/title/tt0816711/">movie interpretation</a>. Highly suggested to read before the movie comes out next year.</p>
@@ -161,9 +161,9 @@
   
   <entry>
     <title type="html"><![CDATA[Return of Blog, Holidays Edition]]></title>
-    <link href="http://nickoneill.github.io/return-of-blog/"/>
+    <link href="http://blog.nickoneill.name/return-of-blog/"/>
     <updated>2012-12-22T15:13:00-08:00</updated>
-    <id>http://nickoneill.github.io/return-of-blog</id>
+    <id>http://blog.nickoneill.name/return-of-blog</id>
     <content type="html"><![CDATA[<p>Good day, blog friends!</p>
 
 <p>Not counting <a href="http://blog.nickoneill.name/muniverse-2.html">Muniverse</a> (and I don&rsquo;t, it was waiting to be published for a while), it has been quite a time since I last wrote a thing. Here&rsquo;s some stuff that doesn&rsquo;t warrant its own post:</p>
@@ -184,9 +184,9 @@
   
   <entry>
     <title type="html"><![CDATA[Muniverse 2]]></title>
-    <link href="http://nickoneill.github.io/muniverse-20/"/>
+    <link href="http://blog.nickoneill.name/muniverse-20/"/>
     <updated>2012-12-17T09:43:00-08:00</updated>
-    <id>http://nickoneill.github.io/muniverse-20</id>
+    <id>http://blog.nickoneill.name/muniverse-20</id>
     <content type="html"><![CDATA[<p>Many years ago as I was learning Objective-C and Jamison was going through his public transit phase (yes, as far as I know he&rsquo;s still in it), we joined forces to create an epic San Francisco Muni app for the iPhone.</p>
 
 <p>It was my first ground-up project for the iPhone so I found myself wanting to rewrite large swaths of the code every 2-3 weeks. For obvious reasons, I tried to keep the stuff that was ugly but effective and that got us to the release. Unfortunately it was little help for keeping things updated as any Muni route changes were a big pain to incorporate. Eventually new versions of iOS deprecated bits and pieces of APIs we were using and new APIs replaced them. After a while the app started crashing on startup and I didn&rsquo;t have the heart to debug (my) ancient newbie code.</p>
@@ -209,9 +209,9 @@
   
   <entry>
     <title type="html"><![CDATA[13.5 Billion Year Movie]]></title>
-    <link href="http://nickoneill.github.io/135-billion-year-movie/"/>
+    <link href="http://blog.nickoneill.name/135-billion-year-movie/"/>
     <updated>2012-11-05T14:28:00-08:00</updated>
-    <id>http://nickoneill.github.io/135-billion-year-movie</id>
+    <id>http://blog.nickoneill.name/135-billion-year-movie</id>
     <content type="html"><![CDATA[<p>This <a href="http://www.youtube.com/watch?v=_Ssc1GsqHds">youtube video from NASA</a> shows a galactic simulation for approximately 13.5 Billion years. While watching galaxies tear each other apart is fun and all, the fascinating part is that it is, after all, a simulation.</p>
 
 <p>Take some physical rules and enough processing power and you can simulate 13.5 Billion years of dust coming together which in turn attracts more dust and creates stars which attracts more dust which creates young stars which… you get the idea.</p>
@@ -220,9 +220,9 @@
   
   <entry>
     <title type="html"><![CDATA[Kickstarting Spacecraft Thrusters]]></title>
-    <link href="http://nickoneill.github.io/spacecraft-thrusters-kickstarter/"/>
+    <link href="http://blog.nickoneill.name/spacecraft-thrusters-kickstarter/"/>
     <updated>2012-10-30T17:51:00-07:00</updated>
-    <id>http://nickoneill.github.io/spacecraft-thrusters-kickstarter</id>
+    <id>http://blog.nickoneill.name/spacecraft-thrusters-kickstarter</id>
     <content type="html"><![CDATA[<p>Wanna back something novel on Kickstarter? <a href="http://www.hyperv.com/">HyperV</a> is attempting to raise funds to develop <a href="http://www.kickstarter.com/projects/2027072188/plasma-jet-electric-thrusters-for-spacecraft">plasma jet thrusters</a> that could be used in spacecraft outside of the atmosphere.</p>
 
 <p>It&rsquo;s not exactly citizen science (which I&rsquo;d like to see on Kickstarter some day) but it&rsquo;s a great start if you want to be involved with funding an awesome science and technology project and get interesting updates along the way.</p>
@@ -235,9 +235,9 @@
   
   <entry>
     <title type="html"><![CDATA[Raptor Suit Creation]]></title>
-    <link href="http://nickoneill.github.io/raptor-suits/"/>
+    <link href="http://blog.nickoneill.name/raptor-suits/"/>
     <updated>2012-10-21T08:08:00-07:00</updated>
-    <id>http://nickoneill.github.io/raptor-suits</id>
+    <id>http://blog.nickoneill.name/raptor-suits</id>
     <content type="html"><![CDATA[<p>It&rsquo;s one thing to know that there are actors inside some of the raptors in Jurassic Park. It&rsquo;s quite another thing to see the process of creating the suits and characters themselves.</p>
 
 <p><a href="http://www.youtube.com/watch?v=jAzQr3Ml0UI#!">This video</a> and <a href="https://www.stanwinstonschool.com/blog/jurassic-park-evolution-of-a-raptor-suit">post</a> from Stan Winston school of character arts (who knew!) show the whole behind-the-scenes process for creating the raptor. It&rsquo;s incredibly fascinating to watch the movements of the actor go from unfamiliar and jerky to something entirely convincing near the end. He can even play tug of war while being stuffed into the bottom of that suit!</p>
@@ -246,9 +246,9 @@
   
   <entry>
     <title type="html"><![CDATA[Annual Business Registration Scam]]></title>
-    <link href="http://nickoneill.github.io/business-registration-scam/"/>
+    <link href="http://blog.nickoneill.name/business-registration-scam/"/>
     <updated>2012-10-06T14:11:00-07:00</updated>
-    <id>http://nickoneill.github.io/business-registration-scam</id>
+    <id>http://blog.nickoneill.name/business-registration-scam</id>
     <content type="html"><![CDATA[<p>One of the downsides to officially registering with the state as a business is that your address is added to yet another public list and various types of spam increase, regardless of your business&#8217; purpose. Not a huge deal &ndash; this is what the recycling pile is for, right?</p>
 
 <p>I recently received a letter that is actually a problem. It purports to be from an &ldquo;Annual Business Registration&rdquo; office and suggests that you need to pay some amount of money ($218, in my case) and then there&rsquo;s some fear-inducing talk about suspension of your business if you don&rsquo;t file your Statement of Information.</p>
@@ -269,9 +269,9 @@ Los Angeles, CA 90093</p></blockquote>
   
   <entry>
     <title type="html"><![CDATA[Endeavour Over San Francisco]]></title>
-    <link href="http://nickoneill.github.io/endeavour-over-sf/"/>
+    <link href="http://blog.nickoneill.name/endeavour-over-sf/"/>
     <updated>2012-09-07T10:32:00-07:00</updated>
-    <id>http://nickoneill.github.io/endeavour-over-sf</id>
+    <id>http://blog.nickoneill.name/endeavour-over-sf</id>
     <content type="html"><![CDATA[<p>Yes, we&rsquo;ll be getting <a href="http://www.nasa.gov/home/hqnews/2012/sep/HQ_M12-173_Endeavour_Ferry_Flight.html">our own Shuttle flyover</a>!</p>
 
 <p>September 20th will see flyovers of Moffet Field, Sacramento and San Francisco on the way to Endeavour&rsquo;s final resting place at the space center in LA. Expect some awesome shots of the Golden Gate Bridge!</p>
@@ -280,9 +280,9 @@ Los Angeles, CA 90093</p></blockquote>
   
   <entry>
     <title type="html"><![CDATA[White House Beer Recipes]]></title>
-    <link href="http://nickoneill.github.io/beer-recipes-white-house/"/>
+    <link href="http://blog.nickoneill.name/beer-recipes-white-house/"/>
     <updated>2012-09-04T13:30:00-07:00</updated>
-    <id>http://nickoneill.github.io/beer-recipes-white-house</id>
+    <id>http://blog.nickoneill.name/beer-recipes-white-house</id>
     <content type="html"><![CDATA[<p>I&rsquo;ve been brewing beer at home since the spring so it was pretty cool to see the White House staff getting into brewing and then releasing their own <a href="http://www.whitehouse.gov/blog/2012/09/01/ale-chief-white-house-beer-recipe">recipes for Honey Ale and Honey Porter</a>.</p>
 
 <p>I&rsquo;m tempted to pick up the ingredients for the porter and try it out &ndash; I&rsquo;m sure the <a href="http://www.sanfranciscobrewcraft.com/">Brewcraft store in SF</a> (where I get all my recipes) is getting plenty of requests for those ingredients. So far I&rsquo;ve made a Pale Ale (decent!), an Amber Ale (slightly watery), a Pilsner (tasty but slightly overcarbonated) and an IPA is almost ready to be bottled.</p>
@@ -295,9 +295,9 @@ Los Angeles, CA 90093</p></blockquote>
   
   <entry>
     <title type="html"><![CDATA[Personal Hovercrafts NOW]]></title>
-    <link href="http://nickoneill.github.io/personal-hovercraft/"/>
+    <link href="http://blog.nickoneill.name/personal-hovercraft/"/>
     <updated>2012-08-24T10:33:00-07:00</updated>
-    <id>http://nickoneill.github.io/personal-hovercraft</id>
+    <id>http://blog.nickoneill.name/personal-hovercraft</id>
     <content type="html"><![CDATA[<p>I don&rsquo;t think I know anyone who wouldn&rsquo;t want to drive to work on their <a href="http://boingboing.net/2012/08/24/testing-out-a-star-wars-style.html">personal hovercraft</a>. It seems completely possible and this same group has released a number of videos showing their progress making the thing, so probably not a hoax.</p>
 
 <p>It seems like this is one area where Hollywood has really understood how these things will behave according to the laws of physics. You&rsquo;ll be surprised at the intuitiveness of how the hoverbike behaves when turning and stopping.</p>
@@ -306,9 +306,9 @@ Los Angeles, CA 90093</p></blockquote>
   
   <entry>
     <title type="html"><![CDATA[SSD + Thunderbolt = Speed]]></title>
-    <link href="http://nickoneill.github.io/ssd-thunderbolt-speed/"/>
+    <link href="http://blog.nickoneill.name/ssd-thunderbolt-speed/"/>
     <updated>2012-08-20T09:00:00-07:00</updated>
-    <id>http://nickoneill.github.io/ssd-thunderbolt-speed</id>
+    <id>http://blog.nickoneill.name/ssd-thunderbolt-speed</id>
     <content type="html"><![CDATA[<p>I&rsquo;ve been eyeballing external Thunderbolt enclosures ever since I started running my iMac startup disk off a separate SSD. It was sitting in an old USB 2.0 enclosure but not only did it take up a precious USB slot but because SSD read/write speeds can out perform USB 2.0 transfer speeds it also wasn&rsquo;t reaching its true potential, a turn of phrase I&rsquo;m all too familiar with from high school.</p>
 
 <p>I had opened up my mid-2011 iMac a while back to see how hard it was to implant the SSD into space that I knew was reserved for such a thing. Perhaps as a warning of things to come, the guts of this computer are an impenetrable fortress &ndash; I got as far as having to take the entire logic board out before I bailed.</p>
@@ -333,9 +333,9 @@ Los Angeles, CA 90093</p></blockquote>
   
   <entry>
     <title type="html"><![CDATA[Go-powered Beer at Original Gravity Pub]]></title>
-    <link href="http://nickoneill.github.io/original-gravity-pub/"/>
+    <link href="http://blog.nickoneill.name/original-gravity-pub/"/>
     <updated>2012-08-15T13:00:00-07:00</updated>
-    <id>http://nickoneill.github.io/original-gravity-pub</id>
+    <id>http://blog.nickoneill.name/original-gravity-pub</id>
     <content type="html"><![CDATA[<p>Last month saw the official opening of San Jose&rsquo;s newest drinking establishment, <a href="http://www.originalgravitypub.com/">Original Gravity Public House</a>. Dan is a friend from before he became a full-time beer slinger and I offered to whip up something for the website a while back.</p>
 
 <p>As a craft beer bar they had the opportunity to change their selection of beers regularly and wanted a way to reflect those changes on their website and in the bar with minimal effort. You can see the virtual result on their website which has an up-to-date list of all their current beers. The other solution was showing a list of all their current beers on a 40&#8221; TV above the bar, you can see a picture of how it turned out here:</p>
@@ -357,9 +357,9 @@ From <a href="http://www.yelp.com/biz_photos/uXCsgEdownjTGlQtnWvkjQ?select=Gxg_c
   
   <entry>
     <title type="html"><![CDATA[Pictures from Curiosity Landing]]></title>
-    <link href="http://nickoneill.github.io/curiosity-landing-pictures/"/>
+    <link href="http://blog.nickoneill.name/curiosity-landing-pictures/"/>
     <updated>2012-08-06T09:14:00-07:00</updated>
-    <id>http://nickoneill.github.io/curiosity-landing-pictures</id>
+    <id>http://blog.nickoneill.name/curiosity-landing-pictures</id>
     <content type="html"><![CDATA[<p>While Curiosity was busy going through it&rsquo;s <a href="http://www.finestructure.com/2012/06/challenges-of-getting-to-mars/">seven minutes of terror</a>, the Mars Recon Orbiter was taking pictures overhead.</p>
 
 <p>Yes, you heard that right. We <a href="http://www.wired.com/wiredscience/2012/08/mro-curiosity-descent/">took a picture</a> of a tiny little lander descending through the Martian atmosphere with another robot which currently orbits Mars.</p>
@@ -368,9 +368,9 @@ From <a href="http://www.yelp.com/biz_photos/uXCsgEdownjTGlQtnWvkjQ?select=Gxg_c
   
   <entry>
     <title type="html"><![CDATA[Mars Science Lab Planning]]></title>
-    <link href="http://nickoneill.github.io/mars-science-lab-landing/"/>
+    <link href="http://blog.nickoneill.name/mars-science-lab-landing/"/>
     <updated>2012-08-03T09:05:00-07:00</updated>
-    <id>http://nickoneill.github.io/mars-science-lab-landing</id>
+    <id>http://blog.nickoneill.name/mars-science-lab-landing</id>
     <content type="html"><![CDATA[<p>Need some help getting ready for Sunday&rsquo;s MSL landing on Mars? <a href="http://boingboing.net/2012/08/02/mars-science-laboratory-rover.html">BoingBoing has details</a> of all the online NASA livestream events where you can watch the landing (more or less) live.</p>
 
 <p>Landing should occur at 10:31pm Pacific time on Sunday night. It&rsquo;s great timing for the west coast, I might make a little Google hangout for anyone else watching on Sunday.</p>
@@ -379,9 +379,9 @@ From <a href="http://www.yelp.com/biz_photos/uXCsgEdownjTGlQtnWvkjQ?select=Gxg_c
   
   <entry>
     <title type="html"><![CDATA[The IntelliMouse]]></title>
-    <link href="http://nickoneill.github.io/the-intellimouse/"/>
+    <link href="http://blog.nickoneill.name/the-intellimouse/"/>
     <updated>2012-07-18T08:41:00-07:00</updated>
-    <id>http://nickoneill.github.io/the-intellimouse</id>
+    <id>http://blog.nickoneill.name/the-intellimouse</id>
     <content type="html"><![CDATA[<p>Ah, <a href="http://www.theverge.com/2012/7/18/3155619/microsoft-intellimouse-status-symbols">the IntelliMouse</a>! It was simply the best mouse at the time, and I used one for a long time despite those being some of my prime Microsoft-hating years.</p>
 
 <p>It doesn&rsquo;t matter what people think of you when you create something so much better than the competition.</p>

@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: making | authenticgeek]]></title>
-  <link href="http://nickoneill.github.io/categories/making/atom.xml" rel="self"/>
-  <link href="http://nickoneill.github.io/"/>
-  <updated>2013-09-13T13:13:30-07:00</updated>
-  <id>http://nickoneill.github.io/</id>
+  <link href="http://blog.nickoneill.name/categories/making/atom.xml" rel="self"/>
+  <link href="http://blog.nickoneill.name/"/>
+  <updated>2013-09-15T11:35:49-07:00</updated>
+  <id>http://blog.nickoneill.name/</id>
   <author>
     <name><![CDATA[Nick O'Neill]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Evil Mad Science 24/7]]></title>
-    <link href="http://nickoneill.github.io/evil-mad-science-247/"/>
+    <link href="http://blog.nickoneill.name/evil-mad-science-247/"/>
     <updated>2012-05-01T12:36:00-07:00</updated>
-    <id>http://nickoneill.github.io/evil-mad-science-247</id>
+    <id>http://blog.nickoneill.name/evil-mad-science-247</id>
     <content type="html"><![CDATA[<p>I&rsquo;ve been a fan of the Evil Mad Scientists since I first saw Egg Bot back at the first Maker Faire. Windell and Lenore essentially invented the type of business they run now (along with Adafruit, Sparkfun and others) and the two of them are finally doing <a href="http://www.evilmadscientist.com/article.php/moreevilmad">Evil Mad Science full time</a>.</p>
 
 <p>I love it when smart people can grow a totally different business into something that can both support the community and the people behind it. Congrats to them!</p>
@@ -26,9 +26,9 @@
   
   <entry>
     <title type="html"><![CDATA[Giant Air Gun Shoots… Stuff]]></title>
-    <link href="http://nickoneill.github.io/giant-air-gun/"/>
+    <link href="http://blog.nickoneill.name/giant-air-gun/"/>
     <updated>2012-04-06T16:03:00-07:00</updated>
-    <id>http://nickoneill.github.io/giant-air-gun</id>
+    <id>http://blog.nickoneill.name/giant-air-gun</id>
     <content type="html"><![CDATA[<p>I&rsquo;m not entirely sure what this <a href="http://blog.makezine.com/2012/04/06/vera-super-spud-gun/">giant air gun</a> is used for (&ldquo;research&rdquo;, clearly) but the people who built it made an excellent video showing off its capabilities with <em>slow motion</em>.</p>
 
 <p>I&rsquo;m sure there&rsquo;s a good reason to launch things at high speed with &ldquo;low&rdquo; acceleration (&lt; 600g) but the author of the video is clearly playing it casual. From the description:</p>
@@ -36,6 +36,67 @@
 <blockquote><p>In the world of ordnance system development the need for system and subsystem testing under dynamic conditions is obvious.</p></blockquote>
 
 <p><em>Obviously</em>.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[The Fifty]]></title>
+    <link href="http://blog.nickoneill.name/the-fifty/"/>
+    <updated>2012-02-11T18:18:00-08:00</updated>
+    <id>http://blog.nickoneill.name/the-fifty</id>
+    <content type="html"><![CDATA[<p>Yes, they make 50 thousand ton presses. They&apos;re used for making all sorts of parts that you don&apos;t want to welt or bolt together. This particular machine was built in 1955 and its relevance is impressive:</p>
+
+<p>&gt;Every manned U.S. military aircraft now flying uses parts forged by the Fifty. So does every commercial aircraft made by Airbus and Boeing.</p>
+
+<p>How many other commercial machines built in 1955 are still in use today, let alone being used for some of the most cutting edge machines?</p>
+
+<p>I love giant machines like this one because they stand as large and imposing as a particle accelerator but in a totally different context.</p>
+
+<br /><a href="http://www.theatlantic.com/magazine/archive/2012/03/iron-giant/8886/">source</a>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[project shellter]]></title>
+    <link href="http://blog.nickoneill.name/project-shellter/"/>
+    <updated>2012-02-09T18:26:00-08:00</updated>
+    <id>http://blog.nickoneill.name/project-shellter</id>
+    <content type="html"><![CDATA[<p>MakerBot-printed shells for hermit crabs. This one is inhabited by &quot;Paris Shellton&quot;. Possibly the best new use of 3D printing so far this year?</p>
+
+<br /><a href="http://www.makerbot.com/blog/tag/project-shellter/">source</a>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[geeks on homes]]></title>
+    <link href="http://blog.nickoneill.name/geeks+on+homes/"/>
+    <updated>2011-06-18T17:26:00-07:00</updated>
+    <id>http://blog.nickoneill.name/geeks on homes</id>
+    <content type="html"><![CDATA[<p>Let me tell you about the nerdiest show on television.</p>
+
+<p>It&rsquo;s not a sci-fi miniseries or a space documentary, or even Mythbusters as you might imagine. It&rsquo;s <em>Holmes on Homes</em>. And yes, this means I watch HGTV.</p>
+
+<p>At first glance it&rsquo;s your typical construction/remodel show. It adds the element of &ldquo;something went wrong&rdquo; by selecting regular people who have paid local contractors to fix or remodel something and the contractor has either done clearly shitty work or left without finishing the job. Enter Mike Holmes, apparently the only proper contractor in Canada and generally burly dude. He assesses the damage and then his team tears everything down (usually finding more things to fix in the process) and rebuilds it by the end of the hour.</p>
+
+<p>Emotional fluff, I say. The general overview does not paint a very nerdy picture for this show.</p>
+
+<p>The nerdy part is the teardown and rebuild process. As they remove the offending staircase/bathroom/structure from the house, Holmes gives a fairly succinct description of why the problem occurred. If there&rsquo;s a leak underneath a shower, it&rsquo;s probably because the shower doesn&rsquo;t drain properly. That&rsquo;s somewhat obvious and I&rsquo;m no construction buff but this reasoning is oddly satisfying.</p>
+
+<p>Taking a peek behind the walls of your house, everything is set up <em>just so</em> and clearly there are some rules governing this design of wood, wires and pipes. What those rules said, on the other hand, were completely beyond me until I started watching this show.</p>
+
+<p>As it turns out, these rules are pretty logical. Don&rsquo;t put hot stuff next to flammable stuff, don&rsquo;t put electrical stuff next to other conductive stuff, the shit should always flow downward; I&rsquo;m not 100% sure about what the code says exactly but as long as you know the properties of the items you&rsquo;re working with, it&rsquo;s not too difficult to envision the right solution.</p>
+
+<p>One of the reasons I probably enjoy watching this show is that the process isn&rsquo;t too dissimilar from coding. You learn the details of a particular implementation (how to build a shed, or oauth) and nail it together with some common tools (hammer, screwdriver, standard python syntax). You can do a shitty job by not understanding the problem or solution well enough, just as in code, but generally doing a good job on simple projects doesn&rsquo;t require anything more than properly understanding what to expect from the pieces you&rsquo;re fitting together.</p>
+
+<p>I&rsquo;m sure some thread of this connects back to the resurgence of DIY. At some point in time the need to make something was overwhelmed by grand idea of having it made for you, and then the giants of manufacturing removed quality as a standard in <em>the great cheapening</em> (note: this is a under-researched and probably not very accurate history of 20th century manufacturing). Now here we are, pissed with poor quality products and sheds that don&rsquo;t survive a single San Francisco winter.</p>
+
+<p>We&rsquo;re equipped with the mental capacity to understand the rules governing scripts running on computers in a data center 3000 miles away, so why can&rsquo;t we design and build our own damn shed? Yes, we&rsquo;re geeks and nerds, not known for our brute strength &ndash; but wheels and pulleys solved the heavy lifting problems years ago, there really isn&rsquo;t a reason not to build it yourself.</p>
+
+<p>This was a long way to explain my love for <em>Holmes on Homes</em> (or the hour-long <em>Holmes Inspection</em> &ndash; how clever!) but I think it makes a deeper point about geeks getting into Making, and anyone else for that matter. There&rsquo;s more to say on Making as a cultural phenomenon but I&rsquo;ll leave that for another time.</p>
+
+<p>For now: set the DVR for a Holmes show, don&rsquo;t take it too seriously, and learn something from your TV.</p>
 ]]></content>
   </entry>
   

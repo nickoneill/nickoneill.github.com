@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: construction | authenticgeek]]></title>
-  <link href="http://nickoneill.github.io/categories/construction/atom.xml" rel="self"/>
-  <link href="http://nickoneill.github.io/"/>
-  <updated>2013-09-13T13:13:30-07:00</updated>
-  <id>http://nickoneill.github.io/</id>
+  <link href="http://blog.nickoneill.name/categories/construction/atom.xml" rel="self"/>
+  <link href="http://blog.nickoneill.name/"/>
+  <updated>2013-09-15T11:35:49-07:00</updated>
+  <id>http://blog.nickoneill.name/</id>
   <author>
     <name><![CDATA[Nick O'Neill]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Post-Fab Construction]]></title>
-    <link href="http://nickoneill.github.io/postfab/"/>
+    <link href="http://blog.nickoneill.name/postfab/"/>
     <updated>2013-02-16T10:00:00-08:00</updated>
-    <id>http://nickoneill.github.io/postfab</id>
+    <id>http://blog.nickoneill.name/postfab</id>
     <content type="html"><![CDATA[<p>Here&rsquo;s what I don&rsquo;t understand about modern house construction; despite modern computation and robotics, we still rely on humans to measure and cut things piece-by-piece in order to build a house.</p>
 
 <p>Prefab has negative connotations for being used to create cookie cutter houses that have no individuality but it&rsquo;s a self-imposed  limitation, especially considering that planning is already computerized. I think we can do better.</p>

@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: hacking | authenticgeek]]></title>
-  <link href="http://nickoneill.github.io/categories/hacking/atom.xml" rel="self"/>
-  <link href="http://nickoneill.github.io/"/>
-  <updated>2013-09-13T13:13:30-07:00</updated>
-  <id>http://nickoneill.github.io/</id>
+  <link href="http://blog.nickoneill.name/categories/hacking/atom.xml" rel="self"/>
+  <link href="http://blog.nickoneill.name/"/>
+  <updated>2013-09-15T11:35:49-07:00</updated>
+  <id>http://blog.nickoneill.name/</id>
   <author>
     <name><![CDATA[Nick O'Neill]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Return of Blog, Holidays Edition]]></title>
-    <link href="http://nickoneill.github.io/return-of-blog/"/>
+    <link href="http://blog.nickoneill.name/return-of-blog/"/>
     <updated>2012-12-22T15:13:00-08:00</updated>
-    <id>http://nickoneill.github.io/return-of-blog</id>
+    <id>http://blog.nickoneill.name/return-of-blog</id>
     <content type="html"><![CDATA[<p>Good day, blog friends!</p>
 
 <p>Not counting <a href="http://blog.nickoneill.name/muniverse-2.html">Muniverse</a> (and I don&rsquo;t, it was waiting to be published for a while), it has been quite a time since I last wrote a thing. Here&rsquo;s some stuff that doesn&rsquo;t warrant its own post:</p>

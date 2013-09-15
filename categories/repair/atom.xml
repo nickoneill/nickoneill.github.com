@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: repair | authenticgeek]]></title>
-  <link href="http://nickoneill.github.io/categories/repair/atom.xml" rel="self"/>
-  <link href="http://nickoneill.github.io/"/>
-  <updated>2013-09-13T13:13:30-07:00</updated>
-  <id>http://nickoneill.github.io/</id>
+  <link href="http://blog.nickoneill.name/categories/repair/atom.xml" rel="self"/>
+  <link href="http://blog.nickoneill.name/"/>
+  <updated>2013-09-15T11:35:49-07:00</updated>
+  <id>http://blog.nickoneill.name/</id>
   <author>
     <name><![CDATA[Nick O'Neill]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Ice Maker Repair for a GE Profile Refrigerator]]></title>
-    <link href="http://nickoneill.github.io/ice-maker-repair/"/>
+    <link href="http://blog.nickoneill.name/ice-maker-repair/"/>
     <updated>2013-03-07T15:06:00-08:00</updated>
-    <id>http://nickoneill.github.io/ice-maker-repair</id>
+    <id>http://blog.nickoneill.name/ice-maker-repair</id>
     <content type="html"><![CDATA[<p>If you&rsquo;ve got one of these GE Profile refrigerators from a few years ago (this one was installed 8 years ago, I think, model PSS26MSRD) and the ice maker isn&rsquo;t making ice, there are a few simple steps you can go through to troubleshoot.</p>
 
 <p>First, pull out the ice bin and eyeball the ice maker device behind it. See if the switch is turned on and the green light is lit. If it&rsquo;s blinking, that indicates &ldquo;ice stuck in tray&rdquo; and you&rsquo;ll have to take it out and thaw the whole contraption out. It&rsquo;s not that hard: unplug the giant molex connector on the right side and use a small hex wrench to unscrew the obvious screw holding it to the left side of the freezer wall. Then you can firmly pull the device up and out until it pops free from the notches where it sits in the back.</p>

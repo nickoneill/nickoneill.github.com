@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: code | authenticgeek]]></title>
-  <link href="http://nickoneill.github.io/categories/code/atom.xml" rel="self"/>
-  <link href="http://nickoneill.github.io/"/>
-  <updated>2013-09-13T13:13:30-07:00</updated>
-  <id>http://nickoneill.github.io/</id>
+  <link href="http://blog.nickoneill.name/categories/code/atom.xml" rel="self"/>
+  <link href="http://blog.nickoneill.name/"/>
+  <updated>2013-09-15T11:35:49-07:00</updated>
+  <id>http://blog.nickoneill.name/</id>
   <author>
     <name><![CDATA[Nick O'Neill]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[App Configuration with URL Schemes]]></title>
-    <link href="http://nickoneill.github.io/url-config-schemes/"/>
+    <link href="http://blog.nickoneill.name/url-config-schemes/"/>
     <updated>2013-03-15T10:43:00-07:00</updated>
-    <id>http://nickoneill.github.io/url-config-schemes</id>
+    <id>http://blog.nickoneill.name/url-config-schemes</id>
     <content type="html"><![CDATA[<p>I just read about a neat feature for <a href="http://www.atebits.com/letterpress/experimental/">Letterpress 1.4 where savvy users can test Spanish games</a> by loading &ldquo;letterpress:experimental&rdquo; in Safari and I wanted to share an alternate example that I build for a client a while back.</p>
 
 <p>In this particular case, the client wanted to distribute a single app binary via enterprise distribution or ad-hoc builds to various clients of his own. The catch was that all these clients wanted the app to look customized to their own brand with logos and colors.</p>
@@ -38,9 +38,9 @@
   
   <entry>
     <title type="html"><![CDATA[Return of Blog, Holidays Edition]]></title>
-    <link href="http://nickoneill.github.io/return-of-blog/"/>
+    <link href="http://blog.nickoneill.name/return-of-blog/"/>
     <updated>2012-12-22T15:13:00-08:00</updated>
-    <id>http://nickoneill.github.io/return-of-blog</id>
+    <id>http://blog.nickoneill.name/return-of-blog</id>
     <content type="html"><![CDATA[<p>Good day, blog friends!</p>
 
 <p>Not counting <a href="http://blog.nickoneill.name/muniverse-2.html">Muniverse</a> (and I don&rsquo;t, it was waiting to be published for a while), it has been quite a time since I last wrote a thing. Here&rsquo;s some stuff that doesn&rsquo;t warrant its own post:</p>
@@ -61,9 +61,9 @@
   
   <entry>
     <title type="html"><![CDATA[Muniverse 2]]></title>
-    <link href="http://nickoneill.github.io/muniverse-20/"/>
+    <link href="http://blog.nickoneill.name/muniverse-20/"/>
     <updated>2012-12-17T09:43:00-08:00</updated>
-    <id>http://nickoneill.github.io/muniverse-20</id>
+    <id>http://blog.nickoneill.name/muniverse-20</id>
     <content type="html"><![CDATA[<p>Many years ago as I was learning Objective-C and Jamison was going through his public transit phase (yes, as far as I know he&rsquo;s still in it), we joined forces to create an epic San Francisco Muni app for the iPhone.</p>
 
 <p>It was my first ground-up project for the iPhone so I found myself wanting to rewrite large swaths of the code every 2-3 weeks. For obvious reasons, I tried to keep the stuff that was ugly but effective and that got us to the release. Unfortunately it was little help for keeping things updated as any Muni route changes were a big pain to incorporate. Eventually new versions of iOS deprecated bits and pieces of APIs we were using and new APIs replaced them. After a while the app started crashing on startup and I didn&rsquo;t have the heart to debug (my) ancient newbie code.</p>
@@ -86,9 +86,9 @@
   
   <entry>
     <title type="html"><![CDATA[Go-powered Beer at Original Gravity Pub]]></title>
-    <link href="http://nickoneill.github.io/original-gravity-pub/"/>
+    <link href="http://blog.nickoneill.name/original-gravity-pub/"/>
     <updated>2012-08-15T13:00:00-07:00</updated>
-    <id>http://nickoneill.github.io/original-gravity-pub</id>
+    <id>http://blog.nickoneill.name/original-gravity-pub</id>
     <content type="html"><![CDATA[<p>Last month saw the official opening of San Jose&rsquo;s newest drinking establishment, <a href="http://www.originalgravitypub.com/">Original Gravity Public House</a>. Dan is a friend from before he became a full-time beer slinger and I offered to whip up something for the website a while back.</p>
 
 <p>As a craft beer bar they had the opportunity to change their selection of beers regularly and wanted a way to reflect those changes on their website and in the bar with minimal effort. You can see the virtual result on their website which has an up-to-date list of all their current beers. The other solution was showing a list of all their current beers on a 40" TV above the bar, you can see a picture of how it turned out here:</p>
@@ -110,9 +110,9 @@ From <a href="http://www.yelp.com/biz_photos/uXCsgEdownjTGlQtnWvkjQ?select=Gxg_c
   
   <entry>
     <title type="html"><![CDATA[Feature Detection with Objective-C]]></title>
-    <link href="http://nickoneill.github.io/image-correlation-with-objc/"/>
+    <link href="http://blog.nickoneill.name/image-correlation-with-objc/"/>
     <updated>2012-06-12T12:49:00-07:00</updated>
-    <id>http://nickoneill.github.io/image-correlation-with-objc</id>
+    <id>http://blog.nickoneill.name/image-correlation-with-objc</id>
     <content type="html"><![CDATA[<p><em>(I&rsquo;m at WWDC this week, I figure I should probably release something of my own)</em></p>
 
 <p>I wasn&rsquo;t being completely modest when I recently <a href="http://blog.nickoneill.name/line-simplification.html">praised line simplification</a> for bringing a method to the masses. It&rsquo;s not a great example though, so let me explain in a little more detail.</p>
