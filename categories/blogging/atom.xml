@@ -4,7 +4,7 @@
   <title><![CDATA[Category: blogging | authenticgeek]]></title>
   <link href="http://blog.nickoneill.name/categories/blogging/atom.xml" rel="self"/>
   <link href="http://blog.nickoneill.name/"/>
-  <updated>2013-09-15T11:35:49-07:00</updated>
+  <updated>2013-09-16T12:28:06-07:00</updated>
   <id>http://blog.nickoneill.name/</id>
   <author>
     <name><![CDATA[Nick O'Neill]]></name>
@@ -12,6 +12,27 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Bring Your Old Posts to the Reboot]]></title>
+    <link href="http://blog.nickoneill.name/old-blogging/"/>
+    <updated>2013-09-16T12:04:00-07:00</updated>
+    <id>http://blog.nickoneill.name/old-blogging</id>
+    <content type="html"><![CDATA[<p>I love this footnote from <a href="http://scribbling.net/2013/09/11/reboot/">Gina&rsquo;s blog reboot</a>:</p>
+
+<blockquote><p>Several years ago, I took Scribbling.net&rsquo;s original archives down because they no longer represented me, and looking back at them embarrassed me, the way reading your diary from when you were a teenager would. Over time I hope to port selected essays back to the site for posterity.</p></blockquote>
+
+<p>This rings particularly true for me, as I have archives from various blogs dating back to 2000 when I <em>was</em> actually a teenager.</p>
+
+<p>Most of that content is embarassing personal stuff, I&rsquo;m still amazed that I chose to put it online but relieved by the fact that no one but me really read that stuff in the first place. Unlike <a href="http://dashes.com/anil/1999/07/">some people</a>, we can&rsquo;t all be perfectly happy with things we wrote 10+ years ago.</p>
+
+<p>There are a few gems, however. Mostly stuff about my thoughts when I first moved out to San Francisco that I&rsquo;d like to hold on to (not that I couldn&rsquo;t hold on to it privately), but also some tech stuff I wrote about back then.</p>
+
+<p>I like the idea of bringing selected posts back but doing it directly would probably be weird; a bunch of posts dating back to 2011 and then a smattering from 2004-5? Instead, I&rsquo;ll try to bring back the tech-related ones first with some thoughts on their context and what we&rsquo;ve seen since then.</p>
+
+<p>The more personal ones might take longer to form a commentary on but if a blog is supposed to tell the story of who we are, it&rsquo;s probably relevant to look back on a few important moments over the last ten years or so.</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[This is How I Blog]]></title>
