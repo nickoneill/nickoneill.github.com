@@ -4,7 +4,7 @@
   <title><![CDATA[authenticgeek]]></title>
   <link href="http://blog.nickoneill.name/atom.xml" rel="self"/>
   <link href="http://blog.nickoneill.name/"/>
-  <updated>2013-09-17T09:41:13-07:00</updated>
+  <updated>2013-09-26T10:51:47-07:00</updated>
   <id>http://blog.nickoneill.name/</id>
   <author>
     <name><![CDATA[Nick O'Neill]]></name>
@@ -12,6 +12,19 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Handy Alfred Workflows]]></title>
+    <link href="http://blog.nickoneill.name/handy-alfred-workflows/"/>
+    <updated>2013-09-26T10:34:00-07:00</updated>
+    <id>http://blog.nickoneill.name/handy-alfred-workflows</id>
+    <content type="html"><![CDATA[<p>I love <a href="http://www.alfredapp.com/">Alfred</a> (well, quicksilver then launchbar now alfred) for launching apps and doing small calculations but I was reluctant to use it for other tasks for some reason. Slowly I started replacing some common tasks with Alfred actions, first finding albums to play on iTunes and then making <a href="http://flexibits.com/fantastical">Fantastical</a> entries on the fly.</p>
+
+<p>I don&rsquo;t pick up new alfred workflows too often because they can be very dependent on your own personal workflow; a lot of other people&rsquo;s workflows don&rsquo;t really fit with how I work. Plus lots of other apps have keyboard shortcuts of their own. Alfred is great for tasks where you can quickly navigate a few lists to find an item or forward some text input to another app quickly &ndash; usually chrome for searches.</p>
+
+<p>So I was surprised when I found <a href="https://github.com/zenorocha/alfred-workflows">a few programming workflows</a> that  fit nicely into my routine. I picked up the package manager (I always open a new terminal window to install from brew or npm), the color converter (constantly converting between these formats for web work), and github (navigating a shallow set of lists!) and stackoverflow search.</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Bring Your Old Posts to the Reboot]]></title>
@@ -384,17 +397,6 @@ From <a href="http://www.yelp.com/biz_photos/uXCsgEdownjTGlQtnWvkjQ?select=Gxg_c
     <content type="html"><![CDATA[<p>While Curiosity was busy going through it&rsquo;s <a href="http://www.finestructure.com/2012/06/challenges-of-getting-to-mars/">seven minutes of terror</a>, the Mars Recon Orbiter was taking pictures overhead.</p>
 
 <p>Yes, you heard that right. We <a href="http://www.wired.com/wiredscience/2012/08/mro-curiosity-descent/">took a picture</a> of a tiny little lander descending through the Martian atmosphere with another robot which currently orbits Mars.</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Mars Science Lab Planning]]></title>
-    <link href="http://blog.nickoneill.name/mars-science-lab-landing/"/>
-    <updated>2012-08-03T09:05:00-07:00</updated>
-    <id>http://blog.nickoneill.name/mars-science-lab-landing</id>
-    <content type="html"><![CDATA[<p>Need some help getting ready for Sunday&rsquo;s MSL landing on Mars? <a href="http://boingboing.net/2012/08/02/mars-science-laboratory-rover.html">BoingBoing has details</a> of all the online NASA livestream events where you can watch the landing (more or less) live.</p>
-
-<p>Landing should occur at 10:31pm Pacific time on Sunday night. It&rsquo;s great timing for the west coast, I might make a little Google hangout for anyone else watching on Sunday.</p>
 ]]></content>
   </entry>
   
