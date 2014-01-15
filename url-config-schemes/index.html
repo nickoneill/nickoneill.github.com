@@ -1,0 +1,171 @@
+
+<!DOCTYPE HTML>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>App Configuration with URL Schemes - authenticgeek</title>
+	<meta name="author" content="Nick O'Neill">
+
+	
+	<meta name="description" content="I just read about a neat feature for Letterpress 1.4 where savvy users can test Spanish games by loading &ldquo;letterpress:experimental&rdquo; in &hellip;">
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<link href="/atom.xml" rel="alternate" title="authenticgeek" type="application/atom+xml">
+	<link rel="canonical" href="">
+	<link href="/favicon.png" rel="shortcut icon">
+	<link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+	<!--[if lt IE 9]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+	<script async="true" src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+	<script type="text/javascript" src="//use.typekit.net/ktn7vyo.js"></script>
+<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+</head>
+
+
+<body>
+	<header id="header" class="inner"><h1><a href="/">authenticgeek</a></h1>
+<nav id="main-nav"><ul class="main">
+	<li><a href="/blog/archives">Archives</a></li>
+</ul>
+</nav>
+<nav id="mobile-nav">
+	<div class="alignleft menu">
+		<a class="button">Menu</a>
+		<div class="container"><ul class="main">
+	<li><a href="/blog/archives">Archives</a></li>
+</ul>
+</div>
+	</div>
+	<div class="alignright search">
+		<a class="button"></a>
+		<div class="container">
+			<form action="http://google.com/search" method="get">
+				<input type="text" name="q" results="0">
+				<input type="hidden" name="q" value="site:blog.nickoneill.name">
+			</form>
+		</div>
+	</div>
+</nav>
+<nav id="sub-nav" class="alignright">
+	<div class="social">
+		
+		
+		
+		<a class="twitter" href="http://twitter.com/nickoneill" title="Twitter">Twitter</a>
+		
+		
+		<a class="github" href="https://github.com/nickoneill" title="GitHub">GitHub</a>
+		
+    
+		
+		
+		
+		
+		
+		<a class="rss" href="/atom.xml" title="RSS">RSS</a>
+		
+    
+	</div>
+	<form class="search" action="http://google.com/search" method="get">
+		<input class="alignright" type="text" name="q" results="0">
+		<input type="hidden" name="q" value="site:blog.nickoneill.name">
+	</form>
+</nav>
+
+</header>
+	
+		
+	
+	<div id="content" class="inner"><article class="post">
+	<h2 class="title">App Configuration With URL Schemes</h2>
+	<div class="entry-content"><p>I just read about a neat feature for <a href="http://www.atebits.com/letterpress/experimental/">Letterpress 1.4 where savvy users can test Spanish games</a> by loading &ldquo;letterpress:experimental&rdquo; in Safari and I wanted to share an alternate example that I build for a client a while back.</p>
+
+<p>In this particular case, the client wanted to distribute a single app binary via enterprise distribution or ad-hoc builds to various clients of his own. The catch was that all these clients wanted the app to look customized to their own brand with logos and colors.</p>
+
+<p>Not only was I opposed to building a system where I would have to build multiple versions of the same app for multiple clients, I was pretty sure that anyone maintaining that sort of system down the road would put in the extra effort to seek me out and chop off each finger that contributed to writing that code.</p>
+
+<p>Instead, I developed a configuration framework that responded to a specially crafted URL scheme. The app was totally functional upon first install but a URL could be sent along in the install email which prompted users to tap on it from their iOS device.</p>
+
+<p>The url scheme was passed along to the app which inferred the location of a JSON configuration file somewhere on the internet, downloaded it, parsed the file for logo urls, offsets and RGBA color components and redrew the app with these visual changes. The JSON document was stored on the local disk for easy parsing sans-connectivity on the next startup.</p>
+
+<p>It required a bit of conversion to drawing customizable elements with drawRect rather than patterning images but the flexibility was worth it many times over.</p>
+
+<p>For this purpose, an unsolicited plug: recreating complex photoshop-made effects in Quartz2D is pretty easy with <a href="https://itunes.apple.com/us/app/paintcode/id507897570?mt=12">PaintCode</a>. Don&rsquo;t let the price throw you off if visual customizability or small app size is important to you, it&rsquo;s an incredible tool.</p>
+
+<p>Depending on your feeling towards these fairly insecure URL schemes, you could package a username and password within them and provide users an automated way of logging in to your app. The possibilities for configuration are nearly endless and mostly underutilized, it seems.</p>
+</div>
+
+
+<div class="meta">
+	<div class="date">
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2013-03-15T10:43:00-07:00" pubdate data-updated="true">Mar 15<span>th</span>, 2013</time></div>
+	<div class="tags">
+
+
+	<a class='category' href='/categories/code/'>code</a>, <a class='category' href='/categories/ios/'>ios</a>
+
+
+</div>
+	
+</div>
+</article>
+
+	<div class="share">
+	<div class="addthis_toolbox addthis_default_style ">
+		
+		
+		<a class="addthis_button_tweet"></a>
+		
+		
+		<a class="addthis_button_google_plusone" g:plusone:size="medium"></a>
+		
+		
+	</div>
+	
+</div>
+
+
+</div>
+	<footer id="footer" class="inner">Copyright &copy; 2013
+
+    Nick O'Neill
+
+</footer>
+	<script src="/javascripts/slash.js"></script>
+<script src="/javascripts/jquery.fancybox.pack.js"></script>
+<script type="text/javascript">
+(function($){
+	$('.fancybox').fancybox();
+})(jQuery);
+</script> <!-- Delete or comment this line to disable Fancybox -->
+
+
+
+
+
+<script type="text/javascript">
+  var _gauges = _gauges || [];
+  (function() {
+    var t   = document.createElement('script');
+    t.type  = 'text/javascript';
+    t.async = true;
+    t.id    = 'gauges-tracker';
+    t.setAttribute('data-site-id', '5233714a108d7b17ea000176');
+    t.src = '//secure.gaug.es/track.js';
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(t, s);
+  })();
+</script>
+</body>
+</html>

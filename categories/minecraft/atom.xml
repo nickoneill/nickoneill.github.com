@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: minecraft, | authenticgeek]]></title>
+  <link href="http://blog.nickoneill.name/categories/minecraft/atom.xml" rel="self"/>
+  <link href="http://blog.nickoneill.name/"/>
+  <updated>2013-10-06T19:20:26-07:00</updated>
+  <id>http://blog.nickoneill.name/</id>
+  <author>
+    <name><![CDATA[Nick O'Neill]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[A Minecraft Catsplosion]]></title>
+    <link href="http://blog.nickoneill.name/a-minecraft-catsplosion/"/>
+    <updated>2012-03-01T17:01:00-08:00</updated>
+    <id>http://blog.nickoneill.name/a-minecraft-catsplosion</id>
+    <content type="html"><![CDATA[<p>A (melon) slice of what makes Minecraft great. It&apos;s just a bunch of objects connected by a bag of rules, some of which you can exploit to make an infinite fountain of cats.</p>
+
+<div class="video-container">
+    <iframe width="560" height="315" src="http://blog.nickoneill.name//www.youtube.com/embed/iNw2YcAK9Wc" frameborder="0" allowfullscreen></iframe>
+</div>
+
+]]></content>
+  </entry>
+  
+</feed>

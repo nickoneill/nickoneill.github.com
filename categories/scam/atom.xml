@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: scam | authenticgeek]]></title>
+  <link href="http://blog.nickoneill.name/categories/scam/atom.xml" rel="self"/>
+  <link href="http://blog.nickoneill.name/"/>
+  <updated>2013-10-06T19:20:26-07:00</updated>
+  <id>http://blog.nickoneill.name/</id>
+  <author>
+    <name><![CDATA[Nick O'Neill]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Annual Business Registration Scam]]></title>
+    <link href="http://blog.nickoneill.name/business-registration-scam/"/>
+    <updated>2012-10-06T14:11:00-07:00</updated>
+    <id>http://blog.nickoneill.name/business-registration-scam</id>
+    <content type="html"><![CDATA[<p>One of the downsides to officially registering with the state as a business is that your address is added to yet another public list and various types of spam increase, regardless of your business' purpose. Not a huge deal &ndash; this is what the recycling pile is for, right?</p>
+
+<p>I recently received a letter that is actually a problem. It purports to be from an &ldquo;Annual Business Registration&rdquo; office and suggests that you need to pay some amount of money ($218, in my case) and then there&rsquo;s some fear-inducing talk about suspension of your business if you don&rsquo;t file your Statement of Information.</p>
+
+<p>Part of this is true! A Statement of Information does have to be filed with the state in a timely manner and you can be fined for not filing. However, this form is <em>not</em> a statement of information, it&rsquo;s a scam.</p>
+
+<p>The letterhead looks vaguely state-like with a modified California seal (without the term &ldquo;The Great Seal…&rdquo; since it very clearly isn&rsquo;t the actual seal). It includes your business name and LLC number, plus the amount of money you &ldquo;need&rdquo; to pay and a P.O. Box to send your payment to. For reference, here&rsquo;s the address:</p>
+
+<blockquote><p>Annual Business Registration<br/>
+P.O. Box 931597<br/>
+Los Angeles, CA 90093</p></blockquote>
+
+<p>Whatever you do, do not send your money here. There is no state business registration office in Los Angeles and you will not be penalized for disregarding this piece of junk mail.</p>
+
+<p>According to <a href="http://www.yelp.com/biz/annual-review-board-los-angeles?sort_by=date_desc">Yelp</a>, this exact scam without any modification has been occurring since at least 2009. Is there nothing illegal about deceptively suggesting that the owner here is associated with the state?</p>
+]]></content>
+  </entry>
+  
+</feed>

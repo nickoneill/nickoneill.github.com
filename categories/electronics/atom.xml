@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: electronics | authenticgeek]]></title>
+  <link href="http://blog.nickoneill.name/categories/electronics/atom.xml" rel="self"/>
+  <link href="http://blog.nickoneill.name/"/>
+  <updated>2013-10-06T19:20:26-07:00</updated>
+  <id>http://blog.nickoneill.name/</id>
+  <author>
+    <name><![CDATA[Nick O'Neill]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Circuit Playground for Android]]></title>
+    <link href="http://blog.nickoneill.name/circuit-playground-for-android/"/>
+    <updated>2012-02-06T18:11:00-08:00</updated>
+    <id>http://blog.nickoneill.name/circuit-playground-for-android</id>
+    <content type="html"><![CDATA[<p>Sounds like a handy app to have if you have an android device and need to do quick electronics calculations or reference lookups.</p>
+
+<br /><a href="http://adafruit.com/circuitplayground">source</a>
+
+]]></content>
+  </entry>
+  
+</feed>

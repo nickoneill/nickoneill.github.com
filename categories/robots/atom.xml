@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: robots | authenticgeek]]></title>
+  <link href="http://blog.nickoneill.name/categories/robots/atom.xml" rel="self"/>
+  <link href="http://blog.nickoneill.name/"/>
+  <updated>2013-10-06T19:20:26-07:00</updated>
+  <id>http://blog.nickoneill.name/</id>
+  <author>
+    <name><![CDATA[Nick O'Neill]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Invisible Robota]]></title>
+    <link href="http://blog.nickoneill.name/invisible-robota/"/>
+    <updated>2012-03-29T19:25:00-07:00</updated>
+    <id>http://blog.nickoneill.name/invisible-robota</id>
+    <content type="html"><![CDATA[<p>BoingBoing links to a video that accompanies a <a href="http://www.marketplace.org/robots-ate-my-job">Marketplace special</a> on robots taking over Human jobs. It&apos;s a really well done video, with lots of examples that you don&apos;t normally think of as robots but fit the general idea well.</p>
+
+<p>More interestingly is their subtle hint towards the origin of the term robot, from &quot;robota&quot;, a Czech term meaning &quot;serf labor&quot;. This got me thinking about who will build the first robot that will actively reject being called such a name since it reinforces their role as non-citizen labor.</p>
+
+<p>Naturally, robots will agree on a more acceptable name amongst themselves. This will probably not be term &quot;android&quot; since it denotes a robot that disguises itself as a human and robot culture should not have to conform to human cultural norms when robot culture by itself is perfectly valid.</p>
+
+<p>Later robot generations will probably reappropriate the term once robots are sufficiently first-class citizens and enough humans have robotic implants that the connotation no longer makes sense.</p>
+
+<br /><a href="http://boingboing.net/2012/03/29/invisible-robota-the-robots-w.html">source</a>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Robot readable world on Vimeo]]></title>
+    <link href="http://blog.nickoneill.name/robot-readable-world-on-vimeo/"/>
+    <updated>2012-02-06T18:11:00-08:00</updated>
+    <id>http://blog.nickoneill.name/robot-readable-world-on-vimeo</id>
+    <content type="html"><![CDATA[<p>I love to try and deduce what the algorithm is looking for based on the resulting visuals in these computer vision clips.</p>
+
+<p>The world is already being interpreted through these algorithms, and it feels like the future!</p>
+
+<br /><a href="http://vimeo.com/36239715">source</a>
+
+]]></content>
+  </entry>
+  
+</feed>

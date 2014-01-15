@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: blogging | authenticgeek]]></title>
+  <link href="http://blog.nickoneill.name/categories/blogging/atom.xml" rel="self"/>
+  <link href="http://blog.nickoneill.name/"/>
+  <updated>2013-10-06T19:20:26-07:00</updated>
+  <id>http://blog.nickoneill.name/</id>
+  <author>
+    <name><![CDATA[Nick O'Neill]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Bring Your Old Posts to the Reboot]]></title>
+    <link href="http://blog.nickoneill.name/bring-your-old-posts-to-the-reboot/"/>
+    <updated>2013-09-16T12:04:00-07:00</updated>
+    <id>http://blog.nickoneill.name/bring-your-old-posts-to-the-reboot</id>
+    <content type="html"><![CDATA[<p>I love this footnote from <a href="http://scribbling.net/2013/09/11/reboot/">Gina&rsquo;s blog reboot</a>:</p>
+
+<blockquote><p>Several years ago, I took Scribbling.net&rsquo;s original archives down because they no longer represented me, and looking back at them embarrassed me, the way reading your diary from when you were a teenager would. Over time I hope to port selected essays back to the site for posterity.</p></blockquote>
+
+<p>This rings particularly true for me, as I have archives from various blogs dating back to 2000 when I <em>was</em> actually a teenager.</p>
+
+<p>Most of that content is embarassing personal stuff, I&rsquo;m still amazed that I chose to put it online but relieved by the fact that no one but me really read that stuff in the first place. Unlike <a href="http://dashes.com/anil/1999/07/">some people</a>, we can&rsquo;t all be perfectly happy with things we wrote 10+ years ago.</p>
+
+<p>There are a few gems, however. Mostly stuff about my thoughts when I first moved out to San Francisco that I&rsquo;d like to hold on to (not that I couldn&rsquo;t hold on to it privately), but also some tech stuff I wrote about back then.</p>
+
+<p>I like the idea of bringing selected posts back but doing it directly would probably be weird; a bunch of posts dating back to 2011 and then a smattering from 2004-5? Instead, I&rsquo;ll try to bring back the tech-related ones first with some thoughts on their context and what we&rsquo;ve seen since then.</p>
+
+<p>The more personal ones might take longer to form a commentary on but if a blog is supposed to tell the story of who we are, it&rsquo;s probably relevant to look back on a few important moments over the last ten years or so.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[This is How I Blog]]></title>
+    <link href="http://blog.nickoneill.name/Publishing/"/>
+    <updated>2012-02-20T23:30:00-08:00</updated>
+    <id>http://blog.nickoneill.name/Publishing</id>
+    <content type="html"><![CDATA[<h3>This is out of date, I don&rsquo;t use this tool anymore. I want to build something similar on a more robust platform but for now I&rsquo;m just back to Octopress</h3>
+
+<p>Pinboard is my blog platform. Or at least it was for most of 2011. I let my science blog Fine Structure wane at the start of last year when I stopped having time to research and write long posts about science topics. It was incredibly enlightening to dig deep into a complex topic it but it&rsquo;s not easy.</p>
+
+<p>I still wanted to keep the blog alive even if I was just posting some short links and summaries because I was still reading a plethora of science blogs. I found that wrapping up complex topics in a few sentences is a great way to solidify my understanding of whatever I was reading as well.</p>
+
+<p>Eventually I started Pinboarding links I wanted to write about in an attempt to pick up the habit but I resisted pasting my Pinboard descriptions in the Movable Type interface out of laziness (or intimidation).</p>
+
+<p>There&rsquo;s nothing like a technical challenge to motivate though so I glued together something from existing plugins to grab pinboard links with certain tags and generate posts on Fine Structure. Yes, I put in a bunch of effort upfront in an attempt to reduce the amount of effort I needed to post daily. It sounds contrary.</p>
+
+<p>But the result was great. I felt liberated by the tiny non-wysiwyg text box of Pinboard and the lazy publishing model. I would write a few sentences about a link, add a tag and save it. Sometime in the next 30 minutes it would be posted to Fine Structure and it would float by on twitter.</p>
+
+<p>I was pretty happy with that amount of effort for Fine Structure so I didn&rsquo;t think more about it.</p>
+
+<p>A little later I started writing some posts on topics that weren&rsquo;t science related so I resurrected a personal blog (here! that&rsquo;s this!). I still felt sick of web writing interfaces so I wrote a little static site generator in python. It took a bunch of text files and made a blog. Easy enough, right?</p>
+
+<p>I still wasn&rsquo;t happy though. I fussed with <a href="http://octopress.org/">Octopress</a> a bit which I felt was a great flexible tool to publish a blog &ndash; a (much much) more polished version of the thing I had written previously.</p>
+
+<p>The thing was… I still had to generate my blog on one computer. Even if I had synced my templates and posts and octopres on every computer I own, I still had to do some work between <em>writing</em> and being <em>done</em>. It was still a pain.</p>
+
+<p>I spoke to <a href="http://alexba.in">Alex</a> about it over chat one day. I recall saying &ldquo;what I really want is cloud Octopress, but who has the time to build such a thing?&rdquo;</p>
+
+<p>As it turns out, I did.</p>
+
+<p>The answer was rooted in Dropbox. I wanted to write stuff and put it on Dropbox from anywhere &ndash; what device <em>doesn&rsquo;t</em> have a Dropbox client? &ndash; and then just have a computer somewhere else do the octopressing for me. Don&rsquo;t make me configure a post, just let me write, save and publish.</p>
+
+<p>I&rsquo;d been using <a href="http://www.golang.org">Go</a> on a few small projects and I was really getting into the groove of prototyping things quickly. I figured it&rsquo;d be a good exercise so I started writing a <a href="https://github.com/nickoneill/go-dropbox">Dropbox API wrapper</a>. Once that was done, a few more lines had me generating a site from files in my Dropbox.</p>
+
+<p>As it stands, <a href="https://github.com/nickoneill/go-publisher">go-publisher</a> looks at files in Dropbox every 20 minutes or so and generates a site if something has changed. Posts are easy to write, just Markdown and some YAML front matter (ala <a href="https://github.com/mojombo/jekyll/wiki/yaml-front-matter">Jekyll</a>), most of which is generated for you. Minimally, you can just write until you&rsquo;re done and add <code>---published: true---</code> to the top of your post. Everything else is just done.</p>
+
+<p>Back to Pinboard. I loved my Fine Structure posting method so much that I wanted to retain it in this new thing I was building so I wrote a quick addition that makes documents in Dropbox from Pinboard posts (modularity!). This is still my favorite way to keep on top of my blog on a daily basis.</p>
+
+<p>There are a few other projects that I didn&rsquo;t know about at the time, including <a href="http://calepin.co/">Calepin</a> and <a href="http://scriptogr.am/">scriptogr.am</a> which <a href="http://www.dashes.com/anil">Anil</a> tipped me off to. They feel very similar in goals, probably great if you want a simple blog and don&rsquo;t care to run it yourself. I didn&rsquo;t honestly expect to be the only one with this idea. In fact, it feels nice to have my needs reflected by others.</p>
+
+<p>So it <a href="https://github.com/nickoneill/go-publisher">exists on github</a> now. It&rsquo;s actively used (by me) and I update it whenever I run into something that makes blogging not fun (or, y'know, bugs). It needs a name as well. Something clever. If this is the sort of thing that interests you, you should fork it. Learning Go is fairly enjoyable as well but that&rsquo;s another blog post.</p>
+
+<p>I wrote a few core foundations for my motivation in the readme:</p>
+
+<blockquote><p>• you already write long form with your favorite tools<br />
+• you already have streams of short form stuff<br />
+• you don&rsquo;t want to be constrained to a single computer/device<br />
+• you don&rsquo;t want to babysit a publishing platform</p></blockquote>
+
+<p>Make these tools get out of my way so I can Just Fucking Write. Let&rsquo;s make it a trend.</p>
+]]></content>
+  </entry>
+  
+</feed>

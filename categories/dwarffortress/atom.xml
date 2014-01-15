@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: dwarffortress | authenticgeek]]></title>
+  <link href="http://blog.nickoneill.name/categories/dwarffortress/atom.xml" rel="self"/>
+  <link href="http://blog.nickoneill.name/"/>
+  <updated>2013-10-06T19:20:26-07:00</updated>
+  <id>http://blog.nickoneill.name/</id>
+  <author>
+    <name><![CDATA[Nick O'Neill]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[The 2012 Update for Dwarf Fortress]]></title>
+    <link href="http://blog.nickoneill.name/the-2012-update-for-dwarf-fortress/"/>
+    <updated>2012-02-14T16:41:00-08:00</updated>
+    <id>http://blog.nickoneill.name/the-2012-update-for-dwarf-fortress</id>
+    <content type="html"><![CDATA[<p>Insanity. This game always amazes me with its depth and complexity. The hardness of smelted ore is actually based on <a href="http://gaming.stackexchange.com/a/8014/1070">real stress/strain physics</a>:</p>
+
+<p>&gt; When Toady redesigned the combat system in DF2010 (the successor to 40d), he changed it from a heuristic system (with values he decided on) to a system based on the properties of Yield, Fracture and Elasticity. He did this in an attempt to simulate proper Stress/Strain equations. However, because Iron has poorer properties in comparison to Bronze, the result was the Iron Weapons/Armor are inferior to Bronze Weapons/Armor in DF2010</p>
+
+<p>It&apos;s difficult to say if the confusing interface makes this game better (use your imagination, like text based games!) or if it only serves to limit the audience. At the very least, I can imagine a Sim Dwarf City doing very well on the app store.</p>
+
+<br /><a href="http://www.bay12games.com/dwarves/index.html#2012-02-14">source</a>
+
+]]></content>
+  </entry>
+  
+</feed>

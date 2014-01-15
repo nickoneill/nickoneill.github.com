@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: nes | authenticgeek]]></title>
+  <link href="http://blog.nickoneill.name/categories/nes/atom.xml" rel="self"/>
+  <link href="http://blog.nickoneill.name/"/>
+  <updated>2013-10-06T19:20:26-07:00</updated>
+  <id>http://blog.nickoneill.name/</id>
+  <author>
+    <name><![CDATA[Nick O'Neill]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Tiny NES Cartridge Keychains]]></title>
+    <link href="http://blog.nickoneill.name/tiny-nes-cartridge/"/>
+    <updated>2012-07-09T08:16:00-07:00</updated>
+    <id>http://blog.nickoneill.name/tiny-nes-cartridge</id>
+    <content type="html"><![CDATA[<p>This is a serious labor of love. Ben Purdy puts together a <a href="http://www.benpurdy.com/2012/07/quarter-scale-nes-cartridges/">scale, keychainable NES cartridge</a> for his band.</p>
+
+<p>Laser cutting and 3D printing were not quite up to the task (cost, materials, etc) so he milled his own in wax using a drill press on a moving stage and then cast it in resin. Old school methods but absolutely awesome results. You must see it to believe it.</p>
+]]></content>
+  </entry>
+  
+</feed>

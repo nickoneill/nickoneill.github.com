@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: mars | authenticgeek]]></title>
+  <link href="http://blog.nickoneill.name/categories/mars/atom.xml" rel="self"/>
+  <link href="http://blog.nickoneill.name/"/>
+  <updated>2013-10-06T19:20:26-07:00</updated>
+  <id>http://blog.nickoneill.name/</id>
+  <author>
+    <name><![CDATA[Nick O'Neill]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Pictures from Curiosity Landing]]></title>
+    <link href="http://blog.nickoneill.name/curiosity-landing-pictures/"/>
+    <updated>2012-08-06T09:14:00-07:00</updated>
+    <id>http://blog.nickoneill.name/curiosity-landing-pictures</id>
+    <content type="html"><![CDATA[<p>While Curiosity was busy going through it&rsquo;s <a href="http://www.finestructure.com/2012/06/challenges-of-getting-to-mars/">seven minutes of terror</a>, the Mars Recon Orbiter was taking pictures overhead.</p>
+
+<p>Yes, you heard that right. We <a href="http://www.wired.com/wiredscience/2012/08/mro-curiosity-descent/">took a picture</a> of a tiny little lander descending through the Martian atmosphere with another robot which currently orbits Mars.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Mars Science Lab Planning]]></title>
+    <link href="http://blog.nickoneill.name/mars-science-lab-landing/"/>
+    <updated>2012-08-03T09:05:00-07:00</updated>
+    <id>http://blog.nickoneill.name/mars-science-lab-landing</id>
+    <content type="html"><![CDATA[<p>Need some help getting ready for Sunday&rsquo;s MSL landing on Mars? <a href="http://boingboing.net/2012/08/02/mars-science-laboratory-rover.html">BoingBoing has details</a> of all the online NASA livestream events where you can watch the landing (more or less) live.</p>
+
+<p>Landing should occur at 10:31pm Pacific time on Sunday night. It&rsquo;s great timing for the west coast, I might make a little Google hangout for anyone else watching on Sunday.</p>
+]]></content>
+  </entry>
+  
+</feed>
