@@ -4,7 +4,7 @@
   <title><![CDATA[authenticgeek]]></title>
   <link href="http://blog.nickoneill.name/atom.xml" rel="self"/>
   <link href="http://blog.nickoneill.name/"/>
-  <updated>2013-10-06T19:20:26-07:00</updated>
+  <updated>2014-02-14T14:07:13-08:00</updated>
   <id>http://blog.nickoneill.name/</id>
   <author>
     <name><![CDATA[Nick O'Neill]]></name>
@@ -12,6 +12,19 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[The Nobel Prize Peak Age is Getting Older]]></title>
+    <link href="http://blog.nickoneill.name/the-nobel-prize-peak-age-is-getting-older/"/>
+    <updated>2014-02-14T14:05:41-08:00</updated>
+    <id>http://blog.nickoneill.name/the-nobel-prize-peak-age-is-getting-older</id>
+    <content type="html"><![CDATA[<p>As I head ever closer to 30 this year I&rsquo;m looking for any excuse to beleive that your 20s are <em>not</em> the most creative or productive time in a person&rsquo;s life. Now I&rsquo;m hearing that the <a href="http://www.theatlantic.com/health/archive/2014/02/big-breakthroughs-come-in-your-late-30s/283858/">average Nobel Prize age is well into the late 30s</a> and pushing later for non-abstract fields. Though I&rsquo;m not currently trying for a Nobel Prize, it&rsquo;s a positive note.</p>
+
+<p>But everyone has always said that younger people have quantifiably better responses on cognitive function tests! Turns out this measurement may not the whole picture, there are interesting new results that suggest <a href="http://www.psychologytoday.com/blog/statistical-life/201401/the-myth-age-related-cognitive-decline">measuring on speed alone is a poor indicator of a good answer</a>.</p>
+
+<p>Yes, you young people may be answering your questions faster but we&rsquo;re answering them <em>better</em>. Get off my lawn.</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Homebrewing and Reproducability]]></title>
@@ -389,30 +402,6 @@ Los Angeles, CA 90093</p></blockquote>
 <p>Do I have a working thunderbolt enclosure with an SSD now? Yes, it&rsquo;s awesome. Did I struggle to extricate the guts out of it in the first place? Absolutely. I do not recommend it for those uncomfortable with a lot of prying at new hardware. I put a few scratches on the case.</p>
 
 <p>Verdict: purchase only if you are desperate, or if your inner nerd is nagging at you. It came with a thunderbolt cable, at least.</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Go-powered Beer at Original Gravity Pub]]></title>
-    <link href="http://blog.nickoneill.name/original-gravity-pub/"/>
-    <updated>2012-08-15T13:00:00-07:00</updated>
-    <id>http://blog.nickoneill.name/original-gravity-pub</id>
-    <content type="html"><![CDATA[<p>Last month saw the official opening of San Jose&rsquo;s newest drinking establishment, <a href="http://www.originalgravitypub.com/">Original Gravity Public House</a>. Dan is a friend from before he became a full-time beer slinger and I offered to whip up something for the website a while back.</p>
-
-<p>As a craft beer bar they had the opportunity to change their selection of beers regularly and wanted a way to reflect those changes on their website and in the bar with minimal effort. You can see the virtual result on their website which has an up-to-date list of all their current beers. The other solution was showing a list of all their current beers on a 40&#8221; TV above the bar, you can see a picture of how it turned out here:</p>
-
-<p><span class="blogimage">
-<img src="http://blog.nickoneill.name/images/ogtv.jpg" alt="Original Gravity Beer List" /><br />
-From <a href="http://www.yelp.com/biz_photos/uXCsgEdownjTGlQtnWvkjQ?select=Gxg_cJOzDkKUv8pnprOiBQ#Gxg_cJOzDkKUv8pnprOiBQ">Yelp</a>
-</span></p>
-
-<p>Designing for a big screen TV is not something I remember doing since webTV stopped being <em>a thing</em>. It was a fun exercise in scaling and clarity, and it seems like it has been successful so far.</p>
-
-<p>The behind-the-scenes wiring is pretty minimal. I built a small Go-powered web service that allows Dan to add to, remove from and reorder the beer list which is written to disk. Whenever an item changes, templates are built and put in their proper locations. Static publishing at its best.</p>
-
-<p>The bar view on the TV is just a fullscreen view of a special website in Chrome, it periodically refreshes to pick up the updated beer list. Nothing is particularly complex about the system, just adding together all the right components. I&rsquo;ve been spending more time writing servers and other tools in Go so this was a good way to learn more of the standard library. As far as I know this is the first Go-powered craft beer bar, though I haven&rsquo;t spent a lot of time asking around at bars.</p>
-
-<p>Dan and friends at Original Gravity have a really welcoming space and some very tasty beers on tap. Stop by if you need a drink in San Jose!</p>
 ]]></content>
   </entry>
   

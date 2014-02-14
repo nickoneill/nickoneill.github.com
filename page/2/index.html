@@ -7,7 +7,7 @@
 	<meta name="author" content="Nick O'Neill">
 
 	
-	<meta name="description" content="Many years ago as I was learning Objective-C and Jamison was going through his public transit phase (yes, as far as I know he&rsquo;s still in it), &hellip;">
+	<meta name="description" content="Good day, blog friends! Not counting Muniverse (and I don&rsquo;t, it was waiting to be published for a while), it has been quite a time since I &hellip;">
 	
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
@@ -77,6 +77,61 @@
 		
 	
 	<div id="content" class="inner">
+
+
+    <article class="post">
+	<h2 class="title">
+		
+		<a href="/return-of-blog/">
+		
+			Return of Blog, Holidays Edition</a>
+	</h2>
+	<div class="entry-content">
+		<p>Good day, blog friends!</p>
+
+<p>Not counting <a href="http://blog.nickoneill.name/muniverse-2.html">Muniverse</a> (and I don&rsquo;t, it was waiting to be published for a while), it has been quite a time since I last wrote a thing. Here&rsquo;s some stuff that doesn&rsquo;t warrant its own post:</p>
+
+<p>Brad and I finally finished a remote garage door opener based on an Arduino and WiFly. See the incredible frustration documented on G+ <a href="https://plus.google.com/115863474911002159675/posts/2PSkLbtUJRB">here</a> and <a href="https://plus.google.com/115863474911002159675/posts/WCen2ZJE9vz">here</a>. A few more tweaks and the whole thing will be on github.</p>
+
+<p>I&rsquo;m doing some more frequent science tweeting with <a href="https://twitter.com/finestructure">@finestructure</a>. I never realized I felt a little trapped in my regular twitter account, I&rsquo;m not an oversharer and I don&rsquo;t like to innundate my friends with dumb stuff. Strangers, on the other hand, love dumb stuff. Seriously though, it&rsquo;s full of excellent science and snark.</p>
+
+<p>I want to get back to blogging more on the proper Fine Structure blog but I&rsquo;m frustrated with my publishing setup there. I want to adapt <a href="https://github.com/nickoneill/go-publisher">my dropbox static publisher</a> for this purpose but it requires some thinking, generalizing and coding. Maybe during vacation, or after I write some content.</p>
+
+<p>Work continues to be enjoyable. There are many ways to run a small contracting business and my current method involves doing enough directly billable work to be comfortable and then investing the rest of my time in learning new things &ndash; not always directly related to work. I don&rsquo;t think I could ever swing a deal like that at a standard salaried job so I think I&rsquo;ll be doing this for a while.</p>
+
+<p>I&rsquo;m spending a bit of time playing <a href="http://www.bay12games.com/dwarves/">Dwarf Fortress</a> (as little time as someone can spend and still improve in the Most Complex Game Ever). I tend to leave it alone for a few weeks then see something that inspires me to start a new fort, play that for a few days and get totally destroyed by a seige of undead. Such is life in the DF. I would very much like to try a Let&rsquo;s Play video for DF so we&rsquo;ll see where that idea goes in the next few weeks.</p>
+
+<p>I started writing about my current reading list here but it ran far too long, that will have to come at a later date. Welcome back, blog!</p>
+
+		
+		
+	</div>
+
+
+<div class="meta">
+	<div class="date">
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2012-12-22T15:13:00-08:00" pubdate data-updated="true">Dec 22<span>nd</span>, 2012</time></div>
+	<div class="tags">
+
+
+	<a class='category' href='/categories/code/'>code</a>, <a class='category' href='/categories/games/'>games</a>, <a class='category' href='/categories/hacking/'>hacking</a>, <a class='category' href='/categories/hardware/'>hardware</a>
+
+
+</div>
+	
+</div>
+</article>
 
 
     <article class="post">
@@ -515,62 +570,6 @@ Los Angeles, CA 90093</p></blockquote>
 </div>
 </article>
 
-
-    <article class="post">
-	<h2 class="title">
-		
-		<a href="/original-gravity-pub/">
-		
-			Go-powered Beer at Original Gravity Pub</a>
-	</h2>
-	<div class="entry-content">
-		<p>Last month saw the official opening of San Jose&rsquo;s newest drinking establishment, <a href="http://www.originalgravitypub.com/">Original Gravity Public House</a>. Dan is a friend from before he became a full-time beer slinger and I offered to whip up something for the website a while back.</p>
-
-<p>As a craft beer bar they had the opportunity to change their selection of beers regularly and wanted a way to reflect those changes on their website and in the bar with minimal effort. You can see the virtual result on their website which has an up-to-date list of all their current beers. The other solution was showing a list of all their current beers on a 40&#8221; TV above the bar, you can see a picture of how it turned out here:</p>
-
-<p><span class="blogimage">
-<img src="http://blog.nickoneill.name/images/ogtv.jpg" alt="Original Gravity Beer List" /><br />
-From <a href="http://www.yelp.com/biz_photos/uXCsgEdownjTGlQtnWvkjQ?select=Gxg_cJOzDkKUv8pnprOiBQ#Gxg_cJOzDkKUv8pnprOiBQ">Yelp</a>
-</span></p>
-
-<p>Designing for a big screen TV is not something I remember doing since webTV stopped being <em>a thing</em>. It was a fun exercise in scaling and clarity, and it seems like it has been successful so far.</p>
-
-<p>The behind-the-scenes wiring is pretty minimal. I built a small Go-powered web service that allows Dan to add to, remove from and reorder the beer list which is written to disk. Whenever an item changes, templates are built and put in their proper locations. Static publishing at its best.</p>
-
-<p>The bar view on the TV is just a fullscreen view of a special website in Chrome, it periodically refreshes to pick up the updated beer list. Nothing is particularly complex about the system, just adding together all the right components. I&rsquo;ve been spending more time writing servers and other tools in Go so this was a good way to learn more of the standard library. As far as I know this is the first Go-powered craft beer bar, though I haven&rsquo;t spent a lot of time asking around at bars.</p>
-
-<p>Dan and friends at Original Gravity have a really welcoming space and some very tasty beers on tap. Stop by if you need a drink in San Jose!</p>
-
-		
-		
-	</div>
-
-
-<div class="meta">
-	<div class="date">
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2012-08-15T13:00:00-07:00" pubdate data-updated="true">Aug 15<span>th</span>, 2012</time></div>
-	<div class="tags">
-
-
-	<a class='category' href='/categories/booze/'>booze</a>, <a class='category' href='/categories/code/'>code</a>, <a class='category' href='/categories/golang/'>golang</a>
-
-
-</div>
-	
-</div>
-</article>
-
 <nav id="pagenavi">
     
         <a href="/" class="prev">Prev</a>
@@ -580,7 +579,7 @@ From <a href="http://www.yelp.com/biz_photos/uXCsgEdownjTGlQtnWvkjQ?select=Gxg_c
     
     <div class="center"><a href="/blog/archives">Blog Archives</a></div>
 </nav></div>
-	<footer id="footer" class="inner">Copyright &copy; 2013
+	<footer id="footer" class="inner">Copyright &copy; 2014
 
     Nick O'Neill
 

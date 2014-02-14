@@ -7,7 +7,7 @@
 	<meta name="author" content="Nick O'Neill">
 
 	
-	<meta name="description" content="While Curiosity was busy going through it&rsquo;s seven minutes of terror, the Mars Recon Orbiter was taking pictures overhead. Yes, you heard that &hellip;">
+	<meta name="description" content="Last month saw the official opening of San Jose&rsquo;s newest drinking establishment, Original Gravity Public House. Dan is a friend from before he &hellip;">
 	
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
@@ -77,6 +77,62 @@
 		
 	
 	<div id="content" class="inner">
+
+
+    <article class="post">
+	<h2 class="title">
+		
+		<a href="/original-gravity-pub/">
+		
+			Go-powered Beer at Original Gravity Pub</a>
+	</h2>
+	<div class="entry-content">
+		<p>Last month saw the official opening of San Jose&rsquo;s newest drinking establishment, <a href="http://www.originalgravitypub.com/">Original Gravity Public House</a>. Dan is a friend from before he became a full-time beer slinger and I offered to whip up something for the website a while back.</p>
+
+<p>As a craft beer bar they had the opportunity to change their selection of beers regularly and wanted a way to reflect those changes on their website and in the bar with minimal effort. You can see the virtual result on their website which has an up-to-date list of all their current beers. The other solution was showing a list of all their current beers on a 40&#8221; TV above the bar, you can see a picture of how it turned out here:</p>
+
+<p><span class="blogimage">
+<img src="http://blog.nickoneill.name/images/ogtv.jpg" alt="Original Gravity Beer List" /><br />
+From <a href="http://www.yelp.com/biz_photos/uXCsgEdownjTGlQtnWvkjQ?select=Gxg_cJOzDkKUv8pnprOiBQ#Gxg_cJOzDkKUv8pnprOiBQ">Yelp</a>
+</span></p>
+
+<p>Designing for a big screen TV is not something I remember doing since webTV stopped being <em>a thing</em>. It was a fun exercise in scaling and clarity, and it seems like it has been successful so far.</p>
+
+<p>The behind-the-scenes wiring is pretty minimal. I built a small Go-powered web service that allows Dan to add to, remove from and reorder the beer list which is written to disk. Whenever an item changes, templates are built and put in their proper locations. Static publishing at its best.</p>
+
+<p>The bar view on the TV is just a fullscreen view of a special website in Chrome, it periodically refreshes to pick up the updated beer list. Nothing is particularly complex about the system, just adding together all the right components. I&rsquo;ve been spending more time writing servers and other tools in Go so this was a good way to learn more of the standard library. As far as I know this is the first Go-powered craft beer bar, though I haven&rsquo;t spent a lot of time asking around at bars.</p>
+
+<p>Dan and friends at Original Gravity have a really welcoming space and some very tasty beers on tap. Stop by if you need a drink in San Jose!</p>
+
+		
+		
+	</div>
+
+
+<div class="meta">
+	<div class="date">
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2012-08-15T13:00:00-07:00" pubdate data-updated="true">Aug 15<span>th</span>, 2012</time></div>
+	<div class="tags">
+
+
+	<a class='category' href='/categories/booze/'>booze</a>, <a class='category' href='/categories/code/'>code</a>, <a class='category' href='/categories/golang/'>golang</a>
+
+
+</div>
+	
+</div>
+</article>
 
 
     <article class="post">
@@ -517,49 +573,6 @@
 </div>
 </article>
 
-
-    <article class="post">
-	<h2 class="title">
-		
-		<a href="/siggraph-technical-preview-2012/">
-		
-			Technical SIGGRAPH Paper Preview</a>
-	</h2>
-	<div class="entry-content">
-		<p>SIGGRAPH always delivers some high quality futurism, albeit in a very preliminary form. If that gets your brain going though you&rsquo;ll want to check out the <a href="http://www.youtube.com/watch?feature=player_embedded&amp;v=cKrng7ztpog">trailer for technical papers on youtube</a>.</p>
-
-<p>Nearly all of these papers have multiple interesting applications in games, virtual worlds, scientific computing and computing in general. It&rsquo;s like peering into the future to see what we&rsquo;ll be able to create &ndash; quite inspiring.</p>
-
-		
-		
-	</div>
-
-
-<div class="meta">
-	<div class="date">
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2012-05-21T14:33:00-07:00" pubdate data-updated="true">May 21<span>st</span>, 2012</time></div>
-	<div class="tags">
-
-
-	<a class='category' href='/categories/siggraph/'>siggraph</a>, <a class='category' href='/categories/video/'>video</a>
-
-
-</div>
-	
-</div>
-</article>
-
 <nav id="pagenavi">
     
         <a href="/page/2/" class="prev">Prev</a>
@@ -569,7 +582,7 @@
     
     <div class="center"><a href="/blog/archives">Blog Archives</a></div>
 </nav></div>
-	<footer id="footer" class="inner">Copyright &copy; 2013
+	<footer id="footer" class="inner">Copyright &copy; 2014
 
     Nick O'Neill
 
