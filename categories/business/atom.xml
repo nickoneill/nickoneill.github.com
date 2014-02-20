@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: business | authenticgeek]]></title>
+  <link href="http://blog.nickoneill.name/categories/business/atom.xml" rel="self"/>
+  <link href="http://blog.nickoneill.name/"/>
+  <updated>2014-02-20T14:43:43-08:00</updated>
+  <id>http://blog.nickoneill.name/</id>
+  <author>
+    <name><![CDATA[Nick O'Neill]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Questionable Benefits of B Corps]]></title>
+    <link href="http://blog.nickoneill.name/questionable-benefits-of-b-corps/"/>
+    <updated>2014-02-20T14:43:07-08:00</updated>
+    <id>http://blog.nickoneill.name/questionable-benefits-of-b-corps</id>
+    <content type="html"><![CDATA[<p>I also thought being a C Corp prevented directors from persuing goals outside of the realm of shareholder value so it&rsquo;s great to hear that this <a href="https://blogs.law.harvard.edu/corpgov/2012/05/13/benefit-corporations-vs-regular-corporations-a-harmful-dichotomy/">is not the case</a>:</p>
+
+<blockquote><p>The problem is that its primary rationale rests on the mistaken, though widely-held, premise that existing law prevents boards of directors from considering the impact of corporate decisions on other stakeholders, the environment or society at large.</p></blockquote>
+
+<p>Considering this&hellip; are B Corp organizations done just as show of support? Otherwise I hardly see the point.</p>
+
+<p>[via <a href="https://snarfed.org/2014-02-19_b-corps">snarfed</a>]</p>
+]]></content>
+  </entry>
+  
+</feed>
