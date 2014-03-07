@@ -7,15 +7,17 @@ categories: california sf
 ---
 If you're in San Francisco you may have received some interesting fear-based advertising today. Your first indication that something is wrong may be the bait-and-switch. The front of the mailer says:
 
-> RISING COST OF LIVING<br>ESCALATING RENTS<br>IMPENDING EVICTIONS
+> **RISING COST OF LIVING**<br/>**ESCALATING RENTS**<br/>**IMPENDING EVICTIONS**
 
 This may confuse you as the rest of the mailer is urging you to vote against beverage taxes.
 
-But that’s not really the point. Special interests use the bait-and-switch all the time and it’s *such** an easy tactic to notice that I might even count this as a point for proponents of the tax. Nobody likes to be lied to and to make it so obvious is just… sad.
+But that’s not really the point. Special interests use the bait-and-switch all the time and it’s *such* an easy tactic to notice that I might even count this as a point for proponents of the tax. Nobody likes to be lied to and to make it so obvious is just… sad.
 
 The fine print is where the best lies are though. For starters you should consider who paid for the advertising. The return address just say “Coalition for an Affordable City” but in slightly smaller text below, it turns out this mailer was paid for specifically by the American Beverage Association - a member of CFAAC. The ABA is of course championed by the usual suspects at *Dr Pepper Snapple Group* and *Pepsi-Cola North America*, etc. I’m sure you can come up with the rest of the members list off the top of your head.
 
 That’s not a lie in itself, of course, but one should always know if the people paying for your advertisements are the same people who you pay for various goods and services.
+
+## the end notes
 
 Let’s look at more small text now! There sure are a lot of end notes for a tiny mailer. And looking closely… it seems that half the notes are just links to articles about how expensive it is to live in SF. Fascinating, but not terribly relevant (I realize there are people in this city for whom an increase in beverage price is a *big deal*, my issue is that they present this as half their argument and then distribute their fliers in Noe Valley where it is most definitely *not* a big deal). There’s just as much fear-based marketing in the little text at the bottom of the page as there is in the BIG BOLD TEXT at the top.
 
@@ -47,4 +49,6 @@ And which the mailer describes as “added by California voters in 1992 to preve
 
 I almost forgot to mention the implication that “we legislated against this in 1992 so let’s never reconsider our position ever again” because it’s not like California ever outlawed anything with a proposition that may have been wrong.
 
-The point is *not* that you should vote FOR or AGAINST a soda tax. The point is that you should take a moment and look at the mailer that you agree or disagree with and find out how the sponsors are manipulating you (and they are). Then you may discard it, or call it justified and move on with your life.
+## final snark
+
+The point is *not* that you should vote **for** or **against** a soda tax. The point is that you should take a moment and look at the mailer that you agree or disagree with and find out how the sponsors are manipulating you (and they are). Then you may discard it, or call it justified and move on with your life.
