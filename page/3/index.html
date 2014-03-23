@@ -7,7 +7,7 @@
 	<meta name="author" content="Nick O'Neill">
 
 	
-	<meta name="description" content="I don&rsquo;t think I know anyone who wouldn&rsquo;t want to drive to work on their personal hovercraft. It seems completely possible and this same &hellip;">
+	<meta name="description" content="I&rsquo;ve been brewing beer at home since the spring so it was pretty cool to see the White House staff getting into brewing and then releasing &hellip;">
 	
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
@@ -77,6 +77,53 @@
 		
 	
 	<div id="content" class="inner">
+
+
+    <article class="post">
+	<h2 class="title">
+		
+		<a href="/beer-recipes-white-house/">
+		
+			White House Beer Recipes</a>
+	</h2>
+	<div class="entry-content">
+		<p>I&rsquo;ve been brewing beer at home since the spring so it was pretty cool to see the White House staff getting into brewing and then releasing their own <a href="http://www.whitehouse.gov/blog/2012/09/01/ale-chief-white-house-beer-recipe">recipes for Honey Ale and Honey Porter</a>.</p>
+
+<p>I&rsquo;m tempted to pick up the ingredients for the porter and try it out &ndash; I&rsquo;m sure the <a href="http://www.sanfranciscobrewcraft.com/">Brewcraft store in SF</a> (where I get all my recipes) is getting plenty of requests for those ingredients. So far I&rsquo;ve made a Pale Ale (decent!), an Amber Ale (slightly watery), a Pilsner (tasty but slightly overcarbonated) and an IPA is almost ready to be bottled.</p>
+
+<p>Echoing Sam Kass (White House assistant chef), it&rsquo;s surprisingly easy to make a really tasty beer at home. I would suggest two things if you&rsquo;re new to brewing: get the supplies to do primary and secondary fermentation and pay attention to your sanitization. Transfering to a second container after a few days will get your beer off the dead yeast which can give off weird flavors (there are simple brewing methods that use a single container for all fermentation before the bottle). Keeping equipment sanitized through the entire process is not hard but you have to pay attention to what tools are in a clean state and only use those on your clean equipment (or resanitize them). Wild yeasts and bacteria are everywhere and a batch of fermenting beer can be a pretty ideal place for unpleasant things to grow.</p>
+
+<p>Go forth and brew White House beer!</p>
+
+		
+		
+	</div>
+
+
+<div class="meta">
+	<div class="date">
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2012-09-04T13:30:00-07:00" pubdate data-updated="true">Sep 4<span>th</span>, 2012</time></div>
+	<div class="tags">
+
+
+	<a class='category' href='/categories/booze/'>booze</a>
+
+
+</div>
+	
+</div>
+</article>
 
 
     <article class="post">
@@ -487,83 +534,6 @@ From <a href="http://www.yelp.com/biz_photos/uXCsgEdownjTGlQtnWvkjQ?select=Gxg_c
 
 
 	<a class='category' href='/categories/video/'>video</a>
-
-
-</div>
-	
-</div>
-</article>
-
-
-    <article class="post">
-	<h2 class="title">
-		
-		<a href="/image-correlation-with-objc/">
-		
-			Feature Detection With Objective-C</a>
-	</h2>
-	<div class="entry-content">
-		<p><em>(I&rsquo;m at WWDC this week, I figure I should probably release something of my own)</em></p>
-
-<p>I wasn&rsquo;t being completely modest when I recently <a href="http://blog.nickoneill.name/line-simplification.html">praised line simplification</a> for bringing a method to the masses. It&rsquo;s not a great example though, so let me explain in a little more detail.</p>
-
-<p>For any large group of people interacting with a technology, the vast majority are using it as a means to an end. I say this in a positive way. In fact, one sign of a truly successful technology is when people can ignore the amazing technical steps that enable them to do things they couldn&rsquo;t otherwise do.</p>
-
-<p>It&rsquo;s a matter of technical chops. I don&rsquo;t know how to write my own touchscreen driver but I can make apps that run on an iPhone because of the abstraction given to me by Apple.</p>
-
-<p>Apple happens to be particularly good at technical complexity abstraction but open source projects are my favorite examples of technical movement because they&rsquo;re not driven by an obvious monitary incentive (I&rsquo;m sure there&rsquo;s an argument that OS is driven by ego, but let&rsquo;s move on).</p>
-
-<p>Before javascript frameworks, a limited number of people were using (and hating) straight javascript for everything. jQuery may have not been the first framework but it was the most effective at abstracting the hard/dumb parts of javascript away so that it was less intimidating to write.</p>
-
-<p>Considering that javascript is already one of the easiest languages to get started with (everybody already has an interpreter!), it&rsquo;s not much of a stretch to suggest that jQuery made more programmers.</p>
-
-<p>Arduino has done the same thing for microcontrollers. I spent some time on microcontroller projects just before arduino hardware started gaining popularity and the technical challenges at the time were huge. It was incredibly difficult to get started without having a pool of knowledge across multiple domains.</p>
-
-<p>Arduino gave people a device that didn&rsquo;t require testing and soldering before they were writing code and making things blink.</p>
-
-<p>I think Arduino is still stronger on the hardware side than software (there are so many tiny rules in C one must know…), but the adoption is amazing. It was difficult to turn around without smacking your head on an Arduino at Maker Faire this year.</p>
-
-<p>The fascinating thing about these projects is that they didn&rsquo;t necessarily invent anything new. Touchscreens existed before the iPhone (though Apple made them suck less) but it wraped the experience in an intuitive way. Everyone wrote their own javascript framework for projects before jQuery, but they packaged it together and made it fast. Arduino just made hardware that had the exact functionality that hobbyists wanted.</p>
-
-<p>I&rsquo;m a particular fan of one subgenre: Projects that take complex methods that exist in academic research and making them available in a familiar format. That brings me to my own project that I&rsquo;ve been working on for a while: <a href="http://github.com/nickoneill/LAFeatureDetection">Feature Detection</a>, which finds features in images programmatically.</p>
-
-<p>The most obvious computational method of finding a feature in an image is to look at each pixel in the image. It&rsquo;s pretty straightforward; anyone who understands that images are made of pixels could write a simple algorithm to do it.</p>
-
-<p>You can improve on that basic method a little bit but there are no incredible gains to be had with an iterative method.</p>
-
-<p>Generalized, the problem is essentially how to find the location of some two dimensional submatrix within a larger matrix. It sounds like a problem with a clever mathematical solution and it, in fact, is.</p>
-
-<p>The Fast Fourier Transform is usually used in digital signal processing (i.e. one dimension) to decompose a signal into its constiuent parts. Interestingly, performing discrete FFTs on images (i.e. two dimensions) is a process known as convolution where (roughly) the two images are superimposed on eachother at every point. You can use this method to find parts of a large image that are similar to a smaller image.</p>
-
-<p>None of this is new research. The fast fourier transform is a common and useful function that is used in image processing. It also has the added benefit that it can be significantly sped up with specialized vector instructions on CPUs and GPUs.</p>
-
-<p>There are a number of packages that exist for doing image processing via FFT on different platforms but none that take advantage of the accelerated vector libraries that exist on all recent Mac and iOS devices and that are easy for anyone with a passing knowledge of Objective-C to use. That&rsquo;s what I set out to do.</p>
-
-<p><strong>Feature Detection exposes an easy interface for Objective-C developers to identify features in images.</strong> The more technical details are on <a href="http://github.com/nickoneill/LAFeatureDetection">the github project</a>if you&rsquo;re interested, as well as some example images.</p>
-
-		
-		
-	</div>
-
-
-<div class="meta">
-	<div class="date">
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2012-06-12T12:49:00-07:00" pubdate data-updated="true">Jun 12<span>th</span>, 2012</time></div>
-	<div class="tags">
-
-
-	<a class='category' href='/categories/code/'>code</a>, <a class='category' href='/categories/ios/'>ios</a>
 
 
 </div>

@@ -7,7 +7,7 @@
 	<meta name="author" content="Nick O'Neill">
 
 	
-	<meta name="description" content="The cast list is out for 2013s -biggest disappointment- best movie, the film interpretation of Ender&apos;s Game. And get this: Harrison Ford as &hellip;">
+	<meta name="description" content="There are a couple guides for installing CyanogenMod9 preview (Ice Cream Sandwich) on retail versions of the Samsung Galaxy Tab 10.1 but a couple &hellip;">
 	
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
@@ -77,6 +77,65 @@
 		
 	
 	<div id="content" class="inner">
+
+
+    <article class="post">
+	<h2 class="title">
+		
+		<a href="/ice-cream-sandwich-galaxy-tab-io/">
+		
+			Ice Cream Sandwich Preview on Galaxy Tab 10.1 Google I/O Edition</a>
+	</h2>
+	<div class="entry-content">
+		<p>There are a couple guides for installing CyanogenMod9 preview (Ice Cream Sandwich) on retail versions of the Samsung Galaxy Tab 10.1 but a couple quirks prevented me from readily installing it on my Google I/O limited edition from I/O 2011. I&rsquo;ll run down the details for Mac and Windows.</p>
+
+<p>Google I/O tabs don&rsquo;t have the standard Recovery/Download firmware that you get when you hold POWER+DOWN on boot. Instead they have fastboot/Download. Traditional instructions tell you to use the Odin downloader to install ClockworkMod to the recovery partition, but we just use fastboot to boot to a ClockworkMod image whenever we need it. It&rsquo;s less steps and less chance to fuck something up.</p>
+
+<p>If you&rsquo;ve installed the android tools you already have the fastboot command line tool, otherwise you need to download a standalone version (OSX: <a href="http://rootzwiki.com/topic/5697-tool-fastboot-on-your-mac/">this one</a>, Windows: <a href="http://forum.xda-developers.com/showthread.php?p=13499325#post13499325">there&rsquo;s a fastboot download in this post</a>, easily searchable if either of those no longer exist). There used to be an official standalone from HTC but now people just pass around links to standalone versions. Sometimes it&rsquo;s called &lsquo;fastboot-mac&rsquo; for the mac, you can rename it before use if you want.</p>
+
+<p>A brief interlude for Windows users, and stop me if you&rsquo;ve heard this before: you need drivers. Not stock ones. Better ones. Download this thing called <a href="http://junefabrics.com/android/">PDANet</a> which is normally used for sharing your mobile internet connection through USB to your computer. We don&rsquo;t use it for this purpose. During install it&rsquo;ll ask you about reinstalling drivers, say YES and choose Samsung.</p>
+
+<p>Back on both platforms. Booting into ClockworkMod is pretty easy now. Put your Tab into fastboot mode by holding POWER+DOWN on startup and selecting the left option (DOWN to change, UP to select, fastboot is the USB icon). It&rsquo;ll say some things about fastboot being ready. Connect the USB cable to your computer.</p>
+
+<p>Windows users: PDANet will bring up a window recognizing your mobile device &ndash; CLICK THIS WINDOW. It&rsquo;ll attempt to connect to your device and fail. That&rsquo;s OK.</p>
+
+<p>Mac users: just kick back and look cool.</p>
+
+<p>You should be able to use your command line tool now: <code>fastboot devices</code> should return a list of devices connected to your machine (hopefully just one &ndash; your Tab). If not, you did something wrong. Bummer.</p>
+
+<p><a href="http://droidbasement.com/db-blog/?p=2439">This</a> is the latest version of ClockworkMod for the Tab. Download the &ldquo;Fastboot/Nvflash&rdquo; version and unzip the single img file somewhere convenient.</p>
+
+<p>Presuming your device is still connected and in fastboot mode, just run <code>fastboot boot /path/to/recovery-cwm_5.0.2.7-sam-tab-10.1.img</code> (the ClockworkMod image is called something like that) and your Tab will reboot into cwm recovery mode. You must do this every time you want to get into ClockworkMod. Luckily you don&rsquo;t have to do it more than once or twice.</p>
+
+<p>That was the hard part. Now you can follow such instructions as <a href="http://forum.xda-developers.com/showthread.php?t=1239185">&ldquo;How to Root your Samsung Galaxy Tab 10.1&rdquo;</a> which is a requirement of such tutorials as <a href="http://www.youtube.com/watch?v=qcvfmnJdxdQ">&ldquo;How to Install the CyanogenMod 9 ICS Preview Rom on the Samsung Galaxy Tab 10.1&rdquo;</a>. Don&rsquo;t bother with the instructions for Odin or flashing your recovery partition &ndash; just boot into CWM using the fastboot method when instructions require it.</p>
+
+<p>We haven&rsquo;t actually changed anything on the Tab using these instructions. Both the Root and the CM9 instructions will have you drop zip files onto the flash memory of the device itself which requires you to be booted regularly but none of the fastboot commands I discuss here prevent that. Good luck!</p>
+
+		
+		
+	</div>
+
+
+<div class="meta">
+	<div class="date">
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2012-02-18T09:46:00-08:00" pubdate data-updated="true">Feb 18<span>th</span>, 2012</time></div>
+	<div class="tags">
+
+</div>
+	
+</div>
+</article>
 
 
     <article class="post">
@@ -495,50 +554,6 @@
 
 
 	<a class='category' href='/categories/robots/'>robots</a>, <a class='category' href='/categories/videos/'>videos</a>
-
-
-</div>
-	
-</div>
-</article>
-
-
-    <article class="post">
-	<h2 class="title">
-		
-		<a href="/circuit-playground-for-android/">
-		
-			Circuit Playground for Android</a>
-	</h2>
-	<div class="entry-content">
-		<p>Sounds like a handy app to have if you have an android device and need to do quick electronics calculations or reference lookups.</p>
-
-<br /><a href="http://adafruit.com/circuitplayground">source</a>
-
-
-		
-		
-	</div>
-
-
-<div class="meta">
-	<div class="date">
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2012-02-06T18:11:00-08:00" pubdate data-updated="true">Feb 6<span>th</span>, 2012</time></div>
-	<div class="tags">
-
-
-	<a class='category' href='/categories/apps/'>apps</a>, <a class='category' href='/categories/electronics/'>electronics</a>
 
 
 </div>
